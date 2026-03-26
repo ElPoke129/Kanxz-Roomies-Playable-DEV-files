@@ -1,0 +1,221 @@
+import funkin.play.song.Song;
+import funkin.play.PlayState;
+import funkin.modding.events.SongTimeScriptEvent;
+import funkin.modding.events.ScriptEvent; // Necesario para onUpdate
+import funkin.graphics.FunkinSprite;
+import flixel.group.FlxTypedGroup;
+import flixel.FlxG;
+import flixel.util.FlxTimer;
+import flixel.tweens.FlxTween;
+import flixel.tweens.FlxEase;
+import funkin.modding.events.CountdownScriptEvent;
+
+class TutorialKanxz extends Song {
+
+  var hasPlayedCutscene:Bool = false;
+
+  // -- VARIABLES DEL SISTEMA DE CORAZONES --
+  var heartsGroup:FlxTypedGroup<FunkinSprite>;
+  var heartFilter:FunkinSprite;
+  var spawnTimer:FlxTimer;
+  var isRaining:Bool = false;
+  
+  // Rangos de spawn
+  var spawnRangeMin:Float = -410;
+  var spawnRangeMax:Float = 1730;
+  var FILTER_ALPHA:Float = 0.35; 
+  
+  public function new()
+  {
+    super('tutorial-kanxz');
+  }
+
+  override function onCountdownStart(event:CountdownScriptEvent):Void {
+    super.onCountdownStart(event);
+
+    isRaining = false;             // <--- 1. Forzar variable a falso
+    if (spawnTimer != null) {
+        spawnTimer.cancel();       // <--- 2. Matar cualquier timer anterior
+    }
+
+    if (heartFilter != null) {
+        heartFilter.alpha = 0; 
+    }
+
+    // Si estamos en modo charting, marcamos la cutscene como vista y salimos.
+    if (PlayState.instance.isChartingMode) {
+        hasPlayedCutscene = true;
+        return;
+    }
+
+    // Si la cutscene no se ha reproducido, la iniciamos.
+    if (!hasPlayedCutscene) {
+        hasPlayedCutscene = true;
+        event.cancel(); // Detiene el 3, 2, 1...
+        PlayState.instance.camCutscene.visible = true;
+        PlayState.instance.startConversation('tutorial-kanxz');
+    }
+  }
+  override function onCreate(event:ScriptEvent):Void {
+    super.onCreate(event);
+    setupHeartVisuals();
+  }
+
+  override function onUpdate(event:ScriptEvent):Void {
+    super.onUpdate(event);
+
+  if (isRaining && heartsGroup != null) {
+        heartsGroup.forEachAlive(function(heart:FunkinSprite) {
+      if (heart.y < -heart.height) {
+        heart.kill(); 
+      }
+    });
+  }
+}
+
+  override function onBeatHit(event:SongTimeScriptEvent):Void {
+    super.onBeatHit(event);
+
+
+    if (event.beat == 80) onHeartsEvent(true); 
+    if (event.beat == 112) onHeartsEvent(false);
+    if (event.beat == 176) onHeartsEvent(true);
+    if (event.beat == 208) onHeartsEvent(false);
+  }
+ public function onHeartsEvent(enable:Bool):Void {
+    if (enable) {
+        // RESET: Si ya estaba lloviendo o quedaron residuos, limpiamos todo.
+        resetHearts(); 
+        
+        isRaining = true;
+        
+        if(heartFilter != null)
+            FlxTween.tween(heartFilter, {alpha: FILTER_ALPHA}, 1.0, {ease: FlxEase.linear});
+            
+        if(spawnTimer != null)
+            spawnTimer.start(0.09, spawnOneHeart, 0);
+            
+        trace('Hearts Event on');
+            
+    } else {
+        if (!isRaining) return;
+        isRaining = false;
+        
+        if(heartFilter != null)
+            FlxTween.tween(heartFilter, {alpha: 0}, 1.0, {ease: FlxEase.linear});
+            
+        if(spawnTimer != null)
+            spawnTimer.cancel();
+            
+        trace('Hearts Event off');
+    }
+  }
+
+  function resetHearts():Void {
+    // Matamos todos los corazones activos para reiniciar el ciclo
+    if (heartsGroup != null) {
+        heartsGroup.forEachAlive(function(heart:FunkinSprite) {
+            heart.kill();
+        });
+    }
+  }
+
+  function setupHeartVisuals():Void {
+    // Filtro Rosa
+    heartFilter = new FunkinSprite();
+    heartFilter.makeSolidColor(FlxG.width + 10, FlxG.height + 10, 0xFFD46A76);
+    heartFilter.scrollFactor.set(0, 0);
+    heartFilter.screenCenter();
+    heartFilter.alpha = 0;
+    
+    // Intento seguro de blend mode
+    try { heartFilter.blend = 'add'; } catch(e:Dynamic) {}
+
+    heartFilter.cameras = [PlayState.instance.camHUD];
+    PlayState.instance.add(heartFilter);
+
+    // Grupo de Corazones (Pool)
+    heartsGroup = new FlxTypedGroup();
+    heartsGroup.cameras = [PlayState.instance.camHUD];
+    
+    // Creamos corazones en memoria, pero empezamos "muertos"
+    for (i in 0...40) {
+        var heart = new FunkinSprite();
+        heart.loadTexture('heartsEvent/heart02'); 
+        heart.kill(); 
+        heartsGroup.add(heart);
+    }
+    PlayState.instance.add(heartsGroup);
+
+    spawnTimer = new FlxTimer();
+  }
+
+  function spawnOneHeart(timer:FlxTimer):Void {
+    if (heartsGroup == null) return;
+
+    var heart:FunkinSprite = heartsGroup.recycle(FunkinSprite);
+
+    if (heart != null) {
+        updateSpawnRange();
+
+        var randomNum = FlxG.random.int(2, 6);
+        heart.loadTexture('heartsEvent/heart0' + randomNum);
+        
+        var scaleVal = FlxG.random.float(1.0, 1.5);
+        heart.scale.set(scaleVal, scaleVal);
+        heart.updateHitbox();
+        heart.flipX = FlxG.random.bool();
+
+        // Posición inicial (Abajo)
+        heart.x = FlxG.random.float(spawnRangeMin, spawnRangeMax);
+        heart.y = FlxG.height + 10; // Apenas abajo de la pantalla
+        heart.alpha = 1;
+
+        // velocity.y negativo mueve hacia arriba.
+        // Variamos la velocidad entre -300 y -500 pixels por segundo.
+        heart.velocity.y = -FlxG.random.float(600, 1000);
+        
+        // No necesitamos Tween. onUpdate se encargará de matarlo cuando salga.
+    }
+  }
+
+  function updateSpawnRange():Void {
+    if (PlayState.instance.currentStage == null) return;
+    
+    var camX = PlayState.instance.cameraFollowPoint.x;
+    // Chequeos de seguridad nula
+    var bf = PlayState.instance.currentStage.getBoyfriend();
+    var dad = PlayState.instance.currentStage.getDad();
+    
+    var distBF = (bf != null) ? Math.abs(camX - bf.getMidpoint().x) : 99999;
+    var distDad = (dad != null) ? Math.abs(camX - dad.getMidpoint().x) : 99999;
+
+    if (distBF < distDad) {
+        spawnRangeMin = 300;
+        spawnRangeMax = 1800;
+    } else {
+        spawnRangeMin = -410;
+        spawnRangeMax = 1300;
+    }
+  }
+
+  override function onDestroy(event:ScriptEvent):Void {
+      super.onDestroy(event);
+      if (spawnTimer != null) spawnTimer.cancel();
+      // Limpieza extra por seguridad de RAM
+      if (heartsGroup != null) heartsGroup.clear();
+  }
+
+  override function onDialogueEnd() {
+    super.onDialogueEnd();
+    // Cuando termina el diálogo, iniciamos la cuenta regresiva manualmente.
+    PlayState.instance.startCountdown();
+  }
+
+  override function onSongRetry(event:ScriptEvent) {
+    super.onSongRetry(event);
+    // Al reiniciar, evitamos que la cutscene se vuelva a reproducir
+    hasPlayedCutscene = true;
+  }
+  
+}

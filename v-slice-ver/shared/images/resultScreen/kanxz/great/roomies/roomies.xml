@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="roomies.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Roomies Enter0000" x="10" y="10" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0001" x="667" y="10" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0002" x="1324" y="10" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0003" x="10" y="328" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0004" x="667" y="328" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0005" x="1324" y="328" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0006" x="10" y="646" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0007" x="667" y="646" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0008" x="1324" y="646" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0009" x="10" y="964" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0010" x="10" y="1282" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0011" x="10" y="1600" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0012" x="667" y="964" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0013" x="1324" y="964" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0014" x="667" y="1282" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0015" x="1324" y="1282" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0016" x="667" y="1600" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0017" x="667" y="1600" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0018" x="667" y="1600" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0019" x="667" y="1600" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0020" x="667" y="1600" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0021" x="667" y="1600" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0022" x="667" y="1600" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0023" x="667" y="1600" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0024" x="667" y="1600" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0025" x="667" y="1600" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0026" x="667" y="1600" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0027" x="667" y="1600" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0028" x="667" y="1600" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0029" x="667" y="1600" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0030" x="667" y="1600" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0031" x="667" y="1600" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0032" x="667" y="1600" width="647" height="308"/>
+	<SubTexture name="Roomies Enter0033" x="667" y="1600" width="647" height="308"/>
+</TextureAtlas>

@@ -1,0 +1,163 @@
+{
+  "version": "1.0.0",
+
+  "backdrop": {
+    "type": "solid",
+    "fadeTime": 0.5,
+    "color": "#BFB3DFD8"
+  },
+
+  "music": {
+    "asset": "dialogues/BopeeboInstrumental",
+    "fadeTime": 1.0,
+    "looped": true
+  },
+
+  "outro": {
+    "type": "fade",
+    "fadeTime": 1.0
+  },
+
+  "dialogue": [
+    {
+      "speaker": "dad-1",
+      "speakerAnimation": "talk-dad",
+      "box": "kanxz",
+      "boxAnimation": "enter",
+      "speed": 0.05,
+      "text": [
+        "Bueno..."
+      ]
+    },
+    {
+      "speaker": "dad-1",
+      "speakerAnimation": "talk-dad",
+      "box": "kanxz",
+      "boxAnimation": "left",
+      "speed": 0.05,
+      "text": [
+        "Realmente crees que eres digno de mi hija?"
+      ]
+    },
+    {
+      "speaker": "kanxz-1",
+      "speakerAnimation": "talk-un-kanxz",
+      "box": "kanxz",
+      "boxAnimation": "right",
+      "speed": 0.03,
+      "text": [
+        "Sí."
+      ]
+    },
+    {
+      "speaker": "dad-1",
+      "speakerAnimation": "talk-dad",
+      "box": "kanxz",
+      "boxAnimation": "left",
+      "speed": 0.05,
+      "text": [
+        "Hmph. Qué atrevido..."
+      ]
+    },
+    {
+      "speaker": "dad-1",
+      "speakerAnimation": "talk-dad",
+      "box": "kanxz",
+      "boxAnimation": "left",
+      "speed": 0.08,
+      "text": [
+        "Pero dime..."
+      ]
+    },
+    {
+      "speaker": "dad-1",
+      "speakerAnimation": "talk-dad",
+      "box": "kanxz",
+      "boxAnimation": "left",
+      "speed": 0.05,
+      "text": [
+        "Eres lo suficientemente BUENO para ella?"
+      ]
+    },
+    {
+      "speaker": "kanxz-1",
+      "speakerAnimation": "talk-un-kanxz",
+      "box": "kanxz",
+      "boxAnimation": "right",
+      "speed": 0.025,
+      "text": [
+        "Sí."
+      ]
+    },
+    {
+      "speaker": "dad-1",
+      "speakerAnimation": "talk-dad",
+      "box": "kanxz",
+      "boxAnimation": "left",
+      "speed": 0.05,
+      "text": [
+        "...Hmph..."
+      ]
+    },
+    {
+      "speaker": "dad-1",
+      "speakerAnimation": "talk-dad",
+      "box": "kanxz",
+      "boxAnimation": "left",
+      "speed": 0.05,
+      "text": [
+        "Entonces tendrás que demostrarlo."
+      ]
+    },
+    {
+      "speaker": "dad-1",
+      "speakerAnimation": "talk-dad",
+      "box": "kanxz",
+      "boxAnimation": "left",
+      "speed": 0.05,
+      "text": [
+        "Gana esta canción..."
+      ]
+    },
+    {
+      "speaker": "dad-1",
+      "speakerAnimation": "talk-dad",
+      "box": "kanxz",
+      "boxAnimation": "left",
+      "speed": 0.065,
+      "text": [
+        "Y voy a CONSIDERAR dejarte salir con mi hija."
+      ]
+    },
+    {
+      "speaker": "kanxz-1",
+      "speakerAnimation": "talk-un-kanxz",
+      "box": "kanxz",
+      "boxAnimation": "right",
+      "speed": 0.015,
+      "text": [
+        "Sí."
+      ]
+    },
+    {
+      "speaker": "dad-1",
+      "speakerAnimation": "confused-dad",
+      "box": "kanxz",
+      "boxAnimation": "left",
+      "speed": 0.065,
+      "text": [
+        "...eso es todo lo que puedes decir?"
+      ]
+    },
+    {
+      "speaker": "kanxz-1",
+      "speakerAnimation": "talk-un-kanxz",
+      "box": "kanxz",
+      "boxAnimation": "right",
+      "speed": 0.025,
+      "text": [
+        "Sí."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+import funkin.play.event.SongEvent;
+import funkin.play.PlayState;
+import funkin.Conductor;
+import flixel.tweens.FlxTween;
+import flixel.tweens.FlxEase;
+import flixel.FlxG;
+import Std;
+import funkin.modding.module.ModuleHandler;
+
+class KssttL4KanxzMiddlescroll extends SongEvent {
+
+	static var hookAdded:Bool = false;
+	static var lastTime:Float = 0;
+	static var lastState:PlayState = null; 
+
+	static var defaultPlayerY:Null<Float> = null;
+	static var defaultOpponentY:Null<Float> = null;
+	static var defaultPlayerX:Null<Float> = null;
+	static var defaultOpponentX:Null<Float> = null;
+
+	public function new() {
+		super('KssttL4KanxzMiddlescroll');
+		
+		if (!hookAdded) {
+			hookAdded = true;
+			FlxG.signals.preUpdate.add(onUpdateHook);
+		}
+	}
+
+	static function getGlobalMiddlescrollMode():String {
+		var apiModule = ModuleHandler.getModule("KssetteApi");
+		if (apiModule != null) {
+			var rawMode:Dynamic = apiModule.scriptCall("getKssValue", ["kssette_middlescroll"]);
+			if (rawMode == true) return "On"; 
+			if (rawMode == false) return "Off"; 
+			if (Std.isOfType(rawMode, String)) return rawMode; 
+		}
+		return "Off";
+	}
+
+	static function onUpdateHook() {
+		var playState = PlayState.instance;
+
+		if (playState != lastState) {
+			lastState = playState;
+			resetStaticVars(); 
+			if (playState == null) return;
+		}
+
+		if (playState == null || playState.playerStrumline == null || playState.opponentStrumline == null) return;
+		
+		var currentTime = Conductor.instance.songPosition;
+		
+		if (lastTime > 1000 && currentTime < 100) { 
+			var durInSecs = (4.0 * Conductor.instance.stepLengthMs) / 1000;
+			executeTransition(playState, "bf", false, durInSecs, FlxEase.sineInOut);
+		}
+		
+		lastTime = currentTime;
+	}
+
+	static function resetStaticVars() {
+		defaultPlayerY = null; 
+		defaultOpponentY = null;
+		defaultPlayerX = null;
+		defaultOpponentX = null;
+		lastTime = 0;
+	}
+
+	public override function getTitle():String {
+		return "[Kassette] Middlescroll Event for Kanxz";
+	}
+
+	public override function getEventSchema() {
+		return [
+			{
+				name: 'target',
+				title: 'Center to:',
+				defaultValue: 'bf',
+				type: 'enum',
+				keys: ['Player (BF)' => 'bf', 'Opponent (Dad)' => 'dad']
+			},
+			{
+				name: 'enable',
+				title: 'Enable Middlescroll?',
+				defaultValue: true,
+				type: 'bool'
+			},
+			{
+				name: 'duration',
+				title: 'Duration',
+				defaultValue: 4.0,
+				step: 0.5,
+				type: 'float',
+				units: 'steps'
+			}
+		];
+	}
+
+	public override function handleEvent(data:Dynamic) {
+		var playState = PlayState.instance;
+		if (playState == null || playState.playerStrumline == null || playState.opponentStrumline == null) return;
+
+		var targetStr:String = "bf";
+		var isEnabling:Bool = true;
+		var stepDuration:Float = 4.0;
+
+		if (data.value != null) {
+			if (data.value.target != null) targetStr = data.value.target;
+			if (data.value.enable != null) isEnabling = data.value.enable;
+			if (data.value.duration != null) stepDuration = data.value.duration;
+		}
+		
+		var durInSeconds:Float = (stepDuration * Conductor.instance.stepLengthMs) / 1000;
+		var smoothEase = FlxEase.sineInOut;
+
+		executeTransition(playState, targetStr, isEnabling, durInSeconds, smoothEase);
+	}
+
+	static function executeTransition(playState:PlayState, targetStr:String, isEnabling:Bool, durInSecs:Float, ease:Dynamic) {
+		var middlescrollMode = getGlobalMiddlescrollMode();
+
+		if (middlescrollMode != "Off") return;
+
+		var pStrum = playState.playerStrumline;
+		var oStrum = playState.opponentStrumline;
+		var screenWidth = FlxG.width;
+
+		if (defaultPlayerY == null && pStrum.y > 0 && pStrum.y < FlxG.height - 100) defaultPlayerY = pStrum.y;
+		if (defaultOpponentY == null && oStrum.y > 0 && oStrum.y < FlxG.height - 100) defaultOpponentY = oStrum.y;
+		if (defaultPlayerX == null) defaultPlayerX = pStrum.x;
+		if (defaultOpponentX == null) defaultOpponentX = oStrum.x;
+
+		FlxTween.cancelTweensOf(pStrum);
+		FlxTween.cancelTweensOf(oStrum);
+
+		var pBaseY = (defaultPlayerY != null) ? defaultPlayerY : pStrum.y;
+		var oBaseY = (defaultOpponentY != null) ? defaultOpponentY : oStrum.y;
+		var pBaseX = (defaultPlayerX != null) ? defaultPlayerX : pStrum.x;
+		var oBaseX = (defaultOpponentX != null) ? defaultOpponentX : oStrum.x;
+
+		if (!isEnabling) {
+			FlxTween.tween(oStrum, {x: oBaseX, y: oBaseY, alpha: 1}, durInSecs, {ease: ease});
+			FlxTween.tween(pStrum, {x: pBaseX, y: pBaseY, alpha: 1}, durInSecs, {ease: ease});
+		} else {
+			if (targetStr == "bf") {
+				var centerPlayerX = (screenWidth - pStrum.width) * 0.5;
+				FlxTween.tween(pStrum, {x: centerPlayerX, y: pBaseY, alpha: 1}, durInSecs, {ease: ease});
+				FlxTween.tween(oStrum, {x: -oStrum.width - 100, alpha: 0}, durInSecs, {ease: ease});
+			} else {
+				var centerOppX = (screenWidth - oStrum.width) * 0.5;
+				FlxTween.tween(oStrum, {x: centerOppX, y: oBaseY, alpha: 1}, durInSecs, {ease: ease});
+				FlxTween.tween(pStrum, {x: screenWidth + 200, alpha: 0}, durInSecs, {ease: ease});
+			}
+		}
+	}
+}

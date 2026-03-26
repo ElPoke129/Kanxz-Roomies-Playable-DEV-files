@@ -1,0 +1,9 @@
+{
+	"idle_anim": "Gambo Dancing0",
+	"image": "gambo-menu-weekend",
+	"position": [506, 384],
+	"flipX": false,
+	"antialiasing": true,
+	"scale": 0.5,
+	"confirm_anim": "Gambo Hey0"
+}

@@ -1,0 +1,44 @@
+{
+  "version": "1.0.0",
+  "name": "Gambito",
+  "assetPath": "characters/chibi cute gambo assets",
+  "healthIcon": {
+    "id": "gambo",
+    "flipX": false
+  },
+  "offsets": [0, 0],
+  "death": {
+    "cameraOffsets": [10, -40],
+    "cameraZoom": 1.0,
+    "deathQuoteDelay": 3.0
+  },
+  "flipX": false,
+  "renderType": "sparrow",
+  "singTime": 6.1,
+  "scale": 1.0,
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "gambo idle0",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "surprised",
+      "prefix": "gambo surprise0",
+      "offsets": [3, 1],
+      "frameIndices": [0, 1, 2, 3, 4, 5]
+    },
+    {
+      "name": "surprised-loop",
+      "prefix": "gambo surprise0",
+      "offsets": [3, 1],
+      "looped": true,
+      "frameIndices": [6, 7, 8, 9]
+    },
+    {
+      "name": "ended",
+      "prefix": "gambo hijo de tu puta madre0",
+      "offsets": [10, 2]
+    }
+  ]
+}

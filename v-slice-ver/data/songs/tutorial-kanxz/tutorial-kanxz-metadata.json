@@ -1,0 +1,56 @@
+{
+	"version": "2.2.4",
+	"songName": "Tutorial (Kanxz Mix)",
+	"artist": "Unknown",
+	"divisions": 96,
+	"looped": false,
+	"offsets": {
+		"instrumental": 0,
+		"altInstrumentals": {},
+		"vocals": {},
+		"altVocals": {}
+	},
+	"playData": {
+		"songVariations": [],
+		"difficulties": [
+			"hard"
+		],
+		"characters": {
+			"player": "kanxz",
+			"girlfriend": "",
+			"opponent": "gf",
+			"instrumental": "",
+			"altInstrumentals": [],
+			"opponentVocals": [
+				"gf"
+			],
+			"playerVocals": [
+				"kanxz"
+			]
+		},
+		"stage": "mainStageErect",
+		"noteStyle": "funkin",
+		"ratings": {
+			"hard": 0
+		},
+		"previewStart": 0,
+		"previewEnd": 15000
+	},
+	"generatedBy": "Manual Conversion - FNF Base Game Standard",
+	"timeFormat": "ms",
+	"timeChanges": [
+		{
+			"t": 0,
+			"b": 0,
+			"bpm": 102,
+			"n": 4,
+			"d": 4,
+			"bt": [
+				4,
+				4,
+				4,
+				4
+			]
+		}
+	]
+}

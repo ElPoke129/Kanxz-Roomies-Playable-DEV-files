@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "name": "KANXZ FREEPLAY",
+  "titleAsset": "storymenu/titles/week1",
+  "visible": false,
+  "props": [],
+  "background": "#F9CF51",
+  "songs": ["high-gambo","stress-kanxz","gossip-kanxz-mix","rush-e-kanxz"]
+}

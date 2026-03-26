@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "name": "Mily",
+  "assetPath": "characters/MIly New assets",
+  "flipX": false,
+  "singTime": 6.1,
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Mily Idle0",
+      "offsets": [-70, 0]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Mily Left0",
+      "offsets": [18, 0]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Mily Down0",
+      "offsets": [-12, -70]
+    },
+    {
+      "name": "singUP",
+      "prefix": "Mily Up0",
+      "offsets": [-43, 32]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Mily Right0",
+      "offsets": [-133, 8]
+    }
+  ]
+}

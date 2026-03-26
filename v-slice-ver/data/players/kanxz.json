@@ -1,0 +1,224 @@
+{
+  "version": "1.0.0",
+  "name": "Kanxz",
+  "ownedChars": [
+    "kanxz",
+    "kanxz-pixel",
+    "kanxzy",
+    "kanxz-and-gambo",
+    "kanxz-dark",
+    "kanxz-car",
+    "gambo-playable-car",
+    "gambo-playable"
+  ],
+  "showUnownedChars": false,
+  "unlocked": true,
+  "freeplayStyle": "pico",
+  "stickerPack": "standard-kanxz",
+  "freeplayDJ": {
+    "assetPath": "freeplay/kanxz-dance-v2",
+    "fistPump": {
+      "introStartFrame": 0,
+      "introEndFrame": 4,
+      "loopStartFrame": 4,
+      "loopEndFrame": -1,
+      "introBadStartFrame": 0,
+      "introBadEndFrame": 4,
+      "loopBadStartFrame": 4,
+      "loopBadEndFrame": -1
+    },
+    "charSelect": {
+      "transitionDelay": 0.45
+    },
+"text1": "QUE ONDA CAUSAS",
+"text2": "KANXZ KANXZ",
+"text3": "GF FOLLAME GF TE AMO",
+    "useAnimatePosition": false,
+    "animations": [
+      {
+        "name": "intro",
+        "prefix": "kanczy dj intro",
+        "animType": "framelabel",
+        "offsets": [453, -153]
+      },
+      {
+        "name": "idle",
+        "prefix": "kancz dj idle",
+        "animType": "framelabel",
+        "offsets": [453, -153]
+      },
+      {
+        "name": "idleEasterEgg",
+        "prefix": "bf dj afk",
+        "animType": "framelabel",
+        "offsets": [0, 0]
+      },
+      {
+        "name": "confirm",
+        "prefix": "kanxz dj confirm",
+        "animType": "framelabel",
+        "offsets": [0, 0]
+      },
+      {
+        "name": "fistPump",
+        "prefix": "Boyfriend DJ fist pump",
+        "animType": "framelabel",
+        "offsets": [0, 0]
+      },
+      {
+        "name": "cartoon",
+        "prefix": "Boyfriend DJ watchin tv OG",
+        "animType": "framelabel",
+        "offsets": [0, 0]
+      },
+      {
+        "name": "loss",
+        "prefix": "Boyfriend DJ loss reaction 1",
+        "animType": "framelabel",
+        "offsets": [0, 0]
+      },
+      {
+        "name": "charSelect",
+        "prefix": "kancz dj to cs",
+        "animType": "framelabel",
+        "offsets": [0, 0]
+      },
+      {
+        "name": "newUnlock",
+        "prefix": "kancz dj idle",
+        "animType": "framelabel",
+        "offsets": [0, 0]
+      }
+    ]
+  },
+  "charSelect": {
+    "position": 5,
+    "gf": {
+      "assetPath": "charSelect/gf-bChill",
+      "animInfoPath": "charSelect/gfAnimInfo",
+      "visualizer": false
+    }
+  },
+  "results": {
+    "music": {
+      "PERFECT_GOLD": "resultsPERFECT",
+      "PERFECT": "resultsPERFECT",
+      "EXCELLENT": "resultsEXCELLENT",
+      "GREAT": "resultsNORMAL",
+      "GOOD": "resultsNORMAL",
+      "SHIT": "resultsSHIT"
+    },
+    "perfectGold": [
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/kanxz/perfect/RESULT PERFECT KANXZ",
+        "zIndex": 500,
+        "offsets": [582, 100],
+        "loopFrameLabel": "LOOP START"
+      },
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/kanxz/perfect/RESULT PERFECT KANXZ",
+        "zIndex": 501,
+        "delay": 4.41,
+        "offsets": [1500, 240],
+        "loopFrame": 43
+      }
+    ],
+    "perfect": [
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/kanxz/perfect/RESULT PERFECT KANXZ",
+        "startFrameLabel": "INTRO",
+        "filter": "naughty",
+        "zIndex": 500,
+        "offsets": [582, 100],
+        "loopFrameLabel": "LOOP START"
+      },
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/kanxz/perfect/RESULT PERFECT KANXZ",
+        "filter": "naughty",
+        "zIndex": 501,
+        "delay": 4.41,
+        "offsets": [1500, 240],
+        "loopFrame": 43
+      },
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/results-bf/resultsPERFECT/bed",
+        "startFrameLabel": "INTRO 2",
+        "filter": "safe",
+        "zIndex": 500,
+        "offsets": [1342, 370],
+        "loopFrameLabel": "LOOP 2"
+      },
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/results-bf/resultsPERFECT/tickleFight",
+        "filter": "safe",
+        "zIndex": 501,
+        "delay": 4.41,
+        "offsets": [650, 370],
+        "scale": 0.6,
+        "sound": "shared:tickleFight",
+        "loopFrameLabel": "LOOP"
+      }
+    ],
+    "excellent": [
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/kanxz/excellent/gf",
+        "zIndex": 500,
+        "scale": 0.65,
+        "offsets": [-500, 140],
+        "loopFrame": 219
+      }
+    ],
+    "great": [
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/kanxz/great/KANXZ GREAT INTENTO 3",
+        "scale": 1.5,
+        "delay": 0.91,
+        "offsets": [832, 31],
+        "zIndex": 499,
+        "loopFrame": 53
+      },
+      {
+        "renderType": "sparrow",
+        "assetPath": "shared:resultScreen/kanxz/great/roomies/roomies",
+        "scale": 1.3,
+        "zIndex": 500,
+        "offsets": [359, 273],
+        "loopFrame": 17
+      }
+    ],
+    "good": [
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/kanxz/good/milysia",
+        "zIndex": 499,
+        "offsets": [639, 323],
+        "loopFrame": 15
+      },
+      {
+        "renderType": "sparrow",
+        "assetPath": "shared:resultScreen/kanxz/good/RESULTS_kanxz_GOOD_RANK",
+        "zIndex": 501,
+        "delay": 0.91,
+        "offsets": [662, -471],
+        "loopFrame": 14
+      }
+    ],
+    "loss": [
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/kanxz/loss/RESULTS KANXZ LOSS RANK",
+        "zIndex": 500,
+        "offsets": [330, 100],
+        "loopFrameLabel": "Loop Start"
+      }
+    ]
+  }
+}

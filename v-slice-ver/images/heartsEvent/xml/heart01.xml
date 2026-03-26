@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="heart01.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="heart-five0000" x="243" y="149" width="98" height="117"/>
+	<SubTexture name="heart-four0000" x="132" y="149" width="101" height="119"/>
+	<SubTexture name="heart-one0000" x="132" y="10" width="111" height="129"/>
+	<SubTexture name="heart-three0000" x="10" y="154" width="94" height="126"/>
+	<SubTexture name="heart-two0000" x="10" y="10" width="112" height="134"/>
+</TextureAtlas>

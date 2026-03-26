@@ -1,0 +1,149 @@
+import funkin.modding.module.Module;
+import funkin.play.PlayState;
+import funkin.save.Save;
+import funkin.Paths;
+import funkin.audio.FunkinSound;
+import funkin.Conductor;
+import Reflect;
+import Std;
+import openfl.utils.Assets;
+
+// EN: This script only works with audio, you are free to copy it and use it in your own mod, in this case this script needs "GfoldSwitcher.hxc" to work
+// ES: Este script solo trabaja con el audio, eres libre de copiarlo y usarlo en tu propio mod, en este caso este script necesita de "GfoldSwitcher.hxc" para funcionar
+
+
+class SwitchGfAudioLoader extends Module
+{
+    public function new()
+    {
+        // EN: HIGH priority to execute before and during loading
+        // ES: Prioridad ALTA para ejecutarse antes y durante la carga
+        super("SwitchGfAudioLoader", 10000);
+    }
+
+    // EN: STEP 1: Sprite Change
+    // ES: PASO 1: Cambio de Sprite
+    override function onStateChangeBegin(event)
+    {
+        super.onStateChangeBegin(event);
+
+        if (Std.isOfType(event.targetState, PlayState))
+        {
+            var currentSong = PlayState.SONG;
+            var targetSongId = "girlfriends-song-kanxz-mix";
+
+            if (currentSong == null || currentSong.id != targetSongId) return;
+
+            var useLegacy = Save.instance.modOptions["switchGfSong"] ?? false;
+
+            if (useLegacy)
+            {
+                trace("[SwitchGf] LEGACY MODE: Changing opponent to 'gf-enemy-old'... // MODO LEGACY: Cambiando oponente a 'gf-enemy-old'...");
+                currentSong.characters.opponent = "gf-enemy-old";
+            }
+            else 
+            {
+                currentSong.characters.opponent = "gf-enemy";
+            }
+        }
+    }
+
+    //  Audio Change - Cambio de Audio
+
+    // EN: Executes AFTER the game has loaded everything (including the incorrect audio)
+    // ES: Se ejecuta DESPUÉS de que el juego haya cargado todo (incluyendo el audio incorrecto)
+    override function onSongLoaded(event)
+    {
+        super.onSongLoaded(event);
+
+        if (PlayState.instance == null || PlayState.instance.currentSong == null) return;
+        if (PlayState.instance.currentSong.id != "girlfriends-song-kanxz-mix") return;
+
+        var useLegacy = Save.instance.modOptions["switchGfSong"] ?? false;
+
+        if (useLegacy)
+        {
+            trace("[SwitchGf] Verifying loaded audio... // Verificando audio cargado...");
+            forceSwapAudio();
+        }
+    }
+
+    function forceSwapAudio()
+    {
+        // EN: Get the main vocal group
+        // ES: Obtenemos el grupo de voces principal
+        var vocals:Dynamic = Reflect.field(PlayState.instance, "vocals");
+        if (vocals == null) {
+            trace("[SwitchGf] ERROR: No vocals loaded. // ERROR: No hay voces cargadas.");
+            return;
+        }
+
+        // EN: Access the opponent's voice list
+        // ES: Accedemos a la lista de voces del oponente
+        var opponentGroup:Dynamic = Reflect.field(vocals, "opponentVoices");
+        if (opponentGroup == null) return;
+
+        // EN: Clear ANY sound that the game loaded by default
+        // ES: Limpiamos CUALQUIER sonido que haya cargado el juego por defecto
+        var members:Array<Dynamic> = opponentGroup.members;
+        if (members != null && members.length > 0) {
+            var listCopy = members.copy();
+            for (snd in listCopy) {
+                if (snd != null) {
+                    trace("[SwitchGf] Destroying incorrect original audio... // Destruyendo audio original incorrecto...");
+                    // EN: Remove from the main mixer
+                    // ES: Sacar del mixer principal
+                    vocals.remove(snd);
+                    // EN: Remove from the subgroup
+                    // ES: Sacar del subgrupo
+                    opponentGroup.remove(snd);
+                    snd.stop();
+                    snd.destroy();
+                }
+            }
+        }
+        opponentGroup.clear();
+
+        // EN: Load and inject the correct audio (i.e., the version with "gf-old")
+        // ES: Cargamos e inyectamos el audio correcto (osea la version con "gf-old")
+        var songId = PlayState.instance.currentSong.id;
+        var oldKey = Paths.voices(songId, "-gf-enemy-old");
+
+        if (Assets.exists(oldKey)) 
+        {
+            var newVoice = FunkinSound.load(oldKey);
+            if (newVoice != null)
+            {
+                // EN: Vital configuration
+                // ES: Configuración vital
+                newVoice.volume = 1.0;
+                newVoice.persist = true; 
+                newVoice.active = true;
+
+                // Inject in both places
+                vocals.add(newVoice); // Main mixer (so it plays)
+                opponentGroup.add(newVoice); // Opponent group (for volume/pause control)
+                // EN: Inject in both places
+                // ES: Inyectamos en ambos lugares
+                vocals.add(newVoice); // EN: Main mixer (so it plays) // ES: Mixer principal (para que suene)
+                opponentGroup.add(newVoice); // EN: Opponent group (for volume/pause control) // ES: Grupo oponente (para control de volumen/pausa)
+                
+                // EN: Align with the conductor (which is still at 0 or negative)
+                // ES: Alineamos con el conductor (que aún está en 0 o negativo)
+                newVoice.time = Conductor.instance.songPosition;
+                // EN: We do NOT call play() here, PlayState will do it when the song starts.
+                // ES: NO damos play() aquí, PlayState lo hará cuando empiece la canción.
+                
+                // EN: Force group volume
+                // ES: Forzamos volumen del grupo
+                vocals.opponentVolume = 1.0;
+
+                trace("[SwitchGf] SUCCESS: Legacy Audio manually injected. // ÉXITO: Legacy Audio inyectado manualmente.");
+            }
+        }
+        else
+        { 
+            trace("[SwitchGf] CRITICAL ERROR: " + oldKey + " does not exist. // ERROR CRÍTICO: No existe " + oldKey);
+        }
+    }
+}

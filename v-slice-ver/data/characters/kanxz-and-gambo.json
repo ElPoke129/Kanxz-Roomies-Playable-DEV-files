@@ -1,0 +1,194 @@
+{
+	"danceEvery": 1,
+	"offsets": [
+		-8,
+		122
+	],
+	"renderType": "sparrow",
+	"version": "1.0.1",
+	"scale": 1,
+	"flipX": true,
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"name": "Kanxz and gambo",
+	"flipY": false,
+	"singTime": 4,
+	"isPixel": false,
+	"startingAnimation": "idle",
+	"assetPath": "characters/Kanxz Assets holding gambo",
+	"healthIcon": {
+		"id": "kanxz"
+	},
+	"animations": [
+		{
+			"offsets": [
+				569,
+				37
+			],
+			"frameIndices": [],
+			"prefix": "kanxz Lanza cuchillo0",
+			"flipX": false,
+			"looped": false,
+			"name": "knifeToss",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-5,
+				23
+			],
+			"frameIndices": [],
+			"prefix": "kanxz idle dance",
+			"flipX": false,
+			"looped": false,
+			"name": "idle",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-12,
+				-29
+			],
+			"frameIndices": [],
+			"prefix": "kanxz Down0",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-26,
+				17
+			],
+			"frameIndices": [],
+			"prefix": "kanxz Right0",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-37,
+				41
+			],
+			"frameIndices": [],
+			"prefix": "kanxz Up0",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				68,
+				34
+			],
+			"frameIndices": [],
+			"prefix": "kanxz Left0",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-25,
+				23
+			],
+			"frameIndices": [],
+			"prefix": "kanxz RightFail0",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHTmiss",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-12,
+				-19
+			],
+			"frameIndices": [],
+			"prefix": "kanxz DownFail0",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWNmiss",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-21,
+				41
+			],
+			"frameIndices": [],
+			"prefix": "kanxz UpFail0",
+			"flipX": false,
+			"looped": false,
+			"name": "singUPmiss",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				74,
+				28
+			],
+			"frameIndices": [],
+			"prefix": "kanxz LeftFail0",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFTmiss",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-8,
+				31
+			],
+			"frameIndices": [],
+			"prefix": "kanxz risa0",
+			"flipX": false,
+			"looped": false,
+			"name": "laughEnd",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-5,
+				23
+			],
+			"frameIndices": [],
+			"prefix": "kanxz idle dance",
+			"flipX": false,
+			"looped": false,
+			"name": "idle-script",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		}
+	]
+}

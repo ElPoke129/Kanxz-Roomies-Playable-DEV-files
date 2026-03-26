@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gambo-menu.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Gambo Dancing0000" x="10" y="10" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0001" x="10" y="1120" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0002" x="10" y="2230" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0003" x="10" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0004" x="10" y="4450" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0005" x="10" y="4450" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0006" x="10" y="5560" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0007" x="10" y="6670" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0008" x="10" y="6670" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0009" x="10" y="6670" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0010" x="1371" y="10" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0011" x="1371" y="10" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0012" x="1371" y="10" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0013" x="1371" y="1120" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0014" x="1371" y="1120" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0015" x="1371" y="2230" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0016" x="1371" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0017" x="1371" y="4450" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0018" x="1371" y="5560" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0019" x="1371" y="6670" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0020" x="1371" y="6670" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0021" x="2732" y="10" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0022" x="2732" y="1120" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0023" x="2732" y="1120" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0024" x="2732" y="1120" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0025" x="2732" y="2230" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0026" x="2732" y="2230" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0027" x="2732" y="2230" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0028" x="2732" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Dancing0029" x="2732" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0000" x="2732" y="4450" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0001" x="2732" y="4450" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0002" x="2732" y="5560" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0003" x="2732" y="6670" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0004" x="4093" y="10" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0005" x="4093" y="1120" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0006" x="4093" y="2230" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0007" x="4093" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0008" x="4093" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0009" x="4093" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0010" x="4093" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0011" x="4093" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0012" x="4093" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0013" x="4093" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0014" x="4093" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0015" x="4093" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0016" x="4093" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0017" x="4093" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0018" x="4093" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0019" x="4093" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0020" x="4093" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0021" x="4093" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0022" x="4093" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0023" x="4093" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0024" x="4093" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0025" x="4093" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0026" x="4093" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0027" x="4093" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0028" x="4093" y="3340" width="1351" height="1100"/>
+	<SubTexture name="Gambo Hey0029" x="4093" y="3340" width="1351" height="1100"/>
+</TextureAtlas>

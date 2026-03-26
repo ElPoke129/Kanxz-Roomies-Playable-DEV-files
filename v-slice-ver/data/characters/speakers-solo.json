@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "name": "Speaker SOLO",
+  "assetPath": "characters/SpeakerSOLO",
+  "flipX": false,
+  "singTime": 4.0,
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "GF Dancing Beat",
+      "offsets": [0, 0],
+      "looped": true
+    }
+  ]
+}

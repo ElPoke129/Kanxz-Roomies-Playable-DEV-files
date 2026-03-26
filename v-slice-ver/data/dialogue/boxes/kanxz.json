@@ -1,0 +1,46 @@
+{
+    "version": "1.1.0",
+    "name": "Dialogue Bubble",
+    "assetPath": "dialogue/bubble/speech_bubble",
+    "isPixel": false,
+    "flipX": false,
+    "flipY": false,
+    "offsets": [-600, 20],
+    "scale": 1.0,
+
+    "text": {
+        "offsets": [90, 120],
+        "width": 1000,
+        "color": "#000000",
+        "fontFamily": "PhantomMuff 1.5",
+        "shadowColor": "#FFFFFF",
+        "shadowWidth": 2
+    },
+
+    "animations": [
+        {
+            "name": "enter",
+            "prefix": "speech bubble normal0",
+            "offsets": [0, 0],
+            "frameRate": 24
+        },
+        {
+            "name": "right",
+            "prefix": "speech bubble normal0",
+            "offsets": [0, 0],
+            "looped": true
+        },
+        {
+            "name": "left",
+            "prefix": "speech bubble left0",
+            "offsets": [0, 0],
+            "looped": true
+        },
+                {
+            "name": "middle",
+            "prefix": "speech bubble middle0",
+            "offsets": [0, 0],
+            "looped": true
+        }
+    ]
+}

@@ -1,0 +1,209 @@
+{
+	"danceEvery": 1,
+	"offsets": [
+		110,
+		-235
+	],
+	"renderType": "sparrow",
+	"version": "1.0.1",
+	"scale": 1,
+	"flipX": false,
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"name": "Eryx speaker erect",
+	"flipY": false,
+	"singTime": 4,
+	"isPixel": false,
+	"startingAnimation": "idle",
+	"assetPath": "characters/Eryx AssetsRELOAD",
+	"healthIcon": {
+		"id": "face"
+	},
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			],
+			"prefix": "Eryx Dual idle0",
+			"flipX": false,
+			"looped": false,
+			"name": "idle",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				-21
+			],
+			"frameIndices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			],
+			"prefix": "Eryx Shoot10",
+			"flipX": false,
+			"looped": false,
+			"name": "shoot1",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				-69
+			],
+			"frameIndices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				9,
+				9,
+				9,
+				9,
+				9,
+				9
+			],
+			"prefix": "Eryx Shoot40",
+			"flipX": false,
+			"looped": false,
+			"name": "shoot2",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [],
+			"prefix": "Eryx Dual idle0",
+			"flipX": false,
+			"looped": false,
+			"name": "idle-script",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				560,
+				-68
+			],
+			"frameIndices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			],
+			"prefix": "Eryx Shoot30",
+			"flipX": false,
+			"looped": false,
+			"name": "shoot4",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				313,
+				-19
+			],
+			"frameIndices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			],
+			"prefix": "Eryx Shoot20",
+			"flipX": false,
+			"looped": false,
+			"name": "shoot3",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				-142
+			],
+			"frameIndices": [],
+			"prefix": "Eryx Reload0",
+			"flipX": false,
+			"looped": false,
+			"name": "reload",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		}
+	]
+}

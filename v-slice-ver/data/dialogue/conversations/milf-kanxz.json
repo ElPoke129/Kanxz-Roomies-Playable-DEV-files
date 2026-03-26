@@ -1,0 +1,143 @@
+{
+  "version": "1.0.0",
+
+  "backdrop": {
+    "type": "solid",
+    "fadeTime": 0.5,
+    "color": "#BFB3DFD8"
+  },
+
+  "music": {
+    "asset": "dialogues/MilfInstrumental",
+    "fadeTime": 1.0,
+    "looped": true
+  },
+
+  "outro": {
+    "type": "fade",
+    "fadeTime": 1.0
+  },
+
+  "dialogue": [
+    {
+      "speaker": "mom-1",
+      "speakerAnimation": "talk-mom",
+      "box": "kanxz",
+      "boxAnimation": "left",
+      "speed": 0.05,
+      "text": [
+        "Nada mal."
+      ]
+    },
+    {
+      "speaker": "mom-1",
+      "speakerAnimation": "talk-mom",
+      "box": "kanxz",
+      "boxAnimation": "left",
+      "speed": 0.05,
+      "text": [
+        "Así que eso lo atrajo..."
+      ]
+    },
+    {
+      "speaker": "gambo-1",
+      "speakerAnimation": "pissed-left-gambo",
+      "box": "kanxz",
+      "boxAnimation": "middle",
+      "speed": 0.05,
+      "text": [
+        "Por favor, Señora."
+      ]
+    },
+    {
+      "speaker": "gambo-1",
+      "speakerAnimation": "pissed-left-gambo",
+      "box": "kanxz",
+      "boxAnimation": "middle",
+      "speed": 0.05,
+      "text": [
+        "entienda que él y yo no somos novios, puta madre..."
+      ]
+    },
+    {
+      "speaker": "kanxz-1",
+      "speakerAnimation": "irritated-kanxz",
+      "box": "kanxz",
+      "boxAnimation": "right",
+      "speed": 0.05,
+      "text": [
+        "Ya fue, Gambo."
+      ]
+    },
+    {
+      "speaker": "kanxz-1",
+      "speakerAnimation": "irritated-kanxz",
+      "box": "kanxz",
+      "boxAnimation": "right",
+      "speed": 0.05,
+      "text": [
+        "Ellos son así..."
+      ]
+    },
+    {
+      "speaker": "gambo-1",
+      "speakerAnimation": "realizing-gambo",
+      "box": "kanxz",
+      "boxAnimation": "middle",
+      "speed": 0.05,
+      "text": [
+        "Chale, Kanxz..."
+      ]
+    },
+    {
+      "speaker": "gambo-1",
+      "speakerAnimation": "realizing-gambo",
+      "box": "kanxz",
+      "boxAnimation": "middle",
+      "speed": 0.05,
+      "text": [
+        "Que la Virgencita te cuide."
+      ]
+    },
+    {
+      "speaker": "mom-1",
+      "speakerAnimation": "surprised-mom",
+      "box": "kanxz",
+      "boxAnimation": "left",
+      "speed": 0.05,
+      "text": [
+        "!!!!"
+      ]
+    },
+    {
+      "speaker": "kanxz-1",
+      "speakerAnimation": "talk-pokerface-kanxz",
+      "box": "kanxz",
+      "boxAnimation": "right",
+      "speed": 0.05,
+      "text": [
+        "Gambo, ya fue."
+      ]
+    },
+    {
+      "speaker": "kanxz-1",
+      "speakerAnimation": "talk-pokerface-kanxz",
+      "box": "kanxz",
+      "boxAnimation": "right",
+      "speed": 0.05,
+      "text": [
+        "Yo me encargo antes que la friegues más."
+      ]
+    },
+    {
+      "speaker": "gambo-1",
+      "speakerAnimation": "realizing-gambo",
+      "box": "kanxz",
+      "boxAnimation": "middle",
+      "speed": 0.05,
+      "text": [
+        "¿Qué pedo?"
+      ]
+    }
+  ]
+}

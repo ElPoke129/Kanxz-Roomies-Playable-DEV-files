@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="kanxzpixel.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="confirm0000" x="10" y="10" width="64" height="56"/>
+	<SubTexture name="confirm0001" x="10" y="10" width="64" height="56"/>
+	<SubTexture name="confirm0002" x="84" y="10" width="64" height="56"/>
+	<SubTexture name="confirm0003" x="158" y="10" width="64" height="56"/>
+	<SubTexture name="confirm0004" x="158" y="10" width="64" height="56"/>
+	<SubTexture name="confirm0005" x="158" y="10" width="64" height="56"/>
+	<SubTexture name="confirm0006" x="158" y="10" width="64" height="56"/>
+	<SubTexture name="confirm0007" x="158" y="10" width="64" height="56"/>
+	<SubTexture name="confirm0008" x="158" y="10" width="64" height="56"/>
+	<SubTexture name="confirm-hold0000" x="158" y="10" width="64" height="56"/>
+	<SubTexture name="idle0000" x="10" y="76" width="64" height="56"/>
+</TextureAtlas>

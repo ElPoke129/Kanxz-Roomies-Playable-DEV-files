@@ -1,0 +1,109 @@
+{
+  "version": "1.0.0",
+  "renderType": "multisparrow",
+  "name": "Kanxz Car",
+  "assetPath": "characters/Kanxz Assets Hair Blowing",
+  "scale": 1,
+  "singTime": 4.0,
+  "flipX": true,
+  "offsets": [0, 0],
+  "cameraOffsets": [-20, 80],
+  "healthIcon": {
+    "id": "kanxz",
+    "scale": 1,
+    "flipX": false,
+    "offsets": [0, 0]
+  },
+  "animations": [
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "kanxz RightFail",
+      "offsets": [-28, 3]
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "kanxz LeftFail",
+      "offsets": [67, 8]
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "kanxz DownFail",
+      "offsets": [-12, -67]
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "kanxz UpFail",
+      "offsets": [-20, 29]
+    },
+    {
+      "name": "hey",
+      "prefix": "kanxz silly",
+      "offsets": [-5, -12]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "kanxz Left0",
+      "offsets": [62, -7],
+      "frameIndices": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    },
+    {
+      "name": "singLEFT-loop",
+      "prefix": "kanxz Left0",
+      "looped": true,
+      "offsets": [62, -7],
+      "frameIndices": [9, 10, 11, 12]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "kanxz Right0",
+      "offsets": [-29, -20],
+      "frameIndices": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    },
+    {
+      "name": "singRIGHT-loop",
+      "prefix": "kanxz Right0",
+      "looped": true,
+      "offsets": [-29, -20],
+      "frameIndices": [9, 10, 11, 12]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "kanxz Down0",
+      "offsets": [-12, -81],
+      "frameIndices": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    },
+    {
+      "name": "singDOWN-loop",
+      "prefix": "kanxz Down0",
+      "looped": true,
+      "offsets": [-12, -81],
+      "frameIndices": [9, 10, 11, 12]
+    },
+    {
+      "name": "singUP-loop",
+      "prefix": "kanxz Up0",
+      "looped": true,
+      "offsets": [-36, 25],
+      "frameIndices": [9, 10, 11, 12]
+    },
+    {
+      "name": "singUP",
+      "prefix": "kanxz Up0",
+      "offsets": [-36, 25],
+      "frameIndices": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    },
+    {
+      "name": "idle",
+      "prefix": "kanxz idle dance0",
+      "offsets": [-5, 0],
+      "frameIndices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    },
+    {
+      "name": "idle-loop",
+      "prefix": "kanxz idle dance0",
+      "looped": true,
+      "offsets": [-5, 0],
+      "frameIndices": [12, 13, 14, 15]
+    }
+  ]
+}

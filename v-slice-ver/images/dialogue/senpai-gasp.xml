@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="senpai-gasp.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="senpai-gasp0000" x="0" y="0" width="69" height="60" frameX="-2" frameY="-7" frameWidth="70" frameHeight="70"/>
+</TextureAtlas>

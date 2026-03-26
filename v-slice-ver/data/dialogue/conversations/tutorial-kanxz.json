@@ -1,0 +1,83 @@
+{
+  "version": "1.0.0",
+
+  "backdrop": {
+    "type": "solid",
+    "fadeTime": 0.5,
+    "color": "#BFB3DFD8"
+  },
+
+  "music": {
+    "asset": "dialogues/Tutorial-Instrumental",
+    "fadeTime": 2.0,
+    "looped": true
+  },
+
+  "outro": {
+    "type": "fade",
+    "fadeTime": 1.0
+  },
+
+  "dialogue": [
+    {
+      "speaker": "gf-k",
+      "speakerAnimation": "talk-GF",
+      "box": "kanxz",
+      "boxAnimation": "enter",
+      "speed": 0.6,
+      "text": [
+        "Ok...."
+      ]
+    },
+    {
+      "speaker": "gf-k",
+      "speakerAnimation": "talk-GF",
+      "box": "kanxz",
+      "boxAnimation": "middle",
+      "speed": 1.0,
+      "text": [
+        "¿Quién sigue?"
+      ]
+    },
+    {
+      "speaker": "kanxz-1",
+      "speakerAnimation": "talk-kanxz",
+      "box": "kanxz",
+      "boxAnimation": "middle",
+      "speed": 1.0,
+      "text": [
+        "Hola."
+      ]
+    },
+    {
+      "speaker": "gf-k",
+      "speakerAnimation": "talk-GF",
+      "box": "kanxz",
+      "boxAnimation": "middle",
+      "speed": 1.0,
+      "text": [
+        "Te ves lindo."
+      ]
+    },
+    {
+      "speaker": "gf-k",
+      "speakerAnimation": "talk-GF",
+      "box": "kanxz",
+      "boxAnimation": "middle",
+      "speed": 1.0,
+      "text": [
+        "Te daré unas lecciones básicas antes de empezar, ¿De acuerdo?"
+      ]
+    },
+    {
+      "speaker": "gf-k",
+      "speakerAnimation": "wink-GF",
+      "box": "kanxz",
+      "boxAnimation": "middle",
+      "speed": 1.5,
+      "text": [
+        "*wink*"
+      ]
+    }
+  ]
+}

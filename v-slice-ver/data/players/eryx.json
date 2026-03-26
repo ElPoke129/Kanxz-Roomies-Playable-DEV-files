@@ -1,0 +1,219 @@
+{
+  "version": "1.0.0",
+  "name": "Eryx",
+  "ownedChars": ["eryx-playable"],
+  "showUnownedChars": false,
+  "unlocked": true,
+  "freeplayStyle": "bf",
+  "stickerPack": "stand-kanxz",
+  "freeplayDJ": {
+    "assetPath": "freeplay/Eryx Freeplay",
+    "cartoon": {
+      "soundClickFrame": 80,
+      "soundCartoonFrame": 85,
+      "loopBlinkFrame": 112,
+      "loopFrame": 166,
+      "channelChangeFrame": 60
+    },
+    "fistPump": {
+      "introStartFrame": 0,
+      "introEndFrame": 4,
+
+      "loopStartFrame": 4,
+      "loopEndFrame": -1,
+
+      "introBadStartFrame": 0,
+      "introBadEndFrame": 4,
+
+      "loopBadStartFrame": 4,
+      "loopBadEndFrame": -1
+    },
+    "charSelect": {
+      "transitionDelay": 0.45
+    },
+    "text1": "Hola Gentecita",
+	"text2": "Eryx Eryx Eryx Eryx",
+	"text3": "Miren Soy Jugable!",
+    "animations": [
+      {
+        "name": "intro",
+        "prefix": "kanczy dj intro",
+        "offsets": [-41, -2]
+      },
+      {
+        "name": "idle",
+        "prefix": "kancz dj idle",
+        "offsets": [-41, -2]
+      },
+      {
+        "name": "idleEasterEgg",
+        "prefix": "bf dj afk",
+        "offsets": [-41, -2]
+      },
+      {
+        "name": "confirm",
+        "prefix": "kanxz dj confirm",
+        "offsets": [-41, -2]
+      },
+      {
+        "name": "fistPump",
+        "prefix": "Boyfriend DJ fist pump",
+        "offsets": [-41, -2]
+      },
+      {
+        "name": "cartoon",
+        "prefix": "Boyfriend DJ watchin tv OG",
+        "offsets": [-41, -2]
+      },
+      {
+        "name": "loss",
+        "prefix": "Boyfriend DJ loss reaction 1",
+        "offsets": [-41, -2]
+      },
+      {
+        "name": "charSelect",
+        "prefix": "kancz dj to cs",
+        "offsets": [-41, -2]
+      },
+      {
+        "name": "kancz dj idle",
+        "prefix": "Boyfriend DJ new character ",
+        "offsets": [625, 360]
+      }
+    ]
+  },
+  "charSelect": {
+    "position": 4,
+    "gf": {
+      "assetPath": "charSelect/gf-bChill",
+      "animInfoPath": "charSelect/gfAnimInfo",
+      "visualizer": false
+    }
+  },
+  "results": {
+    "music": {
+      "PERFECT_GOLD": "resultsPERFECT",
+      "PERFECT": "resultsPERFECT",
+      "EXCELLENT": "resultsEXCELLENT",
+      "GREAT": "resultsNORMAL",
+      "GOOD": "resultsNORMAL",
+      "SHIT": "resultsSHIT"
+    },
+    "perfectGold": [
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/kanxz/perfect/RESULT PERFECT KANXZ",
+        "zIndex": 500,
+        "offsets": [582, 100],
+        "loopFrameLabel": "LOOP START"
+      },
+      {
+        "renderType": "animateatlas",
+        "assetPath": "resultScreen/kanxz/perfect/RESULT PERFECT KANXZ",
+        "zIndex": 501,
+        "delay": 4.41,
+        "offsets": [1500, 240],
+        "loopFrame": 43
+      }
+    ],
+    "perfect": [
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/kanxz/perfect/RESULT PERFECT KANXZ",
+        "startFrameLabel": "INTRO",
+        "filter": "naughty",
+        "zIndex": 500,
+        "offsets": [582, 100],
+        "loopFrameLabel": "LOOP START"
+      },
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/kanxz/perfect/RESULT PERFECT KANXZ",
+        "filter": "naughty",
+        "zIndex": 501,
+        "delay": 4.41,
+        "offsets": [582, 100],
+        "loopFrame": 43
+      },
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/results-bf/resultsPERFECT/bed",
+        "startFrameLabel": "INTRO 2",
+        "filter": "safe",
+        "zIndex": 500,
+        "offsets": [1342, 370],
+        "loopFrameLabel": "LOOP 2"
+      },
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/results-bf/resultsPERFECT/tickleFight",
+        "filter": "safe",
+        "zIndex": 501,
+        "delay": 4.41,
+        "offsets": [650, 370],
+        "scale": 0.6,
+        "sound": "shared:tickleFight",
+        "loopFrameLabel": "LOOP"
+      }
+    ],
+    "excellent": [
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/kanxz/excellent/gf",
+        "zIndex": 500,
+        "scale": 0.6,
+        "offsets": [-50, 140],
+
+        "loopFrame": 219
+      }
+    ],
+    "great": [
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/kanxz/great/KANXZ GREAT INTENTO 3",
+        "scale": 1.50,
+        "delay": 0.91,
+        "offsets": [832, 31],
+        "zIndex": 499,
+
+        "loopFrame": 53
+      },
+      {
+        "renderType": "sparrow",
+        "assetPath": "shared:resultScreen/kanxz/great/roomies/roomies",
+        "scale": 1.30,
+        "zIndex": 500,
+        "offsets": [359, 273],
+
+        "loopFrame": 17
+      }
+    ],
+    "good": [
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/kanxz/good/milysia",
+        "zIndex": 499,
+        "offsets": [639, 323],
+
+        "loopFrame": 15
+      },
+      {
+        "renderType": "sparrow",
+        "assetPath": "shared:resultScreen/kanxz/good/RESULTS_kanxz_GOOD_RANK",
+        "zIndex": 499,
+        "delay": 0.91,
+        "offsets": [832, 31],
+        "loopFrame": 14
+      }
+    ],
+    "loss": [
+      {
+        "renderType": "animateatlas",
+        "assetPath": "shared:resultScreen/kanxz/loss/RESULTS KANXZ LOSS RANK",
+        "zIndex": 500,
+        "offsets": [330, 100],
+        "loopFrameLabel": "Loop Start"
+      }
+    ]
+  }
+}

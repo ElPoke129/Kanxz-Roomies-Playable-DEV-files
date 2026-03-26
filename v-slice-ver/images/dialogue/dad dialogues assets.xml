@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dad dialogues assets.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dad dialogues0000" x="445" y="10" width="425" height="763" frameX="0" frameY="-4" frameWidth="425" frameHeight="767"/>
+	<SubTexture name="dad dialogues0001" x="445" y="10" width="425" height="763" frameX="0" frameY="-4" frameWidth="425" frameHeight="767"/>
+	<SubTexture name="dad dialogues0002" x="10" y="784" width="422" height="764" frameX="-1" frameY="-3" frameWidth="425" frameHeight="767"/>
+	<SubTexture name="dad dialogues0003" x="10" y="784" width="422" height="764" frameX="-1" frameY="-3" frameWidth="425" frameHeight="767"/>
+	<SubTexture name="dad dialogues0004" x="874" y="1556" width="419" height="767" frameX="-2" frameY="0" frameWidth="425" frameHeight="767"/>
+	<SubTexture name="dad dialogues0005" x="874" y="1556" width="419" height="767" frameX="-2" frameY="0" frameWidth="425" frameHeight="767"/>
+	<SubTexture name="dad dialogues confused0000" x="10" y="10" width="425" height="764" frameX="0" frameY="-3" frameWidth="425" frameHeight="767"/>
+	<SubTexture name="dad dialogues confused0001" x="10" y="10" width="425" height="764" frameX="0" frameY="-3" frameWidth="425" frameHeight="767"/>
+	<SubTexture name="dad dialogues confused0002" x="442" y="1556" width="422" height="764" frameX="-1" frameY="-3" frameWidth="425" frameHeight="767"/>
+	<SubTexture name="dad dialogues confused0003" x="442" y="1556" width="422" height="764" frameX="-1" frameY="-3" frameWidth="425" frameHeight="767"/>
+	<SubTexture name="dad dialogues confused0004" x="880" y="10" width="419" height="767" frameX="-2" frameY="0" frameWidth="425" frameHeight="767"/>
+	<SubTexture name="dad dialogues confused0005" x="880" y="10" width="419" height="767" frameX="-2" frameY="0" frameWidth="425" frameHeight="767"/>
+	<SubTexture name="dad dialogues confused-end0000" x="868" y="3110" width="419" height="766"/>
+	<SubTexture name="dad dialogues confused-end0001" x="868" y="3110" width="419" height="766"/>
+	<SubTexture name="dad dialogues confused-end0002" x="1726" y="2341" width="419" height="766"/>
+	<SubTexture name="dad dialogues confused-end0003" x="1726" y="2341" width="419" height="766"/>
+	<SubTexture name="dad dialogues happy0000" x="445" y="783" width="425" height="763" frameX="0" frameY="-4" frameWidth="425" frameHeight="767"/>
+	<SubTexture name="dad dialogues happy0001" x="445" y="783" width="425" height="763" frameX="0" frameY="-4" frameWidth="425" frameHeight="767"/>
+	<SubTexture name="dad dialogues happy0002" x="10" y="1558" width="422" height="764" frameX="-1" frameY="-3" frameWidth="425" frameHeight="767"/>
+	<SubTexture name="dad dialogues happy0003" x="10" y="1558" width="422" height="764" frameX="-1" frameY="-3" frameWidth="425" frameHeight="767"/>
+	<SubTexture name="dad dialogues happy0004" x="10" y="3109" width="419" height="767" frameX="-2" frameY="0" frameWidth="425" frameHeight="767"/>
+	<SubTexture name="dad dialogues happy0005" x="10" y="3109" width="419" height="767" frameX="-2" frameY="0" frameWidth="425" frameHeight="767"/>
+	<SubTexture name="dad dialogues happy-end0000" x="439" y="3109" width="419" height="767"/>
+	<SubTexture name="dad dialogues happy-end0001" x="439" y="3109" width="419" height="767"/>
+	<SubTexture name="dad dialogues happy-end0002" x="1297" y="2341" width="419" height="767"/>
+	<SubTexture name="dad dialogues happy-end0003" x="1297" y="2341" width="419" height="767"/>
+	<SubTexture name="dad dialogues wow0000" x="1303" y="787" width="419" height="767"/>
+	<SubTexture name="dad dialogues wow0001" x="1303" y="787" width="419" height="767"/>
+	<SubTexture name="dad dialogues wow0002" x="1309" y="10" width="419" height="767"/>
+	<SubTexture name="dad dialogues wow0003" x="1309" y="10" width="419" height="767"/>
+	<SubTexture name="dad dialogues wow0004" x="1303" y="1564" width="419" height="767"/>
+	<SubTexture name="dad dialogues wow0005" x="1303" y="1564" width="419" height="767"/>
+	<SubTexture name="dad dialogues wow0006" x="868" y="2333" width="419" height="767"/>
+	<SubTexture name="dad dialogues wow0007" x="868" y="2333" width="419" height="767"/>
+	<SubTexture name="dad dialogues-end0000" x="10" y="2332" width="419" height="767"/>
+	<SubTexture name="dad dialogues-end0001" x="10" y="2332" width="419" height="767"/>
+	<SubTexture name="dad dialogues-end0002" x="439" y="2332" width="419" height="767"/>
+	<SubTexture name="dad dialogues-end0003" x="439" y="2332" width="419" height="767"/>
+</TextureAtlas>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="kanxz-pixel.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="nervious0000" x="0" y="68" width="56" height="68" frameX="-13" frameY="-2" frameWidth="70" frameHeight="70"/>
+	<SubTexture name="talkin0000" x="0" y="0" width="56" height="68" frameX="-13" frameY="-2" frameWidth="70" frameHeight="70"/>
+	<SubTexture name="tense0000" x="56" y="0" width="56" height="68" frameX="-13" frameY="-2" frameWidth="70" frameHeight="70"/>
+	<SubTexture name="pissed0000" x="112" y="0" width="56" height="68" frameX="-13" frameY="-2" frameWidth="70" frameHeight="70"/>
+</TextureAtlas>

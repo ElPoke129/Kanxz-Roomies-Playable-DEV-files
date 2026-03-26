@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "name": "Kanxz Pixel",
+  "assetPath": "dialogue/kanxz-pixel",
+  "flipX": false,
+  "isPixel": true,
+  "scale": 5.4,
+   "offsets": [50, -208],
+  "animations": [
+    {
+      "name": "talk-kanxz",
+      "prefix": "talkin",
+      "offsets": [0, 0],
+      "frameRate": 12,
+      "looped": true
+    },
+    {
+      "name": "pissed-kanxz",
+      "prefix": "pissed",
+      "offsets": [0, 0],
+      "frameRate": 12,
+      "looped": true
+    },
+    {
+      "name": "gasp-kanxz",
+      "prefix": "nervious",
+      "offsets": [0, 0],
+      "frameRate": 12,
+      "looped": true
+    },
+    {
+      "name": "talk-nervous-kanxz",
+      "prefix": "tense",
+      "offsets": [0, 0],
+      "frameRate": 12,
+      "looped": true
+    }
+  ]
+}

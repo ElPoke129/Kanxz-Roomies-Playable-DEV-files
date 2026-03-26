@@ -1,0 +1,173 @@
+{
+  "version": "1.0.0",
+
+  "backdrop": {
+    "type": "solid",
+    "fadeTime": 0.5,
+    "color": "#BFB3DFD8"
+  },
+
+  "music": {
+    "asset": "dialogues/SatinPantiesInstrumental",
+    "fadeTime": 1.0,
+    "looped": true
+  },
+
+  "outro": {
+    "type": "fade",
+    "fadeTime": 1.0
+  },
+
+  "dialogue": [
+    {
+      "speaker": "gambo-1",
+      "speakerAnimation": "look-left-gambo",
+      "box": "kanxz",
+      "boxAnimation": "middle",
+      "speed": 0.05,
+      "text": [
+        "¿Esa es la limusina de tu novia, Kanxz?"
+      ]
+    },
+    {
+      "speaker": "kanxz-1",
+      "speakerAnimation": "talk-pokerface-kanxz",
+      "box": "kanxz",
+      "boxAnimation": "right",
+      "speed": 0.025,
+      "text": [
+        "Parece que sí..."
+      ]
+    },
+    {
+      "speaker": "mom-1",
+      "speakerAnimation": "talk-mom",
+      "box": "kanxz",
+      "boxAnimation": "left",
+      "speed": 0.05,
+      "text": [
+        "Bueno, bueno..."
+      ]
+    },
+    {
+      "speaker": "mom-1",
+      "speakerAnimation": "talk-mom",
+      "box": "kanxz",
+      "boxAnimation": "left",
+      "speed": 0.05,
+      "text": [
+        "¿Aquí es donde estuviste escondiéndote, huh?"
+      ]
+    },
+    {
+      "speaker": "kanxz-1",
+      "speakerAnimation": "poker-face-kanxz",
+      "box": "kanxz",
+      "boxAnimation": "right",
+      "speed": 0.05,
+      "text": [
+        "????"
+      ]
+    },
+    {
+      "speaker": "mom-1",
+      "speakerAnimation": "talk-mom",
+      "box": "kanxz",
+      "boxAnimation": "left",
+      "speed": 0.05,
+      "text": [
+        "No te hagas el tontito, corazón."
+      ]
+    },
+    {
+      "speaker": "mom-1",
+      "speakerAnimation": "talk-mom",
+      "box": "kanxz",
+      "boxAnimation": "left",
+      "speed": 0.05,
+      "text": [
+        "¿Estás saliendo con mi hija y a la vez te ves con un pequeño femboy a escondidas?"
+      ]
+    },
+    {
+      "speaker": "kanxz-1",
+      "speakerAnimation": "perdon-kanxz",
+      "box": "kanxz",
+      "boxAnimation": "right",
+      "speed": 0.05,
+      "text": [
+        "¿Perdón…?"
+      ]
+    },
+    {
+      "speaker": "gambo-1",
+      "speakerAnimation": "lol-gambo",
+      "box": "kanxz",
+      "boxAnimation": "middle",
+      "speed": 0.05,
+      "text": [
+        "Oiga, disculpe, madam, no se confunda."
+      ]
+    },
+    {
+      "speaker": "gambo-1",
+      "speakerAnimation": "lol-gambo",
+      "box": "kanxz",
+      "boxAnimation": "middle",
+      "speed": 0.05,
+      "text": [
+        "Él y yo no somos pololos, ¿eh? Nada de eso."
+      ]
+    },
+    {
+      "speaker": "gambo-1",
+      "speakerAnimation": "explaining-gambo",
+      "box": "kanxz",
+      "boxAnimation": "middle",
+      "speed": 0.05,
+      "text": [
+        "Nomás estábamos en un callejón todo oscuro, solos, en una noche solitaria y habitual…."
+      ]
+    },
+    {
+      "speaker": "gambo-1",
+      "speakerAnimation": "realizing-gambo",
+      "box": "kanxz",
+      "boxAnimation": "middle",
+      "speed": 0.15,
+      "text": [
+        "..."
+      ]
+    },
+    {
+      "speaker": "gambo-1",
+      "speakerAnimation": "realizing-gambo",
+      "box": "kanxz",
+      "boxAnimation": "middle",
+      "speed": 0.05,
+      "text": [
+        "Chale...."
+      ]
+    },
+    {
+      "speaker": "gambo-1",
+      "speakerAnimation": "realizing-gambo",
+      "box": "kanxz",
+      "boxAnimation": "middle",
+      "speed": 0.05,
+      "text": [
+        "¿ya la cagué verdad?"
+      ]
+    },
+    {
+      "speaker": "kanxz-1",
+      "speakerAnimation": "irritated-kanxz",
+      "box": "kanxz",
+      "boxAnimation": "right",
+      "speed": 0.05,
+      "text": [
+        "Este weón..."
+      ]
+    }
+  ]
+}

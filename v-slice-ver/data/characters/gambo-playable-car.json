@@ -1,0 +1,111 @@
+{
+  "version": "1.0.0",
+  "renderType": "multisparrow",
+  "name": "Gambo Playable Car",
+  "assetPath": "characters/gambo PLAYABLE assets HAIR BLOWING",
+  "scale": 1,
+  "singTime": 4.0,
+  "flipX": true,
+  "offsets": [0, 0],
+  "cameraOffsets": [50, 100],
+  "healthIcon": {
+    "id": "gambo",
+    "scale": 1,
+    "flipX": false,
+    "offsets": [0, 0]
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Gambo Playable idle0",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "idle-loop",
+      "prefix": "Gambo Playable idle0",
+      "looped": true,
+      "offsets": [0, 0],
+      "frameIndices": [11, 12, 13, 14]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Gambo Playable left0",
+      "offsets": [109, -12]
+    },
+    {
+      "name": "singLEFT-loop",
+      "prefix": "Gambo Playable left0",
+      "looped": true,
+      "offsets": [109, -12],
+      "frameIndices": [11, 12, 13, 14]
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "Gambo Playable left miss0",
+      "offsets": [109, -12]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Gambo Playable down0",
+      "offsets": [-1, -156]
+    },
+    {
+      "name": "singDOWN-loop",
+      "prefix": "Gambo Playable down0",
+      "looped": true,
+      "offsets": [-1, -156],
+      "frameIndices": [11, 12, 13, 14]
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "Gambo Playable down miss0",
+      "offsets": [-1, -108]
+    },
+    {
+      "name": "singUP",
+      "prefix": "Gambo Playable up0",
+      "offsets": [-37, -10]
+    },
+    {
+      "name": "singUP-loop",
+      "prefix": "Gambo Playable up0",
+      "looped": true,
+      "offsets": [-37, -10],
+      "frameIndices": [11, 12, 13, 14]
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "Gambo Playable up miss0",
+      "offsets": [-35, -8]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Gambo Playable right0",
+      "offsets": [-40, -27]
+    },
+    {
+      "name": "singRIGHT-loop",
+      "prefix": "Gambo Playable right0",
+      "looped": true,
+      "offsets": [-40, -27],
+      "frameIndices": [11, 12, 13, 14]
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "Gambo Playable right miss0",
+      "offsets": [-40, -11]
+    },
+    {
+      "name": "hey",
+      "prefix": "Gambo Playable hey0",
+      "offsets": [93, -19]
+    },
+    {
+      "name": "hey-loop",
+      "prefix": "Gambo Playable hey0",
+      "looped": true,
+      "offsets": [93, -19],
+      "frameIndices": [11, 12, 13, 14]
+    }
+  ]
+}

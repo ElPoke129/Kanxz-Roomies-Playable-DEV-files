@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gambo-pixel.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="shout0000" x="110" y="0" width="55" height="67" frameX="-13" frameY="-4" frameWidth="70" frameHeight="70"/>
+	<SubTexture name="angrytokanxz0000" x="55" y="0" width="55" height="67" frameX="-13" frameY="-4" frameWidth="70" frameHeight="70"/>
+	<SubTexture name="normal0000" x="0" y="67" width="55" height="67" frameX="-13" frameY="-4" frameWidth="70" frameHeight="70"/>
+	<SubTexture name="talktokanxz0000" x="0" y="0" width="55" height="67" frameX="-13" frameY="-4" frameWidth="70" frameHeight="70"/>
+</TextureAtlas>

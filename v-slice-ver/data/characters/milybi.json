@@ -1,0 +1,65 @@
+{
+  "version": "1.0.0",
+  "name": "Mily Bi",
+  "assetPath": "characters/MIly New assets BI NB",
+  "flipX": false,
+  "singTime": 6.1,
+  "scale": 1,
+  "animations": [
+    {
+      "name": "singLEFT",
+      "prefix": "Mily Left0",
+      "offsets": [88, 0]
+    },
+    {
+      "name": "singLEFT-alt",
+      "prefix": "Mily Left alt0",
+      "offsets": [88, 0]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Mily Down0",
+      "offsets": [58, -70]
+    },
+    {
+      "name": "singDOWN-alt",
+      "prefix": "Mily Down alt0",
+      "offsets": [58, -70]
+    },
+    {
+      "name": "singUP",
+      "prefix": "Mily Up0",
+      "offsets": [27, 32]
+    },
+    {
+      "name": "singUP-alt",
+      "prefix": "Mily Up alt0",
+      "offsets": [27, 32]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Mily Right0",
+      "offsets": [-63, 8]
+    },
+    {
+      "name": "singRIGHT-alt",
+      "prefix": "Mily Right alt0",
+      "offsets": [-63, 8]
+    },
+    {
+      "name": "idle",
+      "prefix": "Mily Idle0",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "idle-alt",
+      "prefix": "Mily Idle alt0",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "ready",
+      "prefix": "Mily is ready for rock0",
+      "offsets": [77, 6]
+    }
+  ]
+}

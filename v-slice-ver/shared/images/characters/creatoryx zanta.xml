@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="creatoryx zanta.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="creatoryx bruh0000" x="10" y="10" width="892" height="960"/>
+	<SubTexture name="creatoryx bruh alt0000" x="912" y="10" width="892" height="960"/>
+	<SubTexture name="creatoryx idle inicial0000" x="1814" y="10" width="892" height="960" frameX="0" frameY="-62" frameWidth="892" frameHeight="1022"/>
+	<SubTexture name="creatoryx idle inicial0001" x="1814" y="10" width="892" height="960" frameX="0" frameY="-62" frameWidth="892" frameHeight="1022"/>
+	<SubTexture name="creatoryx idle inicial0002" x="1814" y="10" width="892" height="960" frameX="0" frameY="-42" frameWidth="892" frameHeight="1022"/>
+	<SubTexture name="creatoryx idle inicial0003" x="1814" y="10" width="892" height="960" frameX="0" frameY="-42" frameWidth="892" frameHeight="1022"/>
+	<SubTexture name="creatoryx idle inicial0004" x="1814" y="10" width="892" height="960" frameX="0" frameY="-9" frameWidth="892" frameHeight="1022"/>
+	<SubTexture name="creatoryx idle inicial0005" x="1814" y="10" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="1022"/>
+	<SubTexture name="creatoryx idle inicial0006" x="1814" y="10" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="1022"/>
+	<SubTexture name="creatoryx idle inicial0007" x="1814" y="10" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="1022"/>
+	<SubTexture name="creatoryx idle inicial0008" x="1814" y="10" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="1022"/>
+	<SubTexture name="creatoryx idle inicial0009" x="1814" y="10" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="1022"/>
+	<SubTexture name="creatoryx idle inicial0010" x="1814" y="10" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="1022"/>
+	<SubTexture name="creatoryx idle inicial0011" x="1814" y="10" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="1022"/>
+	<SubTexture name="creatoryx idle inicial0012" x="1814" y="10" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="1022"/>
+	<SubTexture name="creatoryx idle inicial0013" x="1814" y="10" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="1022"/>
+	<SubTexture name="creatoryx idle inicial0014" x="1814" y="10" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="1022"/>
+	<SubTexture name="creatoryx idle later0000" x="2716" y="10" width="892" height="960" frameX="0" frameY="-41" frameWidth="892" frameHeight="1001"/>
+	<SubTexture name="creatoryx idle later0001" x="2716" y="10" width="892" height="960" frameX="0" frameY="-41" frameWidth="892" frameHeight="1001"/>
+	<SubTexture name="creatoryx idle later0002" x="2716" y="10" width="892" height="960" frameX="0" frameY="-20" frameWidth="892" frameHeight="1001"/>
+	<SubTexture name="creatoryx idle later0003" x="2716" y="10" width="892" height="960" frameX="0" frameY="-20" frameWidth="892" frameHeight="1001"/>
+	<SubTexture name="creatoryx idle later0004" x="2716" y="10" width="892" height="960" frameX="0" frameY="-4" frameWidth="892" frameHeight="1001"/>
+	<SubTexture name="creatoryx idle later0005" x="2716" y="10" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="1001"/>
+	<SubTexture name="creatoryx idle later0006" x="2716" y="10" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="1001"/>
+	<SubTexture name="creatoryx idle later0007" x="2716" y="10" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="1001"/>
+	<SubTexture name="creatoryx idle later0008" x="2716" y="10" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="1001"/>
+	<SubTexture name="creatoryx idle later0009" x="2716" y="10" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="1001"/>
+	<SubTexture name="creatoryx idle later0010" x="2716" y="10" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="1001"/>
+	<SubTexture name="creatoryx idle later0011" x="2716" y="10" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="1001"/>
+	<SubTexture name="creatoryx idle later0012" x="2716" y="10" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="1001"/>
+	<SubTexture name="creatoryx idle later0013" x="2716" y="10" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="1001"/>
+	<SubTexture name="creatoryx idle later0014" x="2716" y="10" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="1001"/>
+	<SubTexture name="creatoryx suprised0000" x="10" y="980" width="892" height="960"/>
+</TextureAtlas>

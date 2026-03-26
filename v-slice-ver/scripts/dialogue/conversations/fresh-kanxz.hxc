@@ -1,0 +1,81 @@
+import funkin.play.cutscene.dialogue.Conversation;
+import funkin.audio.FunkinSound;
+import funkin.Paths;
+
+class FreshKanxzConversation extends Conversation {
+
+  var vozGF:FunkinSound;
+  var vozKanxz:FunkinSound;
+  var vozDad:FunkinSound;
+
+  function new() {
+    super('fresh-kanxz');
+  }
+
+  override function onCreate(event) {
+    super.onCreate(event);
+    
+    // Cargar sonidos
+    vozGF = FunkinSound.load(Paths.sound('dialogue/gf_voice'), 0.6);
+    vozKanxz = FunkinSound.load(Paths.sound('dialogue/kanxz_voice'), 0.6);
+    vozDad = FunkinSound.load(Paths.sound('dialogue/dad_voice'), 0.6);
+  }
+
+  override function onDialogueLine(event) {
+    super.onDialogueLine(event);
+    // Sonido genérico de avance de texto
+    FunkinSound.playOnce(Paths.sound("clickText"), 0.6);
+  }
+
+  override function onUpdate(event) {
+    super.onUpdate(event);
+    
+    // Verificaciones de seguridad para evitar crashes si no hay caja de texto
+    if (currentDialogueBox == null || currentDialogueBox.textDisplay == null) return;
+    if (currentSpeaker == null) return;
+
+    var nombreAnimacion:String = "";
+    if (currentSpeaker.animation.curAnim != null) {
+        nombreAnimacion = currentSpeaker.animation.curAnim.name;
+    }
+    var speakerId:String = currentSpeaker.id;
+
+    // --- LÓGICA DE DETECCIÓN POR SUFIJOS ---
+    
+    // 1. DAD (Busca "-dad" en animación o "dad" en ID)
+    if (speakerId.indexOf("dad") != -1 || nombreAnimacion.indexOf("-dad") != -1) {
+         if (!currentDialogueBox.textDisplay.sounds.contains(vozDad)) {
+             currentDialogueBox.textDisplay.sounds = [vozDad];
+         }
+    }
+    // 2. KANXZ (Busca "-kanxz" en animación o "kanxz" en ID)
+    else if (speakerId.indexOf("kanxz") != -1 || nombreAnimacion.indexOf("-kanxz") != -1) {
+         if (!currentDialogueBox.textDisplay.sounds.contains(vozKanxz)) {
+             currentDialogueBox.textDisplay.sounds = [vozKanxz];
+         }
+    }
+    // 3. GF (Busca "-GF" en animación o "gf" en ID)
+    else if (speakerId.indexOf("gf") != -1 || nombreAnimacion.indexOf("-GF") != -1) {
+         if (!currentDialogueBox.textDisplay.sounds.contains(vozGF)) {
+             currentDialogueBox.textDisplay.sounds = [vozGF];
+         }
+    }
+
+    // --- LÓGICA DE ANIMACIÓN AL HABLAR ---
+    // Pausamos la animación de hablar si el texto ya terminó de aparecer
+    var isTyping:Bool = true;
+    try {
+        if (Reflect.getProperty(currentDialogueBox, "isTyping") != null) {
+            isTyping = Reflect.getProperty(currentDialogueBox, "isTyping");
+        } else if (Reflect.getProperty(currentDialogueBox.textDisplay, "typing") != null) {
+            isTyping = Reflect.getProperty(currentDialogueBox.textDisplay, "typing");
+        }
+    } catch(e:Dynamic) {}
+
+    if (!isTyping) {
+        currentSpeaker.animation.pause();
+    } else {
+        currentSpeaker.animation.resume();
+    }
+  }
+}

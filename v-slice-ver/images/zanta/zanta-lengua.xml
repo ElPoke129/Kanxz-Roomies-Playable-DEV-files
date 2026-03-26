@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="zanta-lengua.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lengua anim 10000" x="10" y="119" width="1407" height="94" frameX="0" frameY="-38" frameWidth="2390" frameHeight="132"/>
+	<SubTexture name="lengua anim 10001" x="10" y="119" width="1407" height="94" frameX="0" frameY="-38" frameWidth="2390" frameHeight="132"/>
+	<SubTexture name="lengua anim 10002" x="10" y="10" width="1649" height="99" frameX="-74" frameY="-22" frameWidth="2390" frameHeight="132"/>
+	<SubTexture name="lengua anim 10003" x="10" y="10" width="1649" height="99" frameX="-741" frameY="0" frameWidth="2390" frameHeight="132"/>
+	<SubTexture name="lengua anim 10004" x="1669" y="10" width="323" height="99" frameX="-1924" frameY="0" frameWidth="2390" frameHeight="132"/>
+</TextureAtlas>

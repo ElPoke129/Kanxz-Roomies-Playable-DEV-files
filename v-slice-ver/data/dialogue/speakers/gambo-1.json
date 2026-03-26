@@ -1,0 +1,67 @@
+{
+  "version": "1.0.0",
+  "name": "Gambo",
+  "assetPath": "dialogue/gambo diaogues assets",
+  "flipX": false,
+  "isPixel": false,
+  "scale": 1,
+  "offsets": [-20, -10],
+  "animations": [
+    {
+      "name": "talk-gambo",
+      "prefix": "gambo dialogue normal0",
+      "offsets": [0, 0],
+      "frameRate": 24,
+      "looped": true
+    },
+    {
+      "name": "look-left-gambo",
+      "prefix": "gambo dialogue looking0",
+      "offsets": [0, 0],
+      "frameRate": 24,
+      "looped": true
+    },
+    {
+      "name": "lol-gambo",
+      "prefix": "gambo dialogue lol0",
+      "offsets": [0, 0],
+      "frameRate": 24,
+      "looped": true
+    },
+    {
+      "name": "realizing-gambo",
+      "prefix": "gambo dialogue realizing0",
+      "offsets": [0, -2],
+      "frameRate": 24,
+      "looped": true
+    },
+    {
+      "name": "explaining-gambo",
+      "prefix": "gambo dialogue explaining0",
+      "offsets": [0, 3],
+      "frameRate": 24,
+      "looped": true
+    },
+    {
+      "name": "screaming-right-gambo",
+      "prefix": "gambo dialogue screaming to kanxz0",
+      "offsets": [2, 11],
+      "frameRate": 24,
+      "looped": true
+    },
+    {
+      "name": "sad-right-gambo",
+      "prefix": "gambo dialogue sad to kanxz0",
+      "offsets": [0, 0],
+      "frameRate": 24,
+      "looped": true
+    },
+    {
+      "name": "pissed-left-gambo",
+      "prefix": "gambo dialogue pissed left0",
+      "offsets": [0, 0],
+      "frameRate": 24,
+      "looped": true
+    }
+  ]
+}

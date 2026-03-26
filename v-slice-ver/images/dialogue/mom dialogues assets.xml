@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mom dialogues assets.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="mom dialogues normal0000" x="10" y="857" width="385" height="826" frameX="0" frameY="-11" frameWidth="392" frameHeight="837"/>
+	<SubTexture name="mom dialogues normal0001" x="10" y="857" width="385" height="826" frameX="0" frameY="-11" frameWidth="392" frameHeight="837"/>
+	<SubTexture name="mom dialogues normal0002" x="808" y="10" width="386" height="834" frameX="-4" frameY="-3" frameWidth="392" frameHeight="837"/>
+	<SubTexture name="mom dialogues normal0003" x="808" y="10" width="386" height="834" frameX="-4" frameY="-3" frameWidth="392" frameHeight="837"/>
+	<SubTexture name="mom dialogues normal0004" x="10" y="10" width="389" height="837" frameX="-3" frameY="0" frameWidth="392" frameHeight="837"/>
+	<SubTexture name="mom dialogues normal0005" x="10" y="10" width="389" height="837" frameX="-3" frameY="0" frameWidth="392" frameHeight="837"/>
+	<SubTexture name="mom dialogues normal end0000" x="1600" y="10" width="386" height="829"/>
+	<SubTexture name="mom dialogues normal end0001" x="1600" y="10" width="386" height="829"/>
+	<SubTexture name="mom dialogues normal end0002" x="1600" y="849" width="386" height="829"/>
+	<SubTexture name="mom dialogues normal end0003" x="1600" y="849" width="386" height="829"/>
+	<SubTexture name="mom dialogues surprised0000" x="405" y="857" width="385" height="826" frameX="0" frameY="-11" frameWidth="392" frameHeight="837"/>
+	<SubTexture name="mom dialogues surprised0001" x="405" y="857" width="385" height="826" frameX="0" frameY="-11" frameWidth="392" frameHeight="837"/>
+	<SubTexture name="mom dialogues surprised0002" x="1204" y="10" width="386" height="834" frameX="-4" frameY="-3" frameWidth="392" frameHeight="837"/>
+	<SubTexture name="mom dialogues surprised0003" x="1204" y="10" width="386" height="834" frameX="-4" frameY="-3" frameWidth="392" frameHeight="837"/>
+	<SubTexture name="mom dialogues surprised0004" x="409" y="10" width="389" height="837" frameX="-3" frameY="0" frameWidth="392" frameHeight="837"/>
+	<SubTexture name="mom dialogues surprised0005" x="409" y="10" width="389" height="837" frameX="-3" frameY="0" frameWidth="392" frameHeight="837"/>
+	<SubTexture name="mom dialogues surprised end0000" x="808" y="854" width="386" height="829"/>
+	<SubTexture name="mom dialogues surprised end0001" x="808" y="854" width="386" height="829"/>
+	<SubTexture name="mom dialogues surprised end0002" x="1204" y="854" width="386" height="829"/>
+	<SubTexture name="mom dialogues surprised end0003" x="1204" y="854" width="386" height="829"/>
+</TextureAtlas>

@@ -1,0 +1,103 @@
+import funkin.modding.module.Module;
+import funkin.play.PlayState;
+import funkin.save.Save;
+import funkin.play.character.CharacterDataParser;
+import funkin.play.character.CharacterType;
+import Std;
+import flixel.FlxG;
+import openfl.system.System;
+
+// EN: This script only works with the sprite, you are free to copy it and use it in your own mod, in this case this script needs "GfoldSwitcher.hxc" to work
+// ES: Este script solo trabaja con el sprite, eres libre de copiarlo y usarlo en tu propio mod, en este caso este script necesita de "GfoldSwitcher.hxc" para funcionar
+
+class SwitchGfHandler extends Module
+{
+    public function new()
+    {
+        super("SwitchGfHandler", 100);
+    }
+
+    override function onCountdownStart(event)
+    {
+        super.onCountdownStart(event);
+
+        if (PlayState.instance == null || PlayState.instance.currentSong == null) return;
+        
+        if (PlayState.instance.currentSong.id != "girlfriends-song-kanxz-mix") return;
+
+        var useLegacy = Save.instance.modOptions["switchGfSong"] ?? false;
+        
+        if (useLegacy)
+        {
+            trace("[SwitchGF] Applying legacy assets (Sprite Only)... // Aplicando assets legacy (Solo Sprite)...");
+            applyLegacyAssets();
+        }
+    }
+
+    function applyLegacyAssets()
+    {
+        var stage = PlayState.instance.currentStage;
+
+        // EN: CHARACTER REPLACEMENT LOGIC
+        // ES: LÓGICA DE REEMPLAZO DE PERSONAJE
+        var currentDad = stage.getDad();
+        
+        if (currentDad != null && currentDad.characterId == "gf-enemy")
+        {
+             var savedX = currentDad.x;
+             var savedY = currentDad.y;
+             var savedZ = currentDad.zIndex;
+
+             // EN: Capture the old texture key to manually clear it from VRAM
+             // ES: Capturamos la clave de la textura vieja para limpiarla manualmente de la VRAM
+             var oldGraphicKey:String = null;
+             if (currentDad.graphic != null) {
+                 oldGraphicKey = currentDad.graphic.key;
+             }
+
+             var newChar = CharacterDataParser.fetchCharacter("gf-enemy-old");
+
+             if (newChar != null) {
+                 // EN: 1. Remove from stage
+                 // ES: 1. Remover del escenario
+                 stage.remove(currentDad);
+                 
+                 // EN: 2. Destroy logic and release references
+                 // ES: 2. Destruir lógica y liberar referencias
+                 currentDad.kill();
+                 currentDad.destroy();
+                 currentDad = null;
+
+                 // EN: 3. Deep VRAM cleanup (Textures)
+                 // ES: 3. Limpieza profunda de VRAM (Texturas)
+                 if (oldGraphicKey != null) {
+                     var newKey = (newChar.graphic != null) ? newChar.graphic.key : "";
+                     // EN: Only delete if the texture is different, to avoid accidentally deleting the new character's texture
+                     // ES: Solo borramos si la textura es diferente, para no borrar la del nuevo personaje por error
+                     if (oldGraphicKey != newKey) {
+                         FlxG.bitmap.remove(oldGraphicKey);
+                     }
+                 }
+
+                 // EN: 4. Configure new character
+                 // ES: 4. Configurar nuevo personaje
+                 newChar.set_characterType(CharacterType.DAD);
+                 newChar.initHealthIcon(true);
+                 newChar.x = savedX;
+                 newChar.y = savedY;
+                 newChar.zIndex = savedZ;
+
+                 // EN: 5. Add to stage
+                 // ES: 5. Añadir al escenario
+                 stage.addCharacter(newChar, CharacterType.DAD);
+                 stage.refresh();
+                 
+                 // EN: 6. System garbage collection
+                 // ES: 6. Recolección de basura del sistema
+                 System.gc();
+                 
+                 trace("[SwitchGF] Character changed and graphic memory freed. // Personaje cambiado y memoria gráfica liberada.");
+             }
+        }
+    }
+}

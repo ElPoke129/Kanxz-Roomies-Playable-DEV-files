@@ -1,0 +1,141 @@
+import funkin.play.PlayState;
+import funkin.play.stage.Stage;
+import funkin.play.character.CharacterType;
+import funkin.graphics.shaders.DropShadowShader;
+import PixelShadowShader;
+
+class SchoolVibinStage extends Stage
+{
+  function new()
+  {
+    super('schoolVibin');
+  }
+
+  function buildStage()
+  {
+    super.buildStage();
+
+    if (PlayState.instance.currentSong.id.toLowerCase() == "roses-kanxz")
+    {
+      getNamedProp('freaks').idleSuffix = '-scared';
+    }
+    else
+    {
+      getNamedProp('freaks').idleSuffix = '';
+    }
+  }
+
+  override function addCharacter(character:BaseCharacter, charType:CharacterType):Void
+  {
+    super.addCharacter(character, charType);
+    trace('Configuring shader for: ' + character.characterName);
+
+    // Este mapa fue modificado para Kanxz, asi que si lo quieres reutlizar recuerda eliminar el shader
+    // personalizado
+    
+    // SENPAI LIGHTNING 
+    if (charType == CharacterType.DAD)
+    {
+        var rim = new DropShadowShader();
+        
+        rim.setAdjustColor(-30, -20, -30, -30); 
+        rim.color = 0x633e7e; 
+        rim.antialiasAmt = 0;
+        rim.attachedSprite = character;
+        rim.distance = 3;
+        rim.angle = 45;
+
+        rim.loadAltMask(Paths.image('weeb/erect/masks/senpai_mask'));
+        rim.maskThreshold = 1;
+        rim.useAltMask = true;
+
+        character.shader = rim;
+
+        character.animation.onFrameChange.add(function() {
+          if (getDad() != null)
+          {
+            rim.updateFrameInfo(getDad().frame);
+          }
+        });
+    }
+    // BF y GF
+    // Usan el PixelShadowShader
+    else 
+    {
+
+        var pixelRim = new PixelShadowShader();
+
+        pixelRim.setFloat('pixelSize', 6.0); 
+
+        //RGB 
+        pixelRim.setFloatArray('dropColor', [0.6784313725490196, 0.3058823529411765, 0.6470588235294118]);
+
+        pixelRim.setFloat('hue', -30.0);
+        pixelRim.setFloat('saturation', -20.0);
+        pixelRim.setFloat('brightness', -30.0);
+        pixelRim.setFloat('contrast', -30.0);
+
+        pixelRim.setFloat('ang', 45 * (Math.PI / 180));
+        
+        if (charType == CharacterType.GF) {
+             pixelRim.setFloat('dist', 10.0);
+        } else {
+             pixelRim.setFloat('dist', 20.0);
+        }
+
+        pixelRim.setFloat('str', 1.0);
+        pixelRim.setFloat('thr', 0.1);
+        pixelRim.setFloat('uOpacity', 0.9);
+        pixelRim.setFloat('AA_STAGES', 0.0);
+
+        // 3. MÁSCARAS
+        var maskPath = '';
+        if (charType == CharacterType.BF) {
+            maskPath = (character.characterId == 'pico-pixel') ? 'weeb/erect/masks/picoPixel_mask' : 'weeb/erect/masks/bfPixel_mask';
+        } else if (charType == CharacterType.GF) {
+            maskPath = (character.characterId == 'nene-pixel') ? 'weeb/erect/masks/nenePixel_mask' : 'weeb/erect/masks/gfPixel_mask';
+        }
+
+        if (maskPath != '') {
+            pixelRim.setBitmapData('altMask', Paths.image(maskPath).bitmap);
+            
+            pixelRim.setBool('useMask', true);
+            pixelRim.setFloat('thr2', 1.0);
+        } else {
+            pixelRim.setBool('useMask', false);
+        }
+
+
+        character.shader = pixelRim;
+
+
+        if (charType == CharacterType.BF) 
+        {
+            character.animation.onFrameChange.add(function() {
+                var charObj = getBoyfriend();
+                if (charObj != null) {
+                    var frame = charObj.frame;
+                    pixelRim.setFloatArray('uFrameBounds', [frame.uv.x, frame.uv.y, frame.uv.width, frame.uv.height]);
+                    pixelRim.setFloat('angOffset', frame.angle * (Math.PI / 180));
+                }
+            });
+        } 
+        else 
+        {
+             character.animation.onFrameChange.add(function() {
+                var charObj = getGirlfriend();
+                if (charObj != null) {
+                    var frame = charObj.frame;
+                    pixelRim.setFloatArray('uFrameBounds', [frame.uv.x, frame.uv.y, frame.uv.width, frame.uv.height]);
+                    pixelRim.setFloat('angOffset', frame.angle * (Math.PI / 180));
+                }
+            });
+        }
+
+
+        if (charType == CharacterType.GF && character.characterId == 'nene-pixel') {
+             character.addSunsetShaders();
+        }
+    }
+  }
+}

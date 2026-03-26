@@ -1,0 +1,81 @@
+{
+  "version": "1.0.0",
+  "renderType": "sparrow",
+  "name": "GF Gambo Car",
+  "assetPath": "characters/gambo Speakers HAIR BLOWING WEEK 4",
+  "scale": 1,
+  "singTime": 4.0,
+  "flipX": false,
+  "offsets": [0, 0],
+  "cameraOffsets": [0, 0],
+  "healthIcon": {
+    "id": "gf",
+    "scale": 1,
+    "flipX": false,
+    "offsets": [0, 0]
+  },
+  "animations": [
+    {
+      "name": "danceLeft",
+      "prefix": "Gambo Dancing0",
+      "offsets": [0, -9],
+      "frameIndices": [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 11, 12, 13, 14]
+    },
+    {
+      "name": "danceLeft-loop",
+      "prefix": "Gambo Dancing0",
+      "looped": true,
+      "offsets": [0, -9],
+      "frameIndices": [11, 12, 13, 14]
+    },
+    {
+      "name": "danceRight",
+      "prefix": "Gambo Dancing0",
+      "offsets": [0, -9],
+      "frameIndices": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+    },
+    {
+      "name": "danceRight-loop",
+      "prefix": "Gambo Dancing0",
+      "looped": true,
+      "offsets": [0, -9],
+      "frameIndices": [26, 27, 28, 29]
+    },
+    {
+      "name": "cheer",
+      "prefix": "Gambo Hey0",
+      "offsets": [0, 10]
+    },
+    {
+      "name": "cheer-loop",
+      "prefix": "Gambo Hey0",
+      "looped": true,
+      "offsets": [0, 10],
+      "frameIndices": [26, 27, 28, 29]
+    },
+    {
+      "name": "sad",
+      "prefix": "Gambo Sad0",
+      "offsets": [0, -25]
+    },
+    {
+      "name": "sad-loop",
+      "prefix": "Gambo Sad0",
+      "looped": true,
+      "offsets": [0, -25],
+      "frameIndices": [26, 27, 28, 29]
+    },
+    {
+      "name": "horny",
+      "prefix": "Gambo Horny0",
+      "offsets": [0, 44]
+    },
+    {
+      "name": "horny-loop",
+      "prefix": "Gambo Horny0",
+      "looped": true,
+      "offsets": [0, 44],
+      "frameIndices": [26, 27, 28, 29]
+    }
+  ]
+}

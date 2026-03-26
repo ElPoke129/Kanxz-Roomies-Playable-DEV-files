@@ -1,0 +1,50 @@
+import funkin.play.song.Song;
+import funkin.play.PlayState;
+import funkin.modding.events.CountdownScriptEvent;
+import funkin.modding.events.ScriptEvent;
+import flixel.FlxG;
+
+class FreshKanxzSong extends Song {
+  var hasPlayedCutscene:Bool = false;
+
+  public function new() {
+    super('fresh-kanxz');
+  }
+
+  public override function onCountdownStart(event:CountdownScriptEvent):Void {
+    super.onCountdownStart(event);
+
+    // Si estamos en modo charting, marcamos la cutscene como vista y salimos.
+    if (PlayState.instance.isChartingMode) {
+        hasPlayedCutscene = true;
+        return;
+    }
+
+    // Lógica portada del Lua: Posicionar cámara en 600, 400
+    if (!hasPlayedCutscene) {
+       PlayState.instance.cameraFollowPoint.setPosition(600, 400);
+       PlayState.instance.camGame.focusOn(PlayState.instance.cameraFollowPoint.getPosition());
+       
+       // Opcional: Si quieres forzar el zoom a 1.0 como en el Lua ('Zoom Camera', '1...')
+       // PlayState.instance.camGame.zoom = 1.0;
+    }
+
+    if (!hasPlayedCutscene) {
+      hasPlayedCutscene = true;
+      event.cancel(); 
+
+      // Iniciar la conversación
+      PlayState.instance.startConversation('fresh-kanxz');
+    }
+  }
+  
+  public override function onSongStart(event:ScriptEvent):Void {
+      super.onSongStart(event);
+      // Al empezar la canción, la cámara se libera automáticamente para seguir a los personajes.
+  }
+
+  public override function onSongRetry(event:ScriptEvent):Void {
+      super.onSongRetry(event);
+      hasPlayedCutscene = true;
+  }
+}

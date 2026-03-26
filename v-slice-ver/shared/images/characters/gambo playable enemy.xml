@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gambo playable enemy.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Gambo Playable down0000" x="2256" y="2417" width="303" height="447" frameX="-6" frameY="-15" frameWidth="309" frameHeight="463"/>
+	<SubTexture name="Gambo Playable down0001" x="2256" y="2417" width="303" height="447" frameX="-6" frameY="-15" frameWidth="309" frameHeight="463"/>
+	<SubTexture name="Gambo Playable down0002" x="568" y="2423" width="295" height="458" frameX="-4" frameY="-4" frameWidth="309" frameHeight="463"/>
+	<SubTexture name="Gambo Playable down0003" x="1949" y="2417" width="297" height="463" frameX="-2" frameY="0" frameWidth="309" frameHeight="463"/>
+	<SubTexture name="Gambo Playable down0004" x="1331" y="2328" width="299" height="463" frameX="0" frameY="0" frameWidth="309" frameHeight="463"/>
+	<SubTexture name="Gambo Playable down0005" x="1331" y="2328" width="299" height="463" frameX="0" frameY="0" frameWidth="309" frameHeight="463"/>
+	<SubTexture name="Gambo Playable down0006" x="1640" y="2409" width="299" height="463" frameX="0" frameY="0" frameWidth="309" frameHeight="463"/>
+	<SubTexture name="Gambo Playable down0007" x="1640" y="2409" width="299" height="463" frameX="0" frameY="0" frameWidth="309" frameHeight="463"/>
+	<SubTexture name="Gambo Playable down0008" x="1640" y="2409" width="299" height="463" frameX="0" frameY="0" frameWidth="309" frameHeight="463"/>
+	<SubTexture name="Gambo Playable down0009" x="1640" y="2409" width="299" height="463" frameX="0" frameY="0" frameWidth="309" frameHeight="463"/>
+	<SubTexture name="Gambo Playable down0010" x="1640" y="2409" width="299" height="463" frameX="0" frameY="0" frameWidth="309" frameHeight="463"/>
+	<SubTexture name="Gambo Playable down0011" x="1640" y="2409" width="299" height="463" frameX="0" frameY="0" frameWidth="309" frameHeight="463"/>
+	<SubTexture name="Gambo Playable down0012" x="1640" y="2409" width="299" height="463" frameX="0" frameY="0" frameWidth="309" frameHeight="463"/>
+	<SubTexture name="Gambo Playable down0013" x="1640" y="2409" width="299" height="463" frameX="0" frameY="0" frameWidth="309" frameHeight="463"/>
+	<SubTexture name="Gambo Playable down0014" x="1640" y="2409" width="299" height="463" frameX="0" frameY="0" frameWidth="309" frameHeight="463"/>
+	<SubTexture name="Gambo Playable down miss0000" x="2256" y="2417" width="303" height="447" frameX="-1" frameY="-73" frameWidth="309" frameHeight="463"/>
+	<SubTexture name="Gambo Playable down miss0001" x="1385" y="1797" width="292" height="521" frameX="-4" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0002" x="1385" y="1797" width="292" height="521" frameX="-4" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0003" x="3119" y="1252" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0004" x="3119" y="1252" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0005" x="3119" y="1783" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0006" x="3119" y="1783" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0007" x="3119" y="1252" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0008" x="3119" y="1252" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0009" x="3119" y="1783" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0010" x="3119" y="1783" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0011" x="3119" y="1252" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0012" x="3119" y="1252" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0013" x="3119" y="1783" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0014" x="3119" y="1783" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0015" x="3119" y="1252" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0016" x="3119" y="1252" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0017" x="3119" y="1783" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0018" x="3119" y="1783" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0019" x="3119" y="1252" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0020" x="3119" y="1252" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0021" x="3119" y="1783" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0022" x="3119" y="1783" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0023" x="3119" y="1252" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0024" x="3119" y="1252" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0025" x="3119" y="1783" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0026" x="3119" y="1783" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0027" x="3119" y="1252" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0028" x="3119" y="1252" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0029" x="3119" y="1783" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0030" x="3119" y="1783" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0031" x="3119" y="1252" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0032" x="3119" y="1252" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0033" x="3119" y="1783" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0034" x="3119" y="1783" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0035" x="3119" y="1252" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0036" x="3119" y="1252" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0037" x="3119" y="1783" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0038" x="3119" y="1783" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable down miss0039" x="3119" y="1252" width="299" height="521" frameX="0" frameY="0" frameWidth="304" frameHeight="521"/>
+	<SubTexture name="Gambo Playable hey0000" x="2292" y="10" width="411" height="562" frameX="0" frameY="-23" frameWidth="468" frameHeight="586"/>
+	<SubTexture name="Gambo Playable hey0001" x="2292" y="10" width="411" height="562" frameX="0" frameY="-23" frameWidth="468" frameHeight="586"/>
+	<SubTexture name="Gambo Playable hey0002" x="1862" y="10" width="420" height="586" frameX="-7" frameY="0" frameWidth="468" frameHeight="586"/>
+	<SubTexture name="Gambo Playable hey0003" x="1862" y="10" width="420" height="586" frameX="-7" frameY="0" frameWidth="468" frameHeight="586"/>
+	<SubTexture name="Gambo Playable hey0004" x="1412" y="10" width="440" height="581" frameX="-5" frameY="-5" frameWidth="468" frameHeight="586"/>
+	<SubTexture name="Gambo Playable hey0005" x="1412" y="10" width="440" height="581" frameX="-5" frameY="-5" frameWidth="468" frameHeight="586"/>
+	<SubTexture name="Gambo Playable hey0006" x="948" y="10" width="454" height="581" frameX="-5" frameY="-5" frameWidth="468" frameHeight="586"/>
+	<SubTexture name="Gambo Playable hey0007" x="948" y="10" width="454" height="581" frameX="-5" frameY="-5" frameWidth="468" frameHeight="586"/>
+	<SubTexture name="Gambo Playable hey0008" x="483" y="10" width="455" height="581" frameX="-5" frameY="-5" frameWidth="468" frameHeight="586"/>
+	<SubTexture name="Gambo Playable hey0009" x="10" y="10" width="463" height="581" frameX="-5" frameY="-5" frameWidth="468" frameHeight="586"/>
+	<SubTexture name="Gambo Playable hey0010" x="1913" y="606" width="340" height="581" frameX="-5" frameY="-5" frameWidth="468" frameHeight="586"/>
+	<SubTexture name="Gambo Playable hey0011" x="1913" y="606" width="340" height="581" frameX="-5" frameY="-5" frameWidth="468" frameHeight="586"/>
+	<SubTexture name="Gambo Playable hey0012" x="1913" y="606" width="340" height="581" frameX="-5" frameY="-5" frameWidth="468" frameHeight="586"/>
+	<SubTexture name="Gambo Playable hey0013" x="1913" y="606" width="340" height="581" frameX="-5" frameY="-5" frameWidth="468" frameHeight="586"/>
+	<SubTexture name="Gambo Playable hey0014" x="1913" y="606" width="340" height="581" frameX="-5" frameY="-5" frameWidth="468" frameHeight="586"/>
+	<SubTexture name="Gambo Playable idle0000" x="770" y="1202" width="297" height="589" frameX="0" frameY="-22" frameWidth="297" frameHeight="612"/>
+	<SubTexture name="Gambo Playable idle0001" x="770" y="1202" width="297" height="589" frameX="0" frameY="-22" frameWidth="297" frameHeight="612"/>
+	<SubTexture name="Gambo Playable idle0002" x="2838" y="1245" width="271" height="595" frameX="-9" frameY="-16" frameWidth="297" frameHeight="612"/>
+	<SubTexture name="Gambo Playable idle0003" x="2838" y="1245" width="271" height="595" frameX="-9" frameY="-16" frameWidth="297" frameHeight="612"/>
+	<SubTexture name="Gambo Playable idle0004" x="2475" y="1797" width="249" height="607" frameX="-21" frameY="-5" frameWidth="297" frameHeight="612"/>
+	<SubTexture name="Gambo Playable idle0005" x="3674" y="1872" width="236" height="611" frameX="-28" frameY="-1" frameWidth="297" frameHeight="612"/>
+	<SubTexture name="Gambo Playable idle0006" x="2980" y="2314" width="236" height="611" frameX="-28" frameY="-1" frameWidth="297" frameHeight="612"/>
+	<SubTexture name="Gambo Playable idle0007" x="568" y="1801" width="236" height="612" frameX="-28" frameY="0" frameWidth="297" frameHeight="612"/>
+	<SubTexture name="Gambo Playable idle0008" x="568" y="1801" width="236" height="612" frameX="-28" frameY="0" frameWidth="297" frameHeight="612"/>
+	<SubTexture name="Gambo Playable idle0009" x="814" y="1801" width="236" height="612" frameX="-28" frameY="0" frameWidth="297" frameHeight="612"/>
+	<SubTexture name="Gambo Playable idle0010" x="10" y="1804" width="236" height="612" frameX="-28" frameY="0" frameWidth="297" frameHeight="612"/>
+	<SubTexture name="Gambo Playable idle0011" x="2734" y="1850" width="236" height="612" frameX="-28" frameY="0" frameWidth="297" frameHeight="612"/>
+	<SubTexture name="Gambo Playable idle0012" x="3428" y="1872" width="236" height="612" frameX="-28" frameY="0" frameWidth="297" frameHeight="612"/>
+	<SubTexture name="Gambo Playable idle0013" x="3428" y="1872" width="236" height="612" frameX="-28" frameY="0" frameWidth="297" frameHeight="612"/>
+	<SubTexture name="Gambo Playable idle0014" x="3428" y="1872" width="236" height="612" frameX="-28" frameY="0" frameWidth="297" frameHeight="612"/>
+	<SubTexture name="Gambo Playable left0000" x="2713" y="10" width="382" height="600"/>
+	<SubTexture name="Gambo Playable left0001" x="2713" y="10" width="382" height="600"/>
+	<SubTexture name="Gambo Playable left0002" x="387" y="601" width="373" height="594" frameX="0" frameY="-6" frameWidth="382" frameHeight="600"/>
+	<SubTexture name="Gambo Playable left0003" x="1532" y="606" width="371" height="590" frameX="0" frameY="-10" frameWidth="382" frameHeight="600"/>
+	<SubTexture name="Gambo Playable left0004" x="770" y="601" width="371" height="591" frameX="0" frameY="-9" frameWidth="382" frameHeight="600"/>
+	<SubTexture name="Gambo Playable left0005" x="770" y="601" width="371" height="591" frameX="0" frameY="-9" frameWidth="382" frameHeight="600"/>
+	<SubTexture name="Gambo Playable left0006" x="1151" y="601" width="371" height="591" frameX="0" frameY="-9" frameWidth="382" frameHeight="600"/>
+	<SubTexture name="Gambo Playable left0007" x="1151" y="601" width="371" height="591" frameX="0" frameY="-9" frameWidth="382" frameHeight="600"/>
+	<SubTexture name="Gambo Playable left0008" x="1151" y="601" width="371" height="591" frameX="0" frameY="-9" frameWidth="382" frameHeight="600"/>
+	<SubTexture name="Gambo Playable left0009" x="1151" y="601" width="371" height="591" frameX="0" frameY="-9" frameWidth="382" frameHeight="600"/>
+	<SubTexture name="Gambo Playable left0010" x="1151" y="601" width="371" height="591" frameX="0" frameY="-9" frameWidth="382" frameHeight="600"/>
+	<SubTexture name="Gambo Playable left0011" x="1151" y="601" width="371" height="591" frameX="0" frameY="-9" frameWidth="382" frameHeight="600"/>
+	<SubTexture name="Gambo Playable left0012" x="1151" y="601" width="371" height="591" frameX="0" frameY="-9" frameWidth="382" frameHeight="600"/>
+	<SubTexture name="Gambo Playable left0013" x="1151" y="601" width="371" height="591" frameX="0" frameY="-9" frameWidth="382" frameHeight="600"/>
+	<SubTexture name="Gambo Playable left0014" x="1151" y="601" width="371" height="591" frameX="0" frameY="-9" frameWidth="382" frameHeight="600"/>
+	<SubTexture name="Gambo Playable left miss0000" x="3105" y="10" width="382" height="600" frameX="0" frameY="-7" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0001" x="10" y="601" width="367" height="607" frameX="0" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0002" x="10" y="601" width="367" height="607" frameX="0" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0003" x="3497" y="10" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0004" x="3497" y="10" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0005" x="2292" y="582" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0006" x="2292" y="582" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0007" x="3497" y="10" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0008" x="3497" y="10" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0009" x="2292" y="582" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0010" x="2292" y="582" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0011" x="3497" y="10" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0012" x="3497" y="10" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0013" x="2292" y="582" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0014" x="2292" y="582" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0015" x="3497" y="10" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0016" x="3497" y="10" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0017" x="2292" y="582" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0018" x="2292" y="582" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0019" x="3497" y="10" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0020" x="3497" y="10" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0021" x="2292" y="582" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0022" x="2292" y="582" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0023" x="3497" y="10" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0024" x="3497" y="10" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0025" x="2292" y="582" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0026" x="2292" y="582" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0027" x="3497" y="10" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0028" x="3497" y="10" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0029" x="2292" y="582" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0030" x="2292" y="582" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0031" x="3497" y="10" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0032" x="3497" y="10" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0033" x="2292" y="582" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0034" x="2292" y="582" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0035" x="3497" y="10" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0036" x="3497" y="10" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0037" x="2292" y="582" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0038" x="2292" y="582" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable left miss0039" x="3497" y="10" width="371" height="607" frameX="-1" frameY="0" frameWidth="382" frameHeight="607"/>
+	<SubTexture name="Gambo Playable right0000" x="10" y="1218" width="294" height="576" frameX="-16" frameY="-5" frameWidth="311" frameHeight="581"/>
+	<SubTexture name="Gambo Playable right0001" x="10" y="1218" width="294" height="576" frameX="-16" frameY="-5" frameWidth="311" frameHeight="581"/>
+	<SubTexture name="Gambo Playable right0002" x="2673" y="620" width="311" height="576" frameX="0" frameY="-5" frameWidth="311" frameHeight="581"/>
+	<SubTexture name="Gambo Playable right0003" x="1913" y="1197" width="302" height="581" frameX="-9" frameY="0" frameWidth="311" frameHeight="581"/>
+	<SubTexture name="Gambo Playable right0004" x="2534" y="1206" width="294" height="581" frameX="-17" frameY="0" frameWidth="311" frameHeight="581"/>
+	<SubTexture name="Gambo Playable right0005" x="2534" y="1206" width="294" height="581" frameX="-17" frameY="0" frameWidth="311" frameHeight="581"/>
+	<SubTexture name="Gambo Playable right0006" x="1385" y="1206" width="296" height="581" frameX="-15" frameY="0" frameWidth="311" frameHeight="581"/>
+	<SubTexture name="Gambo Playable right0007" x="1385" y="1206" width="296" height="581" frameX="-15" frameY="0" frameWidth="311" frameHeight="581"/>
+	<SubTexture name="Gambo Playable right0008" x="1385" y="1206" width="296" height="581" frameX="-15" frameY="0" frameWidth="311" frameHeight="581"/>
+	<SubTexture name="Gambo Playable right0009" x="1385" y="1206" width="296" height="581" frameX="-15" frameY="0" frameWidth="311" frameHeight="581"/>
+	<SubTexture name="Gambo Playable right0010" x="1385" y="1206" width="296" height="581" frameX="-15" frameY="0" frameWidth="311" frameHeight="581"/>
+	<SubTexture name="Gambo Playable right0011" x="1385" y="1206" width="296" height="581" frameX="-15" frameY="0" frameWidth="311" frameHeight="581"/>
+	<SubTexture name="Gambo Playable right0012" x="1385" y="1206" width="296" height="581" frameX="-15" frameY="0" frameWidth="311" frameHeight="581"/>
+	<SubTexture name="Gambo Playable right0013" x="1385" y="1206" width="296" height="581" frameX="-15" frameY="0" frameWidth="311" frameHeight="581"/>
+	<SubTexture name="Gambo Playable right0014" x="1385" y="1206" width="296" height="581" frameX="-15" frameY="0" frameWidth="311" frameHeight="581"/>
+	<SubTexture name="Gambo Playable right miss0000" x="10" y="1218" width="294" height="576" frameX="-5" frameY="-10" frameWidth="311" frameHeight="581"/>
+	<SubTexture name="Gambo Playable right miss0001" x="1077" y="1202" width="298" height="586" frameX="0" frameY="0" frameWidth="299" frameHeight="586"/>
+	<SubTexture name="Gambo Playable right miss0002" x="1077" y="1202" width="298" height="586" frameX="0" frameY="0" frameWidth="299" frameHeight="586"/>
+	<SubTexture name="Gambo Playable right miss0003" x="387" y="1205" width="298" height="585" frameX="-1" frameY="-1" frameWidth="299" frameHeight="586"/>
+	<SubTexture name="Gambo Playable right miss0004" x="387" y="1205" width="298" height="585" frameX="-1" frameY="-1" frameWidth="299" frameHeight="586"/>
+	<SubTexture name="Gambo Playable right miss0005" x="2225" y="1199" width="299" height="586"/>
+	<SubTexture name="Gambo Playable right miss0006" x="2225" y="1199" width="299" height="586"/>
+	<SubTexture name="Gambo Playable right miss0007" x="387" y="1205" width="298" height="585" frameX="-1" frameY="-1" frameWidth="299" frameHeight="586"/>
+	<SubTexture name="Gambo Playable right miss0008" x="387" y="1205" width="298" height="585" frameX="-1" frameY="-1" frameWidth="299" frameHeight="586"/>
+	<SubTexture name="Gambo Playable right miss0009" x="2225" y="1199" width="299" height="586"/>
+	<SubTexture name="Gambo Playable right miss0010" x="2225" y="1199" width="299" height="586"/>
+	<SubTexture name="Gambo Playable right miss0011" x="387" y="1205" width="298" height="585" frameX="-1" frameY="-1" frameWidth="299" frameHeight="586"/>
+	<SubTexture name="Gambo Playable right miss0012" x="387" y="1205" width="298" height="585" frameX="-1" frameY="-1" frameWidth="299" frameHeight="586"/>
+	<SubTexture name="Gambo Playable right miss0013" x="2225" y="1199" width="299" height="586"/>
+	<SubTexture name="Gambo Playable right miss0014" x="2225" y="1199" width="299" height="586"/>
+	<SubTexture name="Gambo Playable right miss0015" x="387" y="1205" width="298" height="585" frameX="-1" frameY="-1" frameWidth="299" frameHeight="586"/>
+	<SubTexture name="Gambo Playable right miss0016" x="387" y="1205" width="298" height="585" frameX="-1" frameY="-1" frameWidth="299" frameHeight="586"/>
+	<SubTexture name="Gambo Playable right miss0017" x="2225" y="1199" width="299" height="586"/>
+	<SubTexture name="Gambo Playable right miss0018" x="2225" y="1199" width="299" height="586"/>
+	<SubTexture name="Gambo Playable right miss0019" x="387" y="1205" width="298" height="585" frameX="-1" frameY="-1" frameWidth="299" frameHeight="586"/>
+	<SubTexture name="Gambo Playable right miss0020" x="387" y="1205" width="298" height="585" frameX="-1" frameY="-1" frameWidth="299" frameHeight="586"/>
+	<SubTexture name="Gambo Playable right miss0021" x="2225" y="1199" width="299" height="586"/>
+	<SubTexture name="Gambo Playable right miss0022" x="2225" y="1199" width="299" height="586"/>
+	<SubTexture name="Gambo Playable right miss0023" x="387" y="1205" width="298" height="585" frameX="-1" frameY="-1" frameWidth="299" frameHeight="586"/>
+	<SubTexture name="Gambo Playable right miss0024" x="387" y="1205" width="298" height="585" frameX="-1" frameY="-1" frameWidth="299" frameHeight="586"/>
+	<SubTexture name="Gambo Playable right miss0025" x="2225" y="1199" width="299" height="586"/>
+	<SubTexture name="Gambo Playable right miss0026" x="2225" y="1199" width="299" height="586"/>
+	<SubTexture name="Gambo Playable right miss0027" x="387" y="1205" width="298" height="585" frameX="-1" frameY="-1" frameWidth="299" frameHeight="586"/>
+	<SubTexture name="Gambo Playable right miss0028" x="387" y="1205" width="298" height="585" frameX="-1" frameY="-1" frameWidth="299" frameHeight="586"/>
+	<SubTexture name="Gambo Playable right miss0029" x="2225" y="1199" width="299" height="586"/>
+	<SubTexture name="Gambo Playable right miss0030" x="2225" y="1199" width="299" height="586"/>
+	<SubTexture name="Gambo Playable right miss0031" x="387" y="1205" width="298" height="585" frameX="-1" frameY="-1" frameWidth="299" frameHeight="586"/>
+	<SubTexture name="Gambo Playable right miss0032" x="387" y="1205" width="298" height="585" frameX="-1" frameY="-1" frameWidth="299" frameHeight="586"/>
+	<SubTexture name="Gambo Playable right miss0033" x="2225" y="1199" width="299" height="586"/>
+	<SubTexture name="Gambo Playable right miss0034" x="2225" y="1199" width="299" height="586"/>
+	<SubTexture name="Gambo Playable right miss0035" x="387" y="1205" width="298" height="585" frameX="-1" frameY="-1" frameWidth="299" frameHeight="586"/>
+	<SubTexture name="Gambo Playable right miss0036" x="387" y="1205" width="298" height="585" frameX="-1" frameY="-1" frameWidth="299" frameHeight="586"/>
+	<SubTexture name="Gambo Playable right miss0037" x="2225" y="1199" width="299" height="586"/>
+	<SubTexture name="Gambo Playable right miss0038" x="2225" y="1199" width="299" height="586"/>
+	<SubTexture name="Gambo Playable right miss0039" x="387" y="1205" width="298" height="585" frameX="-1" frameY="-1" frameWidth="299" frameHeight="586"/>
+	<SubTexture name="Gambo Playable up0000" x="1077" y="1798" width="244" height="615" frameX="0" frameY="0" frameWidth="258" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up0001" x="1077" y="1798" width="244" height="615" frameX="0" frameY="0" frameWidth="258" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up0002" x="2215" y="1795" width="250" height="612" frameX="-3" frameY="-2" frameWidth="258" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up0003" x="3593" y="1251" width="256" height="611" frameX="-2" frameY="-3" frameWidth="258" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up0004" x="1954" y="1788" width="251" height="611" frameX="-7" frameY="-3" frameWidth="258" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up0005" x="1954" y="1788" width="251" height="611" frameX="-7" frameY="-3" frameWidth="258" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up0006" x="1691" y="1788" width="253" height="611" frameX="-5" frameY="-3" frameWidth="258" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up0007" x="1691" y="1788" width="253" height="611" frameX="-5" frameY="-3" frameWidth="258" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up0008" x="1691" y="1788" width="253" height="611" frameX="-5" frameY="-3" frameWidth="258" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up0009" x="1691" y="1788" width="253" height="611" frameX="-5" frameY="-3" frameWidth="258" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up0010" x="1691" y="1788" width="253" height="611" frameX="-5" frameY="-3" frameWidth="258" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up0011" x="1691" y="1788" width="253" height="611" frameX="-5" frameY="-3" frameWidth="258" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up0012" x="1691" y="1788" width="253" height="611" frameX="-5" frameY="-3" frameWidth="258" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up0013" x="1691" y="1788" width="253" height="611" frameX="-5" frameY="-3" frameWidth="258" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up0014" x="1691" y="1788" width="253" height="611" frameX="-5" frameY="-3" frameWidth="258" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0000" x="314" y="1800" width="244" height="615" frameX="-31" frameY="0" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0001" x="2994" y="620" width="291" height="615"/>
+	<SubTexture name="Gambo Playable up miss0002" x="2994" y="620" width="291" height="615"/>
+	<SubTexture name="Gambo Playable up miss0003" x="3593" y="627" width="288" height="614" frameX="0" frameY="-1" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0004" x="3593" y="627" width="288" height="614" frameX="0" frameY="-1" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0005" x="3295" y="627" width="288" height="615" frameX="0" frameY="0" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0006" x="3295" y="627" width="288" height="615" frameX="0" frameY="0" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0007" x="3593" y="627" width="288" height="614" frameX="0" frameY="-1" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0008" x="3593" y="627" width="288" height="614" frameX="0" frameY="-1" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0009" x="3295" y="627" width="288" height="615" frameX="0" frameY="0" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0010" x="3295" y="627" width="288" height="615" frameX="0" frameY="0" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0011" x="3593" y="627" width="288" height="614" frameX="0" frameY="-1" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0012" x="3593" y="627" width="288" height="614" frameX="0" frameY="-1" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0013" x="3295" y="627" width="288" height="615" frameX="0" frameY="0" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0014" x="3295" y="627" width="288" height="615" frameX="0" frameY="0" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0015" x="3593" y="627" width="288" height="614" frameX="0" frameY="-1" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0016" x="3593" y="627" width="288" height="614" frameX="0" frameY="-1" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0017" x="3295" y="627" width="288" height="615" frameX="0" frameY="0" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0018" x="3295" y="627" width="288" height="615" frameX="0" frameY="0" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0019" x="3593" y="627" width="288" height="614" frameX="0" frameY="-1" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0020" x="3593" y="627" width="288" height="614" frameX="0" frameY="-1" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0021" x="3295" y="627" width="288" height="615" frameX="0" frameY="0" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0022" x="3295" y="627" width="288" height="615" frameX="0" frameY="0" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0023" x="3593" y="627" width="288" height="614" frameX="0" frameY="-1" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0024" x="3593" y="627" width="288" height="614" frameX="0" frameY="-1" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0025" x="3295" y="627" width="288" height="615" frameX="0" frameY="0" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0026" x="3295" y="627" width="288" height="615" frameX="0" frameY="0" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0027" x="3593" y="627" width="288" height="614" frameX="0" frameY="-1" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0028" x="3593" y="627" width="288" height="614" frameX="0" frameY="-1" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0029" x="3295" y="627" width="288" height="615" frameX="0" frameY="0" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0030" x="3295" y="627" width="288" height="615" frameX="0" frameY="0" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0031" x="3593" y="627" width="288" height="614" frameX="0" frameY="-1" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0032" x="3593" y="627" width="288" height="614" frameX="0" frameY="-1" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0033" x="3295" y="627" width="288" height="615" frameX="0" frameY="0" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0034" x="3295" y="627" width="288" height="615" frameX="0" frameY="0" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0035" x="3593" y="627" width="288" height="614" frameX="0" frameY="-1" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0036" x="3593" y="627" width="288" height="614" frameX="0" frameY="-1" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0037" x="3295" y="627" width="288" height="615" frameX="0" frameY="0" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0038" x="3295" y="627" width="288" height="615" frameX="0" frameY="0" frameWidth="291" frameHeight="615"/>
+	<SubTexture name="Gambo Playable up miss0039" x="3593" y="627" width="288" height="614" frameX="0" frameY="-1" frameWidth="291" frameHeight="615"/>
+</TextureAtlas>

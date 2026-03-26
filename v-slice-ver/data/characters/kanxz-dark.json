@@ -1,0 +1,77 @@
+{
+  "version": "1.0.0",
+  "name": "Kanxz Dark",
+  "assetPath": "shared:characters/kanxz-dark",
+  "renderType": "multianimateatlas",
+  "flipX": true,
+  "offsets": [20, 60],
+  "cameraOffsets": [-18, 100],
+  "singTime": 8.0,
+  "healthIcon": {
+    "id": "kanxz"
+  },
+  "atlasSettings": {
+    "useRenderTexture": true
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "idle"
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "singRIGHT"
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "singDOWN"
+    },
+    {
+      "name": "singUP",
+      "prefix": "singUP"
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "singLEFT"
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "singLEFTmiss"
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "singDOWNmiss"
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "singUPmiss"
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "singRIGHTmiss"
+    },
+    {
+      "name": "hey",
+      "prefix": "silly"
+    },
+    {
+      "assetPath": "shared:characters/kanxz-DEATH",
+      "name": "firstDeath",
+      "prefix": "firstDeath",
+      "offsets": [697, 775]
+    },
+    {
+      "assetPath": "shared:characters/kanxz-DEATH",
+      "name": "deathLoop",
+      "prefix": "deathLoop",
+      "looped": true,
+      "offsets": [697, 775]
+    },
+    {
+      "assetPath": "shared:characters/kanxz-DEATH",
+      "name": "deathConfirm",
+      "prefix": "deathConfirm",
+      "offsets": [697, 775]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+	"version": "1.0.0",
+	"name": "Eryx (Speaker Shooter)",
+	"assetPath": "characters/eryxSpeaker",
+	"startingAnimation": "idle",
+	"singTime": 4.0,
+	"offsets": [
+		110,
+		-235
+	],
+	"animations": [
+		{
+			"name": "idle",
+			"prefix": "Eryx Dual idle0",
+			"offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"name": "shoot1",
+			"prefix": "Eryx Shoot10",
+			"offsets": [
+				0,
+				-21
+			]
+		},
+		{
+			"name": "shoot2",
+			"prefix": "Eryx Shoot40",
+			"offsets": [
+				0,
+				-69
+			]
+		},
+		{
+			"name": "shoot3",
+			"prefix": "Eryx Shoot20",
+			"offsets": [
+				313,
+				-19
+			]
+		},
+		{
+			"name": "shoot4",
+			"prefix": "Eryx Shoot30",
+			"offsets": [
+				560,
+				-68
+			]
+		},
+		{
+			"name": "idle-script",
+			"prefix": "Eryx Dual idle0",
+			"offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"name": "reload",
+			"prefix": "Eryx Reload0",
+			"offsets": [
+				0,
+				-142
+			]
+		}
+	]
+}

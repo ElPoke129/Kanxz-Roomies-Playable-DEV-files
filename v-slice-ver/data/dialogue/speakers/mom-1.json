@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "name": "Mommy Mearest",
+  "assetPath": "dialogue/mom dialogues assets",
+  "flipX": false,
+  "isPixel": false,
+  "scale": 0.9,
+ "offsets": [-440, 130],
+  "animations": [
+    {
+      "name": "talk-mom",
+      "prefix": "mom dialogues normal0",
+      "offsets": [7, 7],
+      "frameRate": 24,
+      "looped": true
+    },
+    {
+      "name": "surprised-mom",
+      "prefix": "mom dialogues surprised0",
+      "offsets": [7, 7],
+      "frameRate": 24,
+      "looped": false
+    }
+  ]
+}

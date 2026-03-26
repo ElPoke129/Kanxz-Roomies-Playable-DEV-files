@@ -1,0 +1,75 @@
+import funkin.play.cutscene.dialogue.Conversation;
+import funkin.audio.FunkinSound;
+import funkin.Paths;
+
+class BopeeboKanxzConversation extends Conversation {
+
+  var vozKanxz:FunkinSound;
+  var vozDad:FunkinSound;
+
+  function new() {
+    super('bopeebo-kanxz');
+  }
+
+  override function onCreate(event) {
+    super.onCreate(event);
+    
+    // Cargar sonidos
+    vozKanxz = FunkinSound.load(Paths.sound('dialogue/kanxz_voice'), 0.6);
+    vozDad = FunkinSound.load(Paths.sound('dialogue/dad_voice'), 0.6);
+  }
+
+  override function onDialogueLine(event) {
+    super.onDialogueLine(event);
+    FunkinSound.playOnce(Paths.sound("clickText"), 0.6);
+  }
+
+  override function onUpdate(event) {
+    super.onUpdate(event);
+    
+    // Verificaciones de seguridad
+    if (currentDialogueBox == null || currentDialogueBox.textDisplay == null) return;
+    if (currentSpeaker == null) return;
+
+    var nombreAnimacion:String = "";
+    if (currentSpeaker.animation.curAnim != null) {
+        nombreAnimacion = currentSpeaker.animation.curAnim.name;
+    }
+    var speakerId:String = currentSpeaker.id;
+
+    // --- LÓGICA DE VOCES ---
+    
+    // 1. DAD
+    if (speakerId.indexOf("dad") != -1 || nombreAnimacion.indexOf("-dad") != -1) {
+         if (!currentDialogueBox.textDisplay.sounds.contains(vozDad)) {
+             currentDialogueBox.textDisplay.sounds = [vozDad];
+         }
+    }
+    // 2. KANXZ
+    else if (speakerId.indexOf("kanxz") != -1 || nombreAnimacion.indexOf("-kanxz") != -1) {
+         if (!currentDialogueBox.textDisplay.sounds.contains(vozKanxz)) {
+             currentDialogueBox.textDisplay.sounds = [vozKanxz];
+         }
+    }
+
+    // --- LÓGICA DE ANIMACIÓN AL HABLAR ---
+    var currentState = "Idle";
+    try {
+        currentState = Std.string(Reflect.getProperty(this, "state"));
+    } catch(e:Dynamic) {}
+
+    if (currentSpeaker.animation.curAnim != null) {
+        if (nombreAnimacion.indexOf("talk") != -1 && nombreAnimacion.indexOf("Enter") == -1) {
+            currentSpeaker.animation.curAnim.looped = true;
+            if (currentState != "Speaking") {
+                currentSpeaker.animation.pause();
+                currentSpeaker.animation.curAnim.curFrame = 0;
+            } else {
+                currentSpeaker.animation.resume();
+            }
+        } else {
+            currentSpeaker.animation.resume();
+        }
+    }
+  }
+}

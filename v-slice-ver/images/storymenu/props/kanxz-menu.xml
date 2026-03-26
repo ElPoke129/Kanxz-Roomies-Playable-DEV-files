@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="kanxz-menu.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="kanxz idle dance0000" x="10" y="10" width="699" height="885"/>
+	<SubTexture name="kanxz idle dance0001" x="10" y="10" width="699" height="885"/>
+	<SubTexture name="kanxz idle dance0002" x="10" y="905" width="699" height="885"/>
+	<SubTexture name="kanxz idle dance0003" x="10" y="905" width="699" height="885"/>
+	<SubTexture name="kanxz idle dance0004" x="10" y="1800" width="699" height="885"/>
+	<SubTexture name="kanxz idle dance0005" x="10" y="1800" width="699" height="885"/>
+	<SubTexture name="kanxz idle dance0006" x="10" y="2695" width="699" height="885"/>
+	<SubTexture name="kanxz idle dance0007" x="10" y="2695" width="699" height="885"/>
+	<SubTexture name="kanxz idle dance0008" x="10" y="2695" width="699" height="885"/>
+	<SubTexture name="kanxz idle dance0009" x="10" y="2695" width="699" height="885"/>
+	<SubTexture name="kanxz idle dance0010" x="10" y="2695" width="699" height="885"/>
+	<SubTexture name="kanxz idle dance0011" x="10" y="2695" width="699" height="885"/>
+	<SubTexture name="kanxz idle dance0012" x="10" y="2695" width="699" height="885"/>
+	<SubTexture name="kanxz idle dance0013" x="10" y="2695" width="699" height="885"/>
+	<SubTexture name="kanxz idle dance0014" x="10" y="2695" width="699" height="885"/>
+	<SubTexture name="kanxz idle dance0015" x="10" y="2695" width="699" height="885"/>
+	<SubTexture name="kanxz silly0000" x="719" y="10" width="699" height="885"/>
+	<SubTexture name="kanxz silly0001" x="719" y="10" width="699" height="885"/>
+	<SubTexture name="kanxz silly0002" x="1428" y="10" width="699" height="885"/>
+	<SubTexture name="kanxz silly0003" x="1428" y="10" width="699" height="885"/>
+	<SubTexture name="kanxz silly0004" x="2137" y="10" width="699" height="885"/>
+	<SubTexture name="kanxz silly0005" x="2846" y="10" width="699" height="885"/>
+	<SubTexture name="kanxz silly0006" x="719" y="905" width="699" height="885"/>
+	<SubTexture name="kanxz silly0007" x="719" y="905" width="699" height="885"/>
+	<SubTexture name="kanxz silly0008" x="719" y="1800" width="699" height="885"/>
+	<SubTexture name="kanxz silly0009" x="719" y="2695" width="699" height="885"/>
+	<SubTexture name="kanxz silly0010" x="1428" y="905" width="699" height="885"/>
+	<SubTexture name="kanxz silly0011" x="2137" y="905" width="699" height="885"/>
+	<SubTexture name="kanxz silly0012" x="2846" y="905" width="699" height="885"/>
+	<SubTexture name="kanxz silly0013" x="2846" y="905" width="699" height="885"/>
+	<SubTexture name="kanxz silly0014" x="1428" y="1800" width="699" height="885"/>
+	<SubTexture name="kanxz silly0015" x="1428" y="2695" width="699" height="885"/>
+	<SubTexture name="kanxz silly0016" x="719" y="2695" width="699" height="885"/>
+	<SubTexture name="kanxz silly0017" x="719" y="2695" width="699" height="885"/>
+	<SubTexture name="kanxz silly0018" x="1428" y="905" width="699" height="885"/>
+	<SubTexture name="kanxz silly0019" x="1428" y="905" width="699" height="885"/>
+	<SubTexture name="kanxz silly0020" x="2137" y="10" width="699" height="885"/>
+	<SubTexture name="kanxz silly0021" x="2137" y="10" width="699" height="885"/>
+	<SubTexture name="kanxz silly0022" x="1428" y="2695" width="699" height="885"/>
+	<SubTexture name="kanxz silly0023" x="1428" y="2695" width="699" height="885"/>
+	<SubTexture name="kanxz silly0024" x="719" y="2695" width="699" height="885"/>
+	<SubTexture name="kanxz silly0025" x="719" y="2695" width="699" height="885"/>
+</TextureAtlas>

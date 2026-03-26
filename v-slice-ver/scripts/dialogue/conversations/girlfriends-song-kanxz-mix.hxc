@@ -1,0 +1,61 @@
+import funkin.play.cutscene.dialogue.Conversation;
+import funkin.audio.FunkinSound;
+import funkin.Paths;
+
+class GirlfriendsConversation extends Conversation {
+
+  var vozGF:FunkinSound;
+  var vozKanxz:FunkinSound;
+
+  function new() {
+    super('girlfriends-song-kanxz-mix');
+  }
+
+  override function onCreate(event) {
+    super.onCreate(event);
+    
+    // Cargar sonidos
+    vozGF = FunkinSound.load(Paths.sound('dialogue/gf_voice'), 0.6);
+    vozKanxz = FunkinSound.load(Paths.sound('dialogue/kanxz_voice'), 0.6);
+  }
+
+  override function onDialogueLine(event) {
+    super.onDialogueLine(event);
+    // Sonido de click genérico al avanzar texto
+    FunkinSound.playOnce(Paths.sound("clickText"), 0.6);
+  }
+
+  override function onUpdate(event) {
+    super.onUpdate(event);
+    
+    // ACCESO DIRECTO (Lógica de dunk.hxc)
+    // Verificamos que existan los objetos antes de usarlos para no crashear
+    if (currentDialogueBox == null || currentDialogueBox.textDisplay == null) return;
+    if (currentSpeaker == null) return;
+
+    // Obtenemos los datos directamente
+    var nombreAnimacion:String = "";
+    if (currentSpeaker.animation.curAnim != null) {
+        nombreAnimacion = currentSpeaker.animation.curAnim.name;
+    }
+    
+    // Usamos el ID del speaker o la animación para detectar quién es
+    var speakerId:String = currentSpeaker.id;
+
+    // --- LÓGICA DE DETECCIÓN DIRECTA ---
+    
+    // CASO KANXZ: Si el ID o la animación tiene "kanxz"
+    if (speakerId.indexOf("kanxz") != -1 || nombreAnimacion.indexOf("kanxz") != -1) {
+         // Si NO tiene el sonido de Kanxz ya puesto, se lo ponemos
+         if (!currentDialogueBox.textDisplay.sounds.contains(vozKanxz)) {
+             currentDialogueBox.textDisplay.sounds = [vozKanxz];
+         }
+    }
+    // CASO GF: Si el ID tiene "gf" o la animación tiene "GF"
+    else if (speakerId.indexOf("gf") != -1 || nombreAnimacion.indexOf("GF") != -1) {
+         if (!currentDialogueBox.textDisplay.sounds.contains(vozGF)) {
+             currentDialogueBox.textDisplay.sounds = [vozGF];
+         }
+    }
+  }
+}

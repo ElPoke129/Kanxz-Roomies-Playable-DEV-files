@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="eryx playable assets.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="eryx down0000" x="2226" y="2143" width="373" height="602" frameX="0" frameY="-24" frameWidth="373" frameHeight="626"/>
+	<SubTexture name="eryx down0001" x="2226" y="2143" width="373" height="602" frameX="0" frameY="-24" frameWidth="373" frameHeight="626"/>
+	<SubTexture name="eryx down0002" x="2249" y="693" width="363" height="621" frameX="-5" frameY="-5" frameWidth="373" frameHeight="626"/>
+	<SubTexture name="eryx down0003" x="2268" y="10" width="359" height="626" frameX="-7" frameY="0" frameWidth="373" frameHeight="626"/>
+	<SubTexture name="eryx down0004" x="2268" y="10" width="359" height="626" frameX="-7" frameY="0" frameWidth="373" frameHeight="626"/>
+	<SubTexture name="eryx down0005" x="2268" y="10" width="359" height="626" frameX="-7" frameY="0" frameWidth="373" frameHeight="626"/>
+	<SubTexture name="eryx down0006" x="2268" y="10" width="359" height="626" frameX="-7" frameY="0" frameWidth="373" frameHeight="626"/>
+	<SubTexture name="eryx down0007" x="2268" y="10" width="359" height="626" frameX="-7" frameY="0" frameWidth="373" frameHeight="626"/>
+	<SubTexture name="eryx down0008" x="2268" y="10" width="359" height="626" frameX="-7" frameY="0" frameWidth="373" frameHeight="626"/>
+	<SubTexture name="eryx down0009" x="2268" y="10" width="359" height="626" frameX="-7" frameY="0" frameWidth="373" frameHeight="626"/>
+	<SubTexture name="eryx down0010" x="2268" y="10" width="359" height="626" frameX="-7" frameY="0" frameWidth="373" frameHeight="626"/>
+	<SubTexture name="eryx down0011" x="2268" y="10" width="359" height="626" frameX="-7" frameY="0" frameWidth="373" frameHeight="626"/>
+	<SubTexture name="eryx down0012" x="2268" y="10" width="359" height="626" frameX="-7" frameY="0" frameWidth="373" frameHeight="626"/>
+	<SubTexture name="eryx down0013" x="2268" y="10" width="359" height="626" frameX="-7" frameY="0" frameWidth="373" frameHeight="626"/>
+	<SubTexture name="eryx down0014" x="2268" y="10" width="359" height="626" frameX="-7" frameY="0" frameWidth="373" frameHeight="626"/>
+	<SubTexture name="eryx down miss0000" x="2256" y="1324" width="373" height="601" frameX="0" frameY="-69" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0001" x="1919" y="10" width="339" height="673" frameX="-17" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0002" x="1919" y="10" width="339" height="673" frameX="-17" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0003" x="824" y="10" width="363" height="671" frameX="-4" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0004" x="824" y="10" width="363" height="671" frameX="-4" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0005" x="1211" y="2151" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0006" x="1211" y="2151" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0007" x="1530" y="2832" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0008" x="1530" y="2832" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0009" x="1211" y="2151" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0010" x="1211" y="2151" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0011" x="1530" y="2832" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0012" x="1530" y="2832" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0013" x="1211" y="2151" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0014" x="1211" y="2151" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0015" x="1530" y="2832" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0016" x="1530" y="2832" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0017" x="1211" y="2151" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0018" x="1211" y="2151" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0019" x="1530" y="2832" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0020" x="1530" y="2832" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0021" x="1211" y="2151" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0022" x="1211" y="2151" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0023" x="1530" y="2832" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0024" x="1530" y="2832" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0025" x="1211" y="2151" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0026" x="1211" y="2151" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0027" x="1530" y="2832" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0028" x="1530" y="2832" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0029" x="1211" y="2151" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0030" x="1211" y="2151" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0031" x="1530" y="2832" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0032" x="1530" y="2832" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0033" x="1211" y="2151" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0034" x="1211" y="2151" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0035" x="1530" y="2832" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0036" x="1530" y="2832" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0037" x="1211" y="2151" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0038" x="1211" y="2151" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx down miss0039" x="1530" y="2832" width="360" height="671" frameX="-6" frameY="0" frameWidth="373" frameHeight="673"/>
+	<SubTexture name="eryx idle dance0000" x="1561" y="10" width="348" height="694" frameX="0" frameY="-14" frameWidth="348" frameHeight="709"/>
+	<SubTexture name="eryx idle dance0001" x="1561" y="10" width="348" height="694" frameX="0" frameY="-14" frameWidth="348" frameHeight="709"/>
+	<SubTexture name="eryx idle dance0002" x="1900" y="714" width="339" height="701" frameX="-6" frameY="-7" frameWidth="348" frameHeight="709"/>
+	<SubTexture name="eryx idle dance0003" x="1900" y="714" width="339" height="701" frameX="-6" frameY="-7" frameWidth="348" frameHeight="709"/>
+	<SubTexture name="eryx idle dance0004" x="1917" y="1425" width="329" height="708" frameX="-11" frameY="-1" frameWidth="348" frameHeight="709"/>
+	<SubTexture name="eryx idle dance0005" x="1900" y="2979" width="325" height="709" frameX="-13" frameY="0" frameWidth="348" frameHeight="709"/>
+	<SubTexture name="eryx idle dance0006" x="1900" y="2979" width="325" height="709" frameX="-13" frameY="0" frameWidth="348" frameHeight="709"/>
+	<SubTexture name="eryx idle dance0007" x="1900" y="2979" width="325" height="709" frameX="-13" frameY="0" frameWidth="348" frameHeight="709"/>
+	<SubTexture name="eryx idle dance0008" x="1900" y="2979" width="325" height="709" frameX="-13" frameY="0" frameWidth="348" frameHeight="709"/>
+	<SubTexture name="eryx idle dance0009" x="1900" y="2979" width="325" height="709" frameX="-13" frameY="0" frameWidth="348" frameHeight="709"/>
+	<SubTexture name="eryx idle dance0010" x="1900" y="2979" width="325" height="709" frameX="-13" frameY="0" frameWidth="348" frameHeight="709"/>
+	<SubTexture name="eryx idle dance0011" x="1900" y="2979" width="325" height="709" frameX="-13" frameY="0" frameWidth="348" frameHeight="709"/>
+	<SubTexture name="eryx idle dance0012" x="1900" y="2979" width="325" height="709" frameX="-13" frameY="0" frameWidth="348" frameHeight="709"/>
+	<SubTexture name="eryx idle dance0013" x="1900" y="2979" width="325" height="709" frameX="-13" frameY="0" frameWidth="348" frameHeight="709"/>
+	<SubTexture name="eryx idle dance0014" x="1900" y="2979" width="325" height="709" frameX="-13" frameY="0" frameWidth="348" frameHeight="709"/>
+	<SubTexture name="eryx left0000" x="417" y="1458" width="399" height="706"/>
+	<SubTexture name="eryx left0001" x="417" y="1458" width="399" height="706"/>
+	<SubTexture name="eryx left0002" x="396" y="2897" width="380" height="699" frameX="-19" frameY="-6" frameWidth="399" frameHeight="706"/>
+	<SubTexture name="eryx left0003" x="826" y="2152" width="375" height="697" frameX="-24" frameY="-8" frameWidth="399" frameHeight="706"/>
+	<SubTexture name="eryx left0004" x="826" y="2152" width="375" height="697" frameX="-24" frameY="-8" frameWidth="399" frameHeight="706"/>
+	<SubTexture name="eryx left0005" x="826" y="2152" width="375" height="697" frameX="-24" frameY="-8" frameWidth="399" frameHeight="706"/>
+	<SubTexture name="eryx left0006" x="826" y="2152" width="375" height="697" frameX="-24" frameY="-8" frameWidth="399" frameHeight="706"/>
+	<SubTexture name="eryx left0007" x="826" y="2152" width="375" height="697" frameX="-24" frameY="-8" frameWidth="399" frameHeight="706"/>
+	<SubTexture name="eryx left0008" x="826" y="2152" width="375" height="697" frameX="-24" frameY="-8" frameWidth="399" frameHeight="706"/>
+	<SubTexture name="eryx left0009" x="826" y="2152" width="375" height="697" frameX="-24" frameY="-8" frameWidth="399" frameHeight="706"/>
+	<SubTexture name="eryx left0010" x="826" y="2152" width="375" height="697" frameX="-24" frameY="-8" frameWidth="399" frameHeight="706"/>
+	<SubTexture name="eryx left0011" x="826" y="2152" width="375" height="697" frameX="-24" frameY="-8" frameWidth="399" frameHeight="706"/>
+	<SubTexture name="eryx left0012" x="826" y="2152" width="375" height="697" frameX="-24" frameY="-8" frameWidth="399" frameHeight="706"/>
+	<SubTexture name="eryx left0013" x="826" y="2152" width="375" height="697" frameX="-24" frameY="-8" frameWidth="399" frameHeight="706"/>
+	<SubTexture name="eryx left0014" x="826" y="2152" width="375" height="697" frameX="-24" frameY="-8" frameWidth="399" frameHeight="706"/>
+	<SubTexture name="eryx left miss0000" x="10" y="2182" width="400" height="705" frameX="0" frameY="-11" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0001" x="826" y="1426" width="367" height="716" frameX="-32" frameY="0" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0002" x="826" y="1426" width="367" height="716" frameX="-32" frameY="0" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0003" x="823" y="701" width="376" height="715" frameX="-24" frameY="-1" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0004" x="823" y="701" width="376" height="715" frameX="-24" frameY="-1" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0005" x="10" y="2897" width="376" height="716" frameX="-24" frameY="0" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0006" x="10" y="2897" width="376" height="716" frameX="-24" frameY="0" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0007" x="823" y="701" width="376" height="715" frameX="-24" frameY="-1" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0008" x="823" y="701" width="376" height="715" frameX="-24" frameY="-1" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0009" x="10" y="2897" width="376" height="716" frameX="-24" frameY="0" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0010" x="10" y="2897" width="376" height="716" frameX="-24" frameY="0" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0011" x="823" y="701" width="376" height="715" frameX="-24" frameY="-1" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0012" x="823" y="701" width="376" height="715" frameX="-24" frameY="-1" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0013" x="10" y="2897" width="376" height="716" frameX="-24" frameY="0" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0014" x="10" y="2897" width="376" height="716" frameX="-24" frameY="0" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0015" x="823" y="701" width="376" height="715" frameX="-24" frameY="-1" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0016" x="823" y="701" width="376" height="715" frameX="-24" frameY="-1" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0017" x="10" y="2897" width="376" height="716" frameX="-24" frameY="0" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0018" x="10" y="2897" width="376" height="716" frameX="-24" frameY="0" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0019" x="823" y="701" width="376" height="715" frameX="-24" frameY="-1" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0020" x="823" y="701" width="376" height="715" frameX="-24" frameY="-1" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0021" x="10" y="2897" width="376" height="716" frameX="-24" frameY="0" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0022" x="10" y="2897" width="376" height="716" frameX="-24" frameY="0" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0023" x="823" y="701" width="376" height="715" frameX="-24" frameY="-1" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0024" x="823" y="701" width="376" height="715" frameX="-24" frameY="-1" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0025" x="10" y="2897" width="376" height="716" frameX="-24" frameY="0" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0026" x="10" y="2897" width="376" height="716" frameX="-24" frameY="0" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0027" x="823" y="701" width="376" height="715" frameX="-24" frameY="-1" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0028" x="823" y="701" width="376" height="715" frameX="-24" frameY="-1" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0029" x="10" y="2897" width="376" height="716" frameX="-24" frameY="0" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0030" x="10" y="2897" width="376" height="716" frameX="-24" frameY="0" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0031" x="823" y="701" width="376" height="715" frameX="-24" frameY="-1" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0032" x="823" y="701" width="376" height="715" frameX="-24" frameY="-1" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0033" x="10" y="2897" width="376" height="716" frameX="-24" frameY="0" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0034" x="10" y="2897" width="376" height="716" frameX="-24" frameY="0" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0035" x="823" y="701" width="376" height="715" frameX="-24" frameY="-1" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0036" x="823" y="701" width="376" height="715" frameX="-24" frameY="-1" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0037" x="10" y="2897" width="376" height="716" frameX="-24" frameY="0" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0038" x="10" y="2897" width="376" height="716" frameX="-24" frameY="0" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx left miss0039" x="823" y="701" width="376" height="715" frameX="-24" frameY="-1" frameWidth="400" frameHeight="716"/>
+	<SubTexture name="eryx right0000" x="418" y="734" width="395" height="682" frameX="-1" frameY="-9" frameWidth="396" frameHeight="691"/>
+	<SubTexture name="eryx right0001" x="418" y="734" width="395" height="682" frameX="-1" frameY="-9" frameWidth="396" frameHeight="691"/>
+	<SubTexture name="eryx right0002" x="420" y="2174" width="385" height="687" frameX="-1" frameY="-4" frameWidth="396" frameHeight="691"/>
+	<SubTexture name="eryx right0003" x="786" y="2871" width="381" height="691" frameX="0" frameY="0" frameWidth="396" frameHeight="691"/>
+	<SubTexture name="eryx right0004" x="786" y="2871" width="381" height="691" frameX="0" frameY="0" frameWidth="396" frameHeight="691"/>
+	<SubTexture name="eryx right0005" x="786" y="2871" width="381" height="691" frameX="0" frameY="0" frameWidth="396" frameHeight="691"/>
+	<SubTexture name="eryx right0006" x="786" y="2871" width="381" height="691" frameX="0" frameY="0" frameWidth="396" frameHeight="691"/>
+	<SubTexture name="eryx right0007" x="786" y="2871" width="381" height="691" frameX="0" frameY="0" frameWidth="396" frameHeight="691"/>
+	<SubTexture name="eryx right0008" x="786" y="2871" width="381" height="691" frameX="0" frameY="0" frameWidth="396" frameHeight="691"/>
+	<SubTexture name="eryx right0009" x="786" y="2871" width="381" height="691" frameX="0" frameY="0" frameWidth="396" frameHeight="691"/>
+	<SubTexture name="eryx right0010" x="786" y="2871" width="381" height="691" frameX="0" frameY="0" frameWidth="396" frameHeight="691"/>
+	<SubTexture name="eryx right0011" x="786" y="2871" width="381" height="691" frameX="0" frameY="0" frameWidth="396" frameHeight="691"/>
+	<SubTexture name="eryx right0012" x="786" y="2871" width="381" height="691" frameX="0" frameY="0" frameWidth="396" frameHeight="691"/>
+	<SubTexture name="eryx right0013" x="786" y="2871" width="381" height="691" frameX="0" frameY="0" frameWidth="396" frameHeight="691"/>
+	<SubTexture name="eryx right0014" x="786" y="2871" width="381" height="691" frameX="0" frameY="0" frameWidth="396" frameHeight="691"/>
+	<SubTexture name="eryx right miss0000" x="419" y="10" width="395" height="681" frameX="-1" frameY="-32" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0001" x="10" y="10" width="399" height="714"/>
+	<SubTexture name="eryx right miss0002" x="10" y="10" width="399" height="714"/>
+	<SubTexture name="eryx right miss0003" x="10" y="1458" width="397" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0004" x="10" y="1458" width="397" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0005" x="10" y="734" width="398" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0006" x="10" y="734" width="398" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0007" x="10" y="1458" width="397" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0008" x="10" y="1458" width="397" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0009" x="10" y="734" width="398" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0010" x="10" y="734" width="398" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0011" x="10" y="1458" width="397" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0012" x="10" y="1458" width="397" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0013" x="10" y="734" width="398" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0014" x="10" y="734" width="398" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0015" x="10" y="1458" width="397" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0016" x="10" y="1458" width="397" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0017" x="10" y="734" width="398" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0018" x="10" y="734" width="398" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0019" x="10" y="1458" width="397" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0020" x="10" y="1458" width="397" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0021" x="10" y="734" width="398" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0022" x="10" y="734" width="398" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0023" x="10" y="1458" width="397" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0024" x="10" y="1458" width="397" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0025" x="10" y="734" width="398" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0026" x="10" y="734" width="398" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0027" x="10" y="1458" width="397" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0028" x="10" y="1458" width="397" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0029" x="10" y="734" width="398" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0030" x="10" y="734" width="398" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0031" x="10" y="1458" width="397" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0032" x="10" y="1458" width="397" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0033" x="10" y="734" width="398" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0034" x="10" y="734" width="398" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0035" x="10" y="1458" width="397" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0036" x="10" y="1458" width="397" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0037" x="10" y="734" width="398" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0038" x="10" y="734" width="398" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx right miss0039" x="10" y="1458" width="397" height="714" frameX="-1" frameY="0" frameWidth="399" frameHeight="714"/>
+	<SubTexture name="eryx up0000" x="1900" y="2213" width="316" height="756" frameX="-9" frameY="0" frameWidth="326" frameHeight="756"/>
+	<SubTexture name="eryx up0001" x="1900" y="2213" width="316" height="756" frameX="-9" frameY="0" frameWidth="326" frameHeight="756"/>
+	<SubTexture name="eryx up0002" x="1567" y="714" width="323" height="744" frameX="-3" frameY="-11" frameWidth="326" frameHeight="756"/>
+	<SubTexture name="eryx up0003" x="1581" y="1468" width="326" height="735" frameX="0" frameY="-20" frameWidth="326" frameHeight="756"/>
+	<SubTexture name="eryx up0004" x="1581" y="1468" width="326" height="735" frameX="0" frameY="-20" frameWidth="326" frameHeight="756"/>
+	<SubTexture name="eryx up0005" x="1581" y="1468" width="326" height="735" frameX="0" frameY="-20" frameWidth="326" frameHeight="756"/>
+	<SubTexture name="eryx up0006" x="1581" y="1468" width="326" height="735" frameX="0" frameY="-20" frameWidth="326" frameHeight="756"/>
+	<SubTexture name="eryx up0007" x="1581" y="1468" width="326" height="735" frameX="0" frameY="-20" frameWidth="326" frameHeight="756"/>
+	<SubTexture name="eryx up0008" x="1581" y="1468" width="326" height="735" frameX="0" frameY="-20" frameWidth="326" frameHeight="756"/>
+	<SubTexture name="eryx up0009" x="1581" y="1468" width="326" height="735" frameX="0" frameY="-20" frameWidth="326" frameHeight="756"/>
+	<SubTexture name="eryx up0010" x="1581" y="1468" width="326" height="735" frameX="0" frameY="-20" frameWidth="326" frameHeight="756"/>
+	<SubTexture name="eryx up0011" x="1581" y="1468" width="326" height="735" frameX="0" frameY="-20" frameWidth="326" frameHeight="756"/>
+	<SubTexture name="eryx up0012" x="1581" y="1468" width="326" height="735" frameX="0" frameY="-20" frameWidth="326" frameHeight="756"/>
+	<SubTexture name="eryx up0013" x="1581" y="1468" width="326" height="735" frameX="0" frameY="-20" frameWidth="326" frameHeight="756"/>
+	<SubTexture name="eryx up0014" x="1581" y="1468" width="326" height="735" frameX="0" frameY="-20" frameWidth="326" frameHeight="756"/>
+	<SubTexture name="eryx up miss0000" x="1900" y="2213" width="316" height="756" frameX="-19" frameY="0" frameWidth="326" frameHeight="756"/>
+	<SubTexture name="eryx up miss0001" x="1203" y="1426" width="354" height="715" frameX="0" frameY="-41" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0002" x="1203" y="1426" width="354" height="715" frameX="0" frameY="-41" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0003" x="1209" y="10" width="342" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0004" x="1209" y="10" width="342" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0005" x="1177" y="2859" width="343" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0006" x="1177" y="2859" width="343" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0007" x="1209" y="10" width="342" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0008" x="1209" y="10" width="342" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0009" x="1177" y="2859" width="343" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0010" x="1177" y="2859" width="343" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0011" x="1209" y="10" width="342" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0012" x="1209" y="10" width="342" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0013" x="1177" y="2859" width="343" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0014" x="1177" y="2859" width="343" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0015" x="1209" y="10" width="342" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0016" x="1209" y="10" width="342" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0017" x="1177" y="2859" width="343" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0018" x="1177" y="2859" width="343" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0019" x="1209" y="10" width="342" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0020" x="1209" y="10" width="342" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0021" x="1177" y="2859" width="343" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0022" x="1177" y="2859" width="343" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0023" x="1209" y="10" width="342" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0024" x="1209" y="10" width="342" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0025" x="1177" y="2859" width="343" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0026" x="1177" y="2859" width="343" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0027" x="1209" y="10" width="342" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0028" x="1209" y="10" width="342" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0029" x="1177" y="2859" width="343" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0030" x="1177" y="2859" width="343" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0031" x="1209" y="10" width="342" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0032" x="1209" y="10" width="342" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0033" x="1177" y="2859" width="343" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0034" x="1177" y="2859" width="343" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0035" x="1209" y="10" width="342" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0036" x="1209" y="10" width="342" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0037" x="1177" y="2859" width="343" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0038" x="1177" y="2859" width="343" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+	<SubTexture name="eryx up miss0039" x="1209" y="10" width="342" height="736" frameX="-11" frameY="-20" frameWidth="354" frameHeight="758"/>
+</TextureAtlas>

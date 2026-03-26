@@ -1,0 +1,103 @@
+import flixel.FlxG;
+// APRENDIZAJE: Cambio de Clase Base
+// Cambiamos SparrowCharacter por MultiSparrowCharacter para coincidir con el "renderType" de tu JSON.
+import funkin.play.character.MultiAnimateAtlasCharacter;
+import funkin.play.character.BaseCharacter;
+import funkin.data.character.CharacterDataParser;
+import funkin.play.PlayState;
+
+// APRENDIZAJE: Herencia
+// Ahora extendemos de MultiSparrowCharacter. Esto le da al script todas las funciones
+// necesarias para manejar múltiples hojas de sprites si tu personaje las usa.
+class KanxzDarkCharacter extends MultiAnimateAtlasCharacter
+{
+  function new()
+  {
+    // APRENDIZAJE: Constructor
+    // Aquí conectamos este script con el archivo JSON que subiste.
+    // El string debe coincidir con el nombre de tu JSON: 'kanxz-dark'.
+    super('kanxz-dark');
+  }
+
+  // Variable para guardar al Kanxz "normal" (el iluminado).
+  var normalChar:BaseCharacter;
+
+  // APRENDIZAJE: Control de Transparencia (Alpha)
+  // Esta función es el corazón del efecto. El juego intenta cambiar el alpha del personaje
+  // oscuro cuando cae un rayo. Nosotros interceptamos esa orden.
+  override function set_alpha(val:Float):Float
+  {
+    // 1. Dejamos que el personaje oscuro haga su trabajo base.
+    super.set_alpha(val);
+
+    // 2. Manipulamos al personaje normal en consecuencia.
+    if (normalChar != null)
+    {
+      // Si el valor NO es 1 (significa que el juego oscureció el ambiente o cayó rayo y ocultó al dark),
+      // mostramos al normal (alpha 1).
+      if (val != 1) 
+        normalChar.alpha = 1;
+      else
+        // Si el valor ES 1 (ambiente oscuro normal), ocultamos al normal.
+        // Usamos 0.0001 para que siga "vivo" en memoria sin verse.
+        normalChar.alpha = 0.0001;
+    }
+
+    return val;
+  }
+
+  // APRENDIZAJE: Sincronización (Mimic)
+  // Si Kanxz oscuro canta, Kanxz normal debe cantar lo mismo al mismo tiempo,
+  // para que si cae un rayo a mitad de nota, la pose coincida.
+  override function playAnimation(name:String, restart:Bool, ignoreOther:Bool)
+  {
+    super.playAnimation(name, restart, ignoreOther);
+    
+    if (normalChar != null)
+    {
+      normalChar.playAnimation(name, restart, ignoreOther);
+      // Forzamos la posición por si la animación tiene desplazamientos (offsets) bruscos.
+      // Ajuste vertical: Restamos 15px para subirlo un poco y que coincida con el Dark.
+      normalChar.setPosition(this.x, this.y - 15);
+    }
+  }
+
+  function onCreate(event:ScriptEvent)
+  {
+    super.onCreate(event);
+
+    // APRENDIZAJE: Ajuste de Altura Manual
+    // "Que el dark no se vea tan abajo".
+    // Restamos a Y para subir al personaje. Ajusta el número '50' si necesitas subirlo más o menos.
+    // Nota: Al moverse 'this' (el Dark), el 'normalChar' lo seguirá automáticamente.
+    this.y -= 50;
+
+    // Evitamos cargar el doble personaje en el editor de personajes (Debug) para no laggear.
+    if (!this.debug)
+    {
+      // [!] TAREA: Verifica el ID.
+      // En tu JSON vi que el healthIcon es "kanxz". 
+      // Asumo que el JSON de la versión normal se llama "kanxz.json".
+      // Si se llama diferente (ej: "kanxz-light"), cambia el texto abajo.
+      normalChar = CharacterDataParser.fetchCharacter('kanxz');
+      
+      // APRENDIZAJE: Z-Index (Profundidad)
+      // Define qué personaje se dibuja encima de cuál. 
+      // 199 suele estar detrás de GF pero delante del fondo. Ajusta si se ve mal.
+      normalChar.zIndex = 199;
+      
+      // Configuración inicial: invisible.
+      normalChar.alpha = 0.0001;
+      
+      // APRENDIZAJE: FlipX (Voltear)
+      // "Que el normal no este volteado, ponle un flipX".
+      // Cambiamos esto a 'true' para que mire en la dirección opuesta (espejo).
+      // Si ves que ahora mira mal, cámbialo a 'false'.
+      normalChar.flipX = false;
+      
+      // Agregamos el clon al escenario.
+      PlayState.instance.currentStage.add(normalChar);
+      PlayState.instance.currentStage.refresh();
+    }
+  }
+}

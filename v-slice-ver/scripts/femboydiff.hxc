@@ -1,0 +1,16 @@
+import funkin.util.Constants;
+import funkin.modding.module.Module;
+
+class femboydiff extends Module
+{
+  public function new()
+  {
+    super('femboydiff');
+  }
+  override function onCreate(event:SubStateScriptEvent)
+  {
+    super.onCreate(event);
+
+    Constants.DEFAULT_DIFFICULTY_LIST_FULL.push("femboy");
+  }
+}

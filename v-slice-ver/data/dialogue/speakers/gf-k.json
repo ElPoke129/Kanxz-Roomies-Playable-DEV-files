@@ -1,0 +1,60 @@
+{
+  "version": "1.0.0",
+  "name": "Girlfriend",
+  "assetPath": "dialogue/gf-assets dialogues",
+  "flipX": true,
+  "isPixel": false,
+  "scale": 1,
+  "offsets": [-20, -10],
+  "animations": [
+    {
+      "name": "talkEnter-GF",
+      "prefix": "GF0",
+      "offsets": [-3, -6],
+      "frameRate": 24,
+      "looped": false
+    },
+    {
+      "name": "talk-GF",
+      "prefix": "GF LOOP",
+      "offsets": [1, 1],
+      "frameRate": 24,
+      "looped": true
+    },
+    {
+      "name": "shocked-GF",
+      "prefix": "GF SHOCK LOOP",
+      "offsets": [70, 0],
+      "frameRate": 24,
+      "looped": true
+    },
+    {
+      "name": "confused-GF",
+      "prefix": "GF CONFUSED LOOP",
+      "offsets": [0, 0],
+      "frameRate": 24,
+      "looped": true
+    },
+    {
+      "name": "demon-GF",
+      "prefix": "GF DEMON LOOP",
+      "offsets": [0, 0],
+      "frameRate": 24,
+      "looped": true
+    },
+    {
+      "name": "surprised-GF",
+      "prefix": "GF SURPRISED LOOP",
+      "offsets": [0, 4],
+      "frameRate": 24,
+      "looped": true
+    },
+    {
+      "name": "wink-GF",
+      "prefix": "GF wink0",
+      "offsets": [12, -11],
+      "frameRate": 24,
+      "looped": false
+    }
+  ]
+}

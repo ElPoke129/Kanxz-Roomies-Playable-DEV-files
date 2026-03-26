@@ -1,0 +1,15 @@
+import flixel.addons.display.FlxRuntimeShader;
+import openfl.utils.Assets;
+import funkin.Paths;
+
+// Esta clase carga tu archivo .frag y permite usarlo en el script de la stage
+class PixelShadowShader extends FlxRuntimeShader
+{
+  public function new()
+  {
+    // Carga el archivo 'pixelateAndDropShadow.frag'
+    // Asegurate de que ese archivo este en la carpeta mods/shaders/
+    var fragText:String = Assets.getText(Paths.frag('pixelateAndDropShadow'));
+    super(fragText);
+  }
+}

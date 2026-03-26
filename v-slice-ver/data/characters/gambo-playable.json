@@ -1,0 +1,69 @@
+{
+  "version": "1.0.0",
+  "renderType": "multisparrow",
+  "name": "Gambo Playable",
+  "assetPath": "characters/gambo PLAYABLE assets",
+  "scale": 1,
+  "singTime": 4.0,
+  "flipX": true,
+  "offsets": [0, 0],
+  "cameraOffsets": [20, 70],
+  "healthIcon": {
+    "id": "gambo",
+    "scale": 1,
+    "flipX": false,
+    "offsets": [0, 0]
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Gambo Playable idle0",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "hey",
+      "prefix": "Gambo Playable hey0",
+      "offsets": [92, -13]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Gambo Playable left0",
+      "offsets": [109, -12]
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "Gambo Playable left miss0",
+      "offsets": [109, -5]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Gambo Playable down0",
+      "offsets": [-6, -155]
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "Gambo Playable down miss0",
+      "offsets": [-5, -97]
+    },
+    {
+      "name": "singUP",
+      "prefix": "Gambo Playable up0",
+      "offsets": [-37, 0]
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "Gambo Playable up miss0",
+      "offsets": [-35, 0]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Gambo Playable right0",
+      "offsets": [-40, -31]
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "Gambo Playable right miss0",
+      "offsets": [-40, -2]
+    }
+  ]
+}

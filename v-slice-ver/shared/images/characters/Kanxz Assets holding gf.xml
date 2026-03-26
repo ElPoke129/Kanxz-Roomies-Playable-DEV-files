@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Kanxz Assets holding gf.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="kanxz Down0000" x="10" y="10" width="518" height="531" frameX="0" frameY="-20" frameWidth="518" frameHeight="552"/>
+	<SubTexture name="kanxz Down0001" x="10" y="10" width="518" height="531" frameX="0" frameY="-20" frameWidth="518" frameHeight="552"/>
+	<SubTexture name="kanxz Down0002" x="538" y="10" width="507" height="546" frameX="-3" frameY="-6" frameWidth="518" frameHeight="552"/>
+	<SubTexture name="kanxz Down0003" x="1055" y="10" width="504" height="552" frameX="-5" frameY="0" frameWidth="518" frameHeight="552"/>
+	<SubTexture name="kanxz Down0004" x="1055" y="10" width="504" height="552" frameX="-5" frameY="0" frameWidth="518" frameHeight="552"/>
+	<SubTexture name="kanxz Down0005" x="1055" y="10" width="504" height="552" frameX="-5" frameY="0" frameWidth="518" frameHeight="552"/>
+	<SubTexture name="kanxz Down0006" x="1055" y="10" width="504" height="552" frameX="-5" frameY="0" frameWidth="518" frameHeight="552"/>
+	<SubTexture name="kanxz Down0007" x="1055" y="10" width="504" height="552" frameX="-5" frameY="0" frameWidth="518" frameHeight="552"/>
+	<SubTexture name="kanxz Down0008" x="1055" y="10" width="504" height="552" frameX="-5" frameY="0" frameWidth="518" frameHeight="552"/>
+	<SubTexture name="kanxz Down0009" x="1055" y="10" width="504" height="552" frameX="-5" frameY="0" frameWidth="518" frameHeight="552"/>
+	<SubTexture name="kanxz Down0010" x="1055" y="10" width="504" height="552" frameX="-5" frameY="0" frameWidth="518" frameHeight="552"/>
+	<SubTexture name="kanxz Down0011" x="1055" y="10" width="504" height="552" frameX="-5" frameY="0" frameWidth="518" frameHeight="552"/>
+	<SubTexture name="kanxz Down0012" x="1055" y="10" width="504" height="552" frameX="-5" frameY="0" frameWidth="518" frameHeight="552"/>
+	<SubTexture name="kanxz Down0013" x="1055" y="10" width="504" height="552" frameX="-5" frameY="0" frameWidth="518" frameHeight="552"/>
+	<SubTexture name="kanxz Down0014" x="1055" y="10" width="504" height="552" frameX="-5" frameY="0" frameWidth="518" frameHeight="552"/>
+	<SubTexture name="kanxz Down0015" x="1055" y="10" width="504" height="552" frameX="-5" frameY="0" frameWidth="518" frameHeight="552"/>
+	<SubTexture name="kanxz DownFail0000" x="1569" y="10" width="517" height="532" frameX="0" frameY="-45" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0001" x="2096" y="10" width="496" height="578" frameX="-9" frameY="0" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0002" x="2602" y="10" width="496" height="577" frameX="-9" frameY="-1" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0003" x="3108" y="10" width="504" height="577" frameX="-4" frameY="-1" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0004" x="3622" y="10" width="504" height="578" frameX="-4" frameY="0" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0005" x="4136" y="10" width="504" height="578" frameX="-4" frameY="0" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0006" x="4650" y="10" width="504" height="577" frameX="-4" frameY="-1" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0007" x="3108" y="10" width="504" height="577" frameX="-4" frameY="-1" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0008" x="3622" y="10" width="504" height="578" frameX="-4" frameY="0" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0009" x="4136" y="10" width="504" height="578" frameX="-4" frameY="0" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0010" x="4650" y="10" width="504" height="577" frameX="-4" frameY="-1" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0011" x="3108" y="10" width="504" height="577" frameX="-4" frameY="-1" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0012" x="3622" y="10" width="504" height="578" frameX="-4" frameY="0" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0013" x="4136" y="10" width="504" height="578" frameX="-4" frameY="0" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0014" x="4650" y="10" width="504" height="577" frameX="-4" frameY="-1" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0015" x="3108" y="10" width="504" height="577" frameX="-4" frameY="-1" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0016" x="3622" y="10" width="504" height="578" frameX="-4" frameY="0" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0017" x="4136" y="10" width="504" height="578" frameX="-4" frameY="0" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0018" x="4650" y="10" width="504" height="577" frameX="-4" frameY="-1" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0019" x="3108" y="10" width="504" height="577" frameX="-4" frameY="-1" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0020" x="3622" y="10" width="504" height="578" frameX="-4" frameY="0" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0021" x="4136" y="10" width="504" height="578" frameX="-4" frameY="0" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0022" x="4650" y="10" width="504" height="577" frameX="-4" frameY="-1" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0023" x="3108" y="10" width="504" height="577" frameX="-4" frameY="-1" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0024" x="3622" y="10" width="504" height="578" frameX="-4" frameY="0" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0025" x="4136" y="10" width="504" height="578" frameX="-4" frameY="0" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0026" x="4650" y="10" width="504" height="577" frameX="-4" frameY="-1" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0027" x="3108" y="10" width="504" height="577" frameX="-4" frameY="-1" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0028" x="3622" y="10" width="504" height="578" frameX="-4" frameY="0" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0029" x="3622" y="10" width="504" height="578" frameX="-4" frameY="0" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0030" x="3108" y="10" width="504" height="577" frameX="-4" frameY="-1" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0031" x="3108" y="10" width="504" height="577" frameX="-4" frameY="-1" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0032" x="3622" y="10" width="504" height="578" frameX="-4" frameY="0" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0033" x="3622" y="10" width="504" height="578" frameX="-4" frameY="0" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz DownFail0034" x="3108" y="10" width="504" height="577" frameX="-4" frameY="-1" frameWidth="517" frameHeight="578"/>
+	<SubTexture name="kanxz Lanza cuchillo0000" x="5164" y="10" width="554" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0001" x="5728" y="10" width="546" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0002" x="5728" y="10" width="546" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0003" x="6284" y="10" width="567" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0004" x="6861" y="10" width="554" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0005" x="7425" y="10" width="554" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0006" x="10" y="653" width="554" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0007" x="574" y="653" width="554" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0008" x="1138" y="653" width="554" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0009" x="1702" y="653" width="746" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0010" x="2458" y="653" width="723" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0011" x="2458" y="653" width="723" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0012" x="3191" y="653" width="734" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0013" x="3191" y="653" width="734" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0014" x="3935" y="653" width="730" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0015" x="4675" y="653" width="730" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0016" x="5415" y="653" width="729" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0017" x="6154" y="653" width="535" height="633" frameX="-219" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0018" x="6699" y="653" width="754" height="633" frameX="0" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0019" x="7463" y="653" width="532" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0020" x="10" y="1296" width="532" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0021" x="552" y="1296" width="531" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0022" x="552" y="1296" width="531" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0023" x="552" y="1296" width="531" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0024" x="552" y="1296" width="531" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0025" x="552" y="1296" width="531" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0026" x="552" y="1296" width="531" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0027" x="552" y="1296" width="531" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0028" x="552" y="1296" width="531" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0029" x="552" y="1296" width="531" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0030" x="552" y="1296" width="531" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0031" x="552" y="1296" width="531" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Lanza cuchillo0032" x="552" y="1296" width="531" height="633" frameX="-231" frameY="0" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz Left0000" x="1093" y="1296" width="528" height="624" frameX="0" frameY="0" frameWidth="540" frameHeight="624"/>
+	<SubTexture name="kanxz Left0001" x="1093" y="1296" width="528" height="624" frameX="0" frameY="0" frameWidth="540" frameHeight="624"/>
+	<SubTexture name="kanxz Left0002" x="1631" y="1296" width="533" height="621" frameX="-3" frameY="-3" frameWidth="540" frameHeight="624"/>
+	<SubTexture name="kanxz Left0003" x="2174" y="1296" width="532" height="621" frameX="-8" frameY="-3" frameWidth="540" frameHeight="624"/>
+	<SubTexture name="kanxz Left0004" x="2716" y="1296" width="532" height="621" frameX="-8" frameY="-3" frameWidth="540" frameHeight="624"/>
+	<SubTexture name="kanxz Left0005" x="2716" y="1296" width="532" height="621" frameX="-8" frameY="-3" frameWidth="540" frameHeight="624"/>
+	<SubTexture name="kanxz Left0006" x="3258" y="1296" width="532" height="621" frameX="-8" frameY="-3" frameWidth="540" frameHeight="624"/>
+	<SubTexture name="kanxz Left0007" x="3258" y="1296" width="532" height="621" frameX="-8" frameY="-3" frameWidth="540" frameHeight="624"/>
+	<SubTexture name="kanxz Left0008" x="3258" y="1296" width="532" height="621" frameX="-8" frameY="-3" frameWidth="540" frameHeight="624"/>
+	<SubTexture name="kanxz Left0009" x="3258" y="1296" width="532" height="621" frameX="-8" frameY="-3" frameWidth="540" frameHeight="624"/>
+	<SubTexture name="kanxz Left0010" x="3258" y="1296" width="532" height="621" frameX="-8" frameY="-3" frameWidth="540" frameHeight="624"/>
+	<SubTexture name="kanxz Left0011" x="3258" y="1296" width="532" height="621" frameX="-8" frameY="-3" frameWidth="540" frameHeight="624"/>
+	<SubTexture name="kanxz Left0012" x="3258" y="1296" width="532" height="621" frameX="-8" frameY="-3" frameWidth="540" frameHeight="624"/>
+	<SubTexture name="kanxz Left0013" x="3258" y="1296" width="532" height="621" frameX="-8" frameY="-3" frameWidth="540" frameHeight="624"/>
+	<SubTexture name="kanxz Left0014" x="3258" y="1296" width="532" height="621" frameX="-8" frameY="-3" frameWidth="540" frameHeight="624"/>
+	<SubTexture name="kanxz Left0015" x="3258" y="1296" width="532" height="621" frameX="-8" frameY="-3" frameWidth="540" frameHeight="624"/>
+	<SubTexture name="kanxz LeftFail0000" x="3800" y="1296" width="527" height="624" frameX="0" frameY="-26" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0001" x="4337" y="1296" width="536" height="650" frameX="-8" frameY="0" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0002" x="4337" y="1296" width="536" height="650" frameX="-8" frameY="0" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0003" x="4883" y="1296" width="526" height="649" frameX="-14" frameY="-1" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0004" x="4883" y="1296" width="526" height="649" frameX="-14" frameY="-1" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0005" x="5419" y="1296" width="526" height="650" frameX="-14" frameY="0" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0006" x="5419" y="1296" width="526" height="650" frameX="-14" frameY="0" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0007" x="4883" y="1296" width="526" height="649" frameX="-14" frameY="-1" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0008" x="4883" y="1296" width="526" height="649" frameX="-14" frameY="-1" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0009" x="5419" y="1296" width="526" height="650" frameX="-14" frameY="0" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0010" x="5419" y="1296" width="526" height="650" frameX="-14" frameY="0" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0011" x="4883" y="1296" width="526" height="649" frameX="-14" frameY="-1" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0012" x="4883" y="1296" width="526" height="649" frameX="-14" frameY="-1" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0013" x="5419" y="1296" width="526" height="650" frameX="-14" frameY="0" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0014" x="5419" y="1296" width="526" height="650" frameX="-14" frameY="0" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0015" x="4883" y="1296" width="526" height="649" frameX="-14" frameY="-1" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0016" x="4883" y="1296" width="526" height="649" frameX="-14" frameY="-1" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0017" x="5419" y="1296" width="526" height="650" frameX="-14" frameY="0" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0018" x="5419" y="1296" width="526" height="650" frameX="-14" frameY="0" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0019" x="4883" y="1296" width="526" height="649" frameX="-14" frameY="-1" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0020" x="4883" y="1296" width="526" height="649" frameX="-14" frameY="-1" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0021" x="5419" y="1296" width="526" height="650" frameX="-14" frameY="0" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0022" x="5419" y="1296" width="526" height="650" frameX="-14" frameY="0" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0023" x="4883" y="1296" width="526" height="649" frameX="-14" frameY="-1" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0024" x="4883" y="1296" width="526" height="649" frameX="-14" frameY="-1" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0025" x="5419" y="1296" width="526" height="650" frameX="-14" frameY="0" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0026" x="5419" y="1296" width="526" height="650" frameX="-14" frameY="0" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0027" x="4883" y="1296" width="526" height="649" frameX="-14" frameY="-1" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0028" x="4883" y="1296" width="526" height="649" frameX="-14" frameY="-1" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0029" x="5419" y="1296" width="526" height="650" frameX="-14" frameY="0" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0030" x="5419" y="1296" width="526" height="650" frameX="-14" frameY="0" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0031" x="4883" y="1296" width="526" height="649" frameX="-14" frameY="-1" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0032" x="4883" y="1296" width="526" height="649" frameX="-14" frameY="-1" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0033" x="5419" y="1296" width="526" height="650" frameX="-14" frameY="0" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0034" x="5419" y="1296" width="526" height="650" frameX="-14" frameY="0" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0035" x="5955" y="1296" width="526" height="649" frameX="-14" frameY="-1" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0036" x="5955" y="1296" width="526" height="649" frameX="-14" frameY="-1" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0037" x="5419" y="1296" width="526" height="650" frameX="-14" frameY="0" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0038" x="5419" y="1296" width="526" height="650" frameX="-14" frameY="0" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0039" x="5955" y="1296" width="526" height="649" frameX="-14" frameY="-1" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0040" x="5955" y="1296" width="526" height="649" frameX="-14" frameY="-1" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0041" x="5419" y="1296" width="526" height="650" frameX="-14" frameY="0" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0042" x="5419" y="1296" width="526" height="650" frameX="-14" frameY="0" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0043" x="5955" y="1296" width="526" height="649" frameX="-14" frameY="-1" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz LeftFail0044" x="5955" y="1296" width="526" height="649" frameX="-14" frameY="-1" frameWidth="544" frameHeight="650"/>
+	<SubTexture name="kanxz Right0000" x="6491" y="1296" width="562" height="612" frameX="-1" frameY="-7" frameWidth="563" frameHeight="619"/>
+	<SubTexture name="kanxz Right0001" x="6491" y="1296" width="562" height="612" frameX="-1" frameY="-7" frameWidth="563" frameHeight="619"/>
+	<SubTexture name="kanxz Right0002" x="7063" y="1296" width="560" height="616" frameX="0" frameY="-3" frameWidth="563" frameHeight="619"/>
+	<SubTexture name="kanxz Right0003" x="10" y="1956" width="556" height="619" frameX="0" frameY="0" frameWidth="563" frameHeight="619"/>
+	<SubTexture name="kanxz Right0004" x="576" y="1956" width="554" height="619" frameX="0" frameY="0" frameWidth="563" frameHeight="619"/>
+	<SubTexture name="kanxz Right0005" x="576" y="1956" width="554" height="619" frameX="0" frameY="0" frameWidth="563" frameHeight="619"/>
+	<SubTexture name="kanxz Right0006" x="1140" y="1956" width="553" height="619" frameX="0" frameY="0" frameWidth="563" frameHeight="619"/>
+	<SubTexture name="kanxz Right0007" x="1140" y="1956" width="553" height="619" frameX="0" frameY="0" frameWidth="563" frameHeight="619"/>
+	<SubTexture name="kanxz Right0008" x="1140" y="1956" width="553" height="619" frameX="0" frameY="0" frameWidth="563" frameHeight="619"/>
+	<SubTexture name="kanxz Right0009" x="1140" y="1956" width="553" height="619" frameX="0" frameY="0" frameWidth="563" frameHeight="619"/>
+	<SubTexture name="kanxz Right0010" x="1140" y="1956" width="553" height="619" frameX="0" frameY="0" frameWidth="563" frameHeight="619"/>
+	<SubTexture name="kanxz Right0011" x="1140" y="1956" width="553" height="619" frameX="0" frameY="0" frameWidth="563" frameHeight="619"/>
+	<SubTexture name="kanxz Right0012" x="1140" y="1956" width="553" height="619" frameX="0" frameY="0" frameWidth="563" frameHeight="619"/>
+	<SubTexture name="kanxz Right0013" x="1140" y="1956" width="553" height="619" frameX="0" frameY="0" frameWidth="563" frameHeight="619"/>
+	<SubTexture name="kanxz Right0014" x="1140" y="1956" width="553" height="619" frameX="0" frameY="0" frameWidth="563" frameHeight="619"/>
+	<SubTexture name="kanxz Right0015" x="1140" y="1956" width="553" height="619" frameX="0" frameY="0" frameWidth="563" frameHeight="619"/>
+	<SubTexture name="kanxz RightFail0000" x="1703" y="1956" width="562" height="612" frameX="-2" frameY="-34" frameWidth="571" frameHeight="646"/>
+	<SubTexture name="kanxz RightFail0001" x="2275" y="1956" width="565" height="646" frameX="-1" frameY="0" frameWidth="571" frameHeight="646"/>
+	<SubTexture name="kanxz RightFail0002" x="2275" y="1956" width="565" height="646" frameX="-1" frameY="0" frameWidth="571" frameHeight="646"/>
+	<SubTexture name="kanxz RightFail0003" x="2850" y="1956" width="571" height="645" frameX="0" frameY="-1" frameWidth="571" frameHeight="646"/>
+	<SubTexture name="kanxz RightFail0004" x="2850" y="1956" width="571" height="645" frameX="0" frameY="-1" frameWidth="571" frameHeight="646"/>
+	<SubTexture name="kanxz RightFail0005" x="3431" y="1956" width="571" height="646"/>
+	<SubTexture name="kanxz RightFail0006" x="3431" y="1956" width="571" height="646"/>
+	<SubTexture name="kanxz RightFail0007" x="2850" y="1956" width="571" height="645" frameX="0" frameY="-1" frameWidth="571" frameHeight="646"/>
+	<SubTexture name="kanxz RightFail0008" x="2850" y="1956" width="571" height="645" frameX="0" frameY="-1" frameWidth="571" frameHeight="646"/>
+	<SubTexture name="kanxz RightFail0009" x="3431" y="1956" width="571" height="646"/>
+	<SubTexture name="kanxz RightFail0010" x="3431" y="1956" width="571" height="646"/>
+	<SubTexture name="kanxz RightFail0011" x="2850" y="1956" width="571" height="645" frameX="0" frameY="-1" frameWidth="571" frameHeight="646"/>
+	<SubTexture name="kanxz RightFail0012" x="2850" y="1956" width="571" height="645" frameX="0" frameY="-1" frameWidth="571" frameHeight="646"/>
+	<SubTexture name="kanxz RightFail0013" x="3431" y="1956" width="571" height="646"/>
+	<SubTexture name="kanxz RightFail0014" x="3431" y="1956" width="571" height="646"/>
+	<SubTexture name="kanxz RightFail0015" x="2850" y="1956" width="571" height="645" frameX="0" frameY="-1" frameWidth="571" frameHeight="646"/>
+	<SubTexture name="kanxz RightFail0016" x="2850" y="1956" width="571" height="645" frameX="0" frameY="-1" frameWidth="571" frameHeight="646"/>
+	<SubTexture name="kanxz RightFail0017" x="3431" y="1956" width="571" height="646"/>
+	<SubTexture name="kanxz RightFail0018" x="3431" y="1956" width="571" height="646"/>
+	<SubTexture name="kanxz RightFail0019" x="2850" y="1956" width="571" height="645" frameX="0" frameY="-1" frameWidth="571" frameHeight="646"/>
+	<SubTexture name="kanxz RightFail0020" x="2850" y="1956" width="571" height="645" frameX="0" frameY="-1" frameWidth="571" frameHeight="646"/>
+	<SubTexture name="kanxz RightFail0021" x="3431" y="1956" width="571" height="646"/>
+	<SubTexture name="kanxz RightFail0022" x="3431" y="1956" width="571" height="646"/>
+	<SubTexture name="kanxz RightFail0023" x="2850" y="1956" width="571" height="645" frameX="0" frameY="-1" frameWidth="571" frameHeight="646"/>
+	<SubTexture name="kanxz RightFail0024" x="2850" y="1956" width="571" height="645" frameX="0" frameY="-1" frameWidth="571" frameHeight="646"/>
+	<SubTexture name="kanxz RightFail0025" x="3431" y="1956" width="571" height="646"/>
+	<SubTexture name="kanxz RightFail0026" x="3431" y="1956" width="571" height="646"/>
+	<SubTexture name="kanxz RightFail0027" x="2850" y="1956" width="571" height="645" frameX="0" frameY="-1" frameWidth="571" frameHeight="646"/>
+	<SubTexture name="kanxz RightFail0028" x="2850" y="1956" width="571" height="645" frameX="0" frameY="-1" frameWidth="571" frameHeight="646"/>
+	<SubTexture name="kanxz RightFail0029" x="3431" y="1956" width="571" height="646"/>
+	<SubTexture name="kanxz RightFail0030" x="3431" y="1956" width="571" height="646"/>
+	<SubTexture name="kanxz RightFail0031" x="2850" y="1956" width="571" height="645" frameX="0" frameY="-1" frameWidth="571" frameHeight="646"/>
+	<SubTexture name="kanxz RightFail0032" x="2850" y="1956" width="571" height="645" frameX="0" frameY="-1" frameWidth="571" frameHeight="646"/>
+	<SubTexture name="kanxz RightFail0033" x="3431" y="1956" width="571" height="646"/>
+	<SubTexture name="kanxz RightFail0034" x="3431" y="1956" width="571" height="646"/>
+	<SubTexture name="kanxz Up0000" x="4012" y="1956" width="514" height="671" frameX="-6" frameY="0" frameWidth="525" frameHeight="671"/>
+	<SubTexture name="kanxz Up0001" x="4012" y="1956" width="514" height="671" frameX="-6" frameY="0" frameWidth="525" frameHeight="671"/>
+	<SubTexture name="kanxz Up0002" x="4536" y="1956" width="523" height="658" frameX="-2" frameY="-11" frameWidth="525" frameHeight="671"/>
+	<SubTexture name="kanxz Up0003" x="5069" y="1956" width="525" height="652" frameX="0" frameY="-17" frameWidth="525" frameHeight="671"/>
+	<SubTexture name="kanxz Up0004" x="5604" y="1956" width="522" height="652" frameX="0" frameY="-17" frameWidth="525" frameHeight="671"/>
+	<SubTexture name="kanxz Up0005" x="5604" y="1956" width="522" height="652" frameX="0" frameY="-17" frameWidth="525" frameHeight="671"/>
+	<SubTexture name="kanxz Up0006" x="6136" y="1956" width="523" height="652" frameX="0" frameY="-17" frameWidth="525" frameHeight="671"/>
+	<SubTexture name="kanxz Up0007" x="6136" y="1956" width="523" height="652" frameX="0" frameY="-17" frameWidth="525" frameHeight="671"/>
+	<SubTexture name="kanxz Up0008" x="6136" y="1956" width="523" height="652" frameX="0" frameY="-17" frameWidth="525" frameHeight="671"/>
+	<SubTexture name="kanxz Up0009" x="6136" y="1956" width="523" height="652" frameX="0" frameY="-17" frameWidth="525" frameHeight="671"/>
+	<SubTexture name="kanxz Up0010" x="6136" y="1956" width="523" height="652" frameX="0" frameY="-17" frameWidth="525" frameHeight="671"/>
+	<SubTexture name="kanxz Up0011" x="6136" y="1956" width="523" height="652" frameX="0" frameY="-17" frameWidth="525" frameHeight="671"/>
+	<SubTexture name="kanxz Up0012" x="6136" y="1956" width="523" height="652" frameX="0" frameY="-17" frameWidth="525" frameHeight="671"/>
+	<SubTexture name="kanxz Up0013" x="6136" y="1956" width="523" height="652" frameX="0" frameY="-17" frameWidth="525" frameHeight="671"/>
+	<SubTexture name="kanxz Up0014" x="6136" y="1956" width="523" height="652" frameX="0" frameY="-17" frameWidth="525" frameHeight="671"/>
+	<SubTexture name="kanxz Up0015" x="6136" y="1956" width="523" height="652" frameX="0" frameY="-17" frameWidth="525" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0000" x="6669" y="1956" width="515" height="671" frameX="-22" frameY="0" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0001" x="7194" y="1956" width="549" height="605" frameX="0" frameY="-60" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0002" x="7194" y="1956" width="549" height="605" frameX="0" frameY="-60" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0003" x="10" y="2637" width="536" height="621" frameX="-8" frameY="-46" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0004" x="10" y="2637" width="536" height="621" frameX="-8" frameY="-46" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0005" x="556" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0006" x="556" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0007" x="1096" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0008" x="1096" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0009" x="556" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0010" x="556" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0011" x="1096" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0012" x="1096" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0013" x="556" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0014" x="556" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0015" x="1096" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0016" x="1096" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0017" x="556" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0018" x="556" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0019" x="1096" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0020" x="1096" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0021" x="556" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0022" x="556" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0023" x="1096" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0024" x="1096" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0025" x="1636" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0026" x="1636" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0027" x="1096" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0028" x="1096" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0029" x="1636" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0030" x="1636" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0031" x="1096" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0032" x="1096" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0033" x="1636" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0034" x="1636" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz UpFail0035" x="1096" y="2637" width="530" height="627" frameX="-12" frameY="-40" frameWidth="549" frameHeight="671"/>
+	<SubTexture name="kanxz idle dance0000" x="2176" y="2637" width="550" height="621" frameX="0" frameY="-13" frameWidth="560" frameHeight="635"/>
+	<SubTexture name="kanxz idle dance0001" x="2176" y="2637" width="550" height="621" frameX="0" frameY="-13" frameWidth="560" frameHeight="635"/>
+	<SubTexture name="kanxz idle dance0002" x="2736" y="2637" width="548" height="628" frameX="-4" frameY="-6" frameWidth="560" frameHeight="635"/>
+	<SubTexture name="kanxz idle dance0003" x="2736" y="2637" width="548" height="628" frameX="-4" frameY="-6" frameWidth="560" frameHeight="635"/>
+	<SubTexture name="kanxz idle dance0004" x="3294" y="2637" width="548" height="634" frameX="-8" frameY="0" frameWidth="560" frameHeight="635"/>
+	<SubTexture name="kanxz idle dance0005" x="3294" y="2637" width="548" height="634" frameX="-8" frameY="0" frameWidth="560" frameHeight="635"/>
+	<SubTexture name="kanxz idle dance0006" x="3852" y="2637" width="549" height="633" frameX="-6" frameY="-2" frameWidth="560" frameHeight="635"/>
+	<SubTexture name="kanxz idle dance0007" x="3852" y="2637" width="549" height="633" frameX="-6" frameY="-2" frameWidth="560" frameHeight="635"/>
+	<SubTexture name="kanxz idle dance0008" x="4411" y="2637" width="552" height="633" frameX="-6" frameY="-2" frameWidth="560" frameHeight="635"/>
+	<SubTexture name="kanxz idle dance0009" x="4411" y="2637" width="552" height="633" frameX="-6" frameY="-2" frameWidth="560" frameHeight="635"/>
+	<SubTexture name="kanxz idle dance0010" x="4973" y="2637" width="553" height="633" frameX="-6" frameY="-2" frameWidth="560" frameHeight="635"/>
+	<SubTexture name="kanxz idle dance0011" x="4973" y="2637" width="553" height="633" frameX="-6" frameY="-2" frameWidth="560" frameHeight="635"/>
+	<SubTexture name="kanxz idle dance0012" x="5536" y="2637" width="554" height="633" frameX="-6" frameY="-2" frameWidth="560" frameHeight="635"/>
+	<SubTexture name="kanxz idle dance0013" x="5536" y="2637" width="554" height="633" frameX="-6" frameY="-2" frameWidth="560" frameHeight="635"/>
+	<SubTexture name="kanxz idle dance0014" x="5536" y="2637" width="554" height="633" frameX="-6" frameY="-2" frameWidth="560" frameHeight="635"/>
+	<SubTexture name="kanxz idle dance0015" x="5536" y="2637" width="554" height="633" frameX="-6" frameY="-2" frameWidth="560" frameHeight="635"/>
+	<SubTexture name="kanxz risa0000" x="5164" y="10" width="554" height="633" frameX="-3" frameY="-3" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz risa0001" x="5164" y="10" width="554" height="633" frameX="-3" frameY="-3" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz risa0002" x="5164" y="10" width="554" height="633" frameX="-3" frameY="-3" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz risa0003" x="5164" y="10" width="554" height="633" frameX="-3" frameY="-3" frameWidth="977" frameHeight="633"/>
+	<SubTexture name="kanxz risa0004" x="6100" y="2637" width="546" height="629" frameX="-3" frameY="-6" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0005" x="6100" y="2637" width="546" height="629" frameX="-3" frameY="-6" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0006" x="6100" y="2637" width="546" height="629" frameX="-3" frameY="-6" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0007" x="6656" y="2637" width="551" height="631" frameX="-3" frameY="-4" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0008" x="6656" y="2637" width="551" height="631" frameX="-3" frameY="-4" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0009" x="6656" y="2637" width="551" height="631" frameX="-3" frameY="-4" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0010" x="6656" y="2637" width="551" height="631" frameX="-3" frameY="-4" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0011" x="7217" y="2637" width="554" height="633" frameX="-3" frameY="-3" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0012" x="7217" y="2637" width="554" height="633" frameX="-3" frameY="-3" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0013" x="7217" y="2637" width="554" height="633" frameX="-3" frameY="-3" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0014" x="10" y="3281" width="559" height="635" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0015" x="10" y="3281" width="559" height="635" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0016" x="579" y="3281" width="553" height="631" frameX="-3" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0017" x="579" y="3281" width="553" height="631" frameX="-3" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0018" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0019" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0020" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0021" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0022" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0023" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0024" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0025" x="2815" y="3281" width="548" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0026" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0027" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0028" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0029" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0030" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0031" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0032" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0033" x="2815" y="3281" width="548" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0034" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0035" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0036" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0037" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0038" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0039" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0040" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0041" x="2815" y="3281" width="548" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0042" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0043" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0044" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0045" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0046" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0047" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0048" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0049" x="2815" y="3281" width="548" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0050" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0051" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0052" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0053" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0054" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0055" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0056" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0057" x="2815" y="3281" width="548" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0058" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0059" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0060" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0061" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0062" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0063" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0064" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0065" x="2815" y="3281" width="548" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0066" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0067" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0068" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0069" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0070" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0071" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0072" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0073" x="2815" y="3281" width="548" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0074" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0075" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0076" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0077" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0078" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0079" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0080" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0081" x="2815" y="3281" width="548" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0082" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0083" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0084" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0085" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0086" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0087" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0088" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0089" x="2815" y="3281" width="548" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0090" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0091" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0092" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0093" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0094" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0095" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0096" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0097" x="2815" y="3281" width="548" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0098" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0099" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0100" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0101" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0102" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0103" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0104" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0105" x="2815" y="3281" width="548" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0106" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0107" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0108" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0109" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0110" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0111" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0112" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0113" x="2815" y="3281" width="548" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0114" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0115" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0116" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0117" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0118" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0119" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0120" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0121" x="2815" y="3281" width="548" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0122" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0123" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0124" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0125" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0126" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0127" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0128" x="2261" y="3281" width="544" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0129" x="2815" y="3281" width="548" height="636" frameX="-3" frameY="0" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0130" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0131" x="1142" y="3281" width="551" height="630" frameX="0" frameY="-5" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0132" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0133" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+	<SubTexture name="kanxz risa0134" x="1703" y="3281" width="548" height="634" frameX="-3" frameY="-1" frameWidth="562" frameHeight="636"/>
+</TextureAtlas>

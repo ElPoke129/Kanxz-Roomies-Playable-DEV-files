@@ -1,0 +1,44 @@
+import funkin.play.song.Song;
+import funkin.play.PlayState;
+import funkin.modding.events.CountdownScriptEvent;
+import funkin.modding.events.ScriptEvent;
+import flixel.FlxG;
+
+class MilfKanxzSong extends Song {
+  var hasPlayedCutscene:Bool = false;
+
+  public function new() {
+    super('milf-kanxz');
+  }
+
+  public override function onCountdownStart(event:CountdownScriptEvent):Void {
+    super.onCountdownStart(event);
+
+    // Si estamos en modo charting, marcamos la cutscene como vista y salimos.
+    if (PlayState.instance.isChartingMode) {
+        hasPlayedCutscene = true;
+        return;
+    }
+
+    // Posición de cámara para la semana de la limusina (Week 4)
+    // Usamos 500, 470 como en High/Satin Panties para mantener consistencia
+    if (!hasPlayedCutscene) {
+       PlayState.instance.cameraFollowPoint.setPosition(500, 470);
+       PlayState.instance.camGame.focusOn(PlayState.instance.cameraFollowPoint.getPosition());
+    }
+
+    if (!hasPlayedCutscene) {
+      hasPlayedCutscene = true;
+      
+      event.cancel(); 
+
+      // Iniciar la conversación
+      PlayState.instance.startConversation('milf-kanxz');
+    }
+  }
+
+  public override function onSongRetry(event:ScriptEvent):Void {
+      super.onSongRetry(event);
+      hasPlayedCutscene = true;
+  }
+}

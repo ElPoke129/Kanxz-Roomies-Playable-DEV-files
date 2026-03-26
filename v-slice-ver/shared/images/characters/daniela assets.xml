@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="daniela assets.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Daniela Dancing0000" x="617" y="2702" width="597" height="656" frameX="-4" frameY="-18" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0001" x="3045" y="1358" width="605" height="656" frameX="0" frameY="-18" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0002" x="3045" y="689" width="605" height="659" frameX="0" frameY="-15" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0003" x="10" y="2026" width="597" height="659" frameX="-4" frameY="-15" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0004" x="2462" y="2024" width="597" height="662" frameX="-4" frameY="-12" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0005" x="3069" y="2024" width="597" height="662" frameX="-4" frameY="-12" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0006" x="625" y="1361" width="597" height="663" frameX="-4" frameY="-11" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0007" x="2438" y="691" width="597" height="667" frameX="-4" frameY="-7" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0008" x="2438" y="691" width="597" height="667" frameX="-4" frameY="-7" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0009" x="2438" y="691" width="597" height="667" frameX="-4" frameY="-7" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0010" x="2438" y="10" width="597" height="671" frameX="-4" frameY="-3" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0011" x="2438" y="10" width="597" height="671" frameX="-4" frameY="-3" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0012" x="2438" y="10" width="597" height="671" frameX="-4" frameY="-3" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0013" x="3045" y="10" width="597" height="669" frameX="-4" frameY="-5" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0014" x="3045" y="10" width="597" height="669" frameX="-4" frameY="-5" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0015" x="617" y="2034" width="597" height="658" frameX="-4" frameY="-16" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0016" x="617" y="693" width="605" height="658" frameX="0" frameY="-16" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0017" x="10" y="1361" width="605" height="655" frameX="0" frameY="-19" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0018" x="10" y="3362" width="597" height="655" frameX="-4" frameY="-19" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0019" x="1232" y="2032" width="597" height="659" frameX="-4" frameY="-15" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0020" x="1839" y="2032" width="597" height="659" frameX="-4" frameY="-15" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0021" x="1232" y="693" width="597" height="665" frameX="-4" frameY="-9" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0022" x="617" y="10" width="597" height="673" frameX="-4" frameY="-1" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0023" x="1224" y="10" width="597" height="673" frameX="-4" frameY="-1" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0024" x="1224" y="10" width="597" height="673" frameX="-4" frameY="-1" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0025" x="10" y="10" width="597" height="674" frameX="-4" frameY="0" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0026" x="10" y="10" width="597" height="674" frameX="-4" frameY="0" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0027" x="10" y="10" width="597" height="674" frameX="-4" frameY="0" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0028" x="1831" y="10" width="597" height="673" frameX="-4" frameY="-1" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela Dancing0029" x="1831" y="10" width="597" height="673" frameX="-4" frameY="-1" frameWidth="605" frameHeight="674"/>
+	<SubTexture name="Daniela sad0000" x="1232" y="1368" width="605" height="654" frameX="0" frameY="-3" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0001" x="1847" y="1368" width="605" height="654" frameX="0" frameY="-3" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0002" x="10" y="694" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0003" x="10" y="2695" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0004" x="2446" y="2696" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0005" x="3053" y="2696" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0006" x="1224" y="2701" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0007" x="10" y="2695" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0008" x="1831" y="2701" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0009" x="3053" y="2696" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0010" x="1224" y="2701" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0011" x="10" y="2695" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0012" x="1831" y="2701" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0013" x="3053" y="2696" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0014" x="1224" y="2701" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0015" x="10" y="2695" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0016" x="1831" y="2701" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0017" x="3053" y="2696" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0018" x="1224" y="2701" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0019" x="10" y="2695" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0020" x="1831" y="2701" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0021" x="3053" y="2696" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0022" x="1224" y="2701" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0023" x="10" y="2695" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0024" x="1831" y="2701" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0025" x="3053" y="2696" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0026" x="1224" y="2701" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0027" x="10" y="2695" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0028" x="1831" y="2701" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+	<SubTexture name="Daniela sad0029" x="3053" y="2696" width="597" height="657" frameX="-4" frameY="0" frameWidth="605" frameHeight="657"/>
+</TextureAtlas>

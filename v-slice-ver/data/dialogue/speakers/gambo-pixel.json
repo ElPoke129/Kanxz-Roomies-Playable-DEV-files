@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "name": "Gambo Pixel",
+  "assetPath": "dialogue/gambo-pixel",
+  "flipX": false,
+  "isPixel": true,
+  "scale": 5.4,
+  "offsets": [-180, -208],
+  "animations": [
+    {
+      "name": "talk-gambo",
+      "prefix": "normal",
+      "offsets": [0, 0],
+      "frameRate": 12,
+      "looped": true
+    },
+    {
+      "name": "talk-kanxz-gambo",
+      "prefix": "talktokanxz",
+      "offsets": [0, 0],
+      "frameRate": 12,
+      "looped": true
+    },
+    {
+      "name": "angry-gambo",
+      "prefix": "shout",
+      "offsets": [0, 0],
+      "frameRate": 12,
+      "looped": true
+    },
+    {
+      "name": "angry-kanxz-gambo",
+      "prefix": "angrytokanxz",
+      "offsets": [0, 0],
+      "frameRate": 12,
+      "looped": true
+    }
+  ]
+}

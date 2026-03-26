@@ -1,0 +1,193 @@
+{
+  "version": "1.0.0",
+
+  "backdrop": {
+    "type": "solid",
+    "fadeTime": 0.5,
+    "color": "#BFB3DFD8"
+  },
+
+  "music": {
+    "asset": "Lunchbox",
+    "fadeTime": 2.0,
+    "looped": true
+  },
+
+  "outro": {
+    "type": "fade",
+    "fadeTime": 1.0
+  },
+
+  "dialogue": [
+    {
+      "speaker": "senpai",
+      "speakerAnimation": "talk",
+      "box": "senpai-kanxz",
+      "boxAnimation": "enter",
+      "speed": 0.05,
+      "text": [
+        "¡Ah, una nueva doncella ha venido en busca del verdadero amo–"
+      ]
+    },
+    {
+      "speaker": "senpai-bwuh",
+      "speakerAnimation": "talk",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "..."
+      ]
+    },
+    {
+      "speaker": "gambo-pixel",
+      "speakerAnimation": "talk-gambo",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "¿Qué chingados me ves, cabrón?"
+      ]
+    },
+    {
+      "speaker": "senpai-bwuh",
+      "speakerAnimation": "talk",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "Eww..."
+      ]
+    },
+    {
+      "speaker": "senpai-bwuh",
+      "speakerAnimation": "talk",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "Tú."
+      ]
+    },
+    {
+      "speaker": "kanxz-pixel",
+      "speakerAnimation": "talk-nervous-kanxz",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "¿Yo?"
+      ]
+    },
+    {
+      "speaker": "senpai-bwuh",
+      "speakerAnimation": "talk",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "¿Por qué estás saliendo con esta chica morena?"
+      ]
+    },
+    {
+      "speaker": "kanxz-pixel",
+      "speakerAnimation": "talk-nervous-kanxz",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "¡¿Qué fueee!?"
+      ]
+    },
+    {
+      "speaker": "gambo-pixel",
+      "speakerAnimation": "angry-gambo",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "¿¡QUÉ!?"
+      ]
+    },
+    {
+      "speaker": "gambo-pixel",
+      "speakerAnimation": "angry-gambo",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "¡NO SOY MUJER, PENDEJO!"
+      ]
+    },
+    {
+      "speaker": "senpai-bwuh",
+      "speakerAnimation": "talk",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "..."
+      ]
+    },
+    {
+      "speaker": "senpai-bwuh",
+      "speakerAnimation": "talk",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "Mereces a alguien con derechos, no una criminal."
+      ]
+    },
+    {
+      "speaker": "kanxz-pixel",
+      "speakerAnimation": "gasp-kanxz",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "..."
+      ]
+    },
+    {
+      "speaker": "kanxz-pixel",
+      "speakerAnimation": "gasp-kanxz",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "..."
+      ]
+    },
+    {
+      "speaker": "gambo-pixel",
+      "speakerAnimation": "angry-gambo",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "..."
+      ]
+    },
+    {
+      "speaker": "gambo-pixel",
+      "speakerAnimation": "angry-gambo",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "Agárrame, Kanxz..."
+      ]
+    },
+    {
+      "speaker": "gambo-pixel",
+      "speakerAnimation": "angry-gambo",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "porque lo mato."
+      ]
+    }
+  ]
+}

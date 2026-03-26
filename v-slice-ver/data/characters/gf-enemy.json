@@ -1,0 +1,177 @@
+{
+  "version": "1.0.0",
+  "renderType": "sparrow",
+  "name": "GF (Enemy)",
+  "assetPath": "characters/GF_V3",
+  "scale": 1,
+  "offsets": [
+    0,
+    0
+  ],
+  "cameraOffsets": [
+    0,
+    0
+  ],
+  "danceEvery": 1,
+  "singTime": 8.0,
+  "flipX": true,
+  "healthIcon": {
+    "id": "gf",
+    "scale": 1,
+    "flipX": false,
+    "offsets": [
+      0,
+      0
+    ]
+  },
+  "animations": [
+    {
+      "name": "danceLeft",
+      "prefix": "gfDanceLeft",
+      "offsets": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "danceRight",
+      "prefix": "gfDanceRight",
+      "offsets": [
+        14,
+        -1
+      ]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "gfRight",
+      "offsets": [
+        109,
+        -38
+      ]
+    },
+    {
+      "name": "singLEFT-hold",
+      "prefix": "gfRight",
+      "looped": true,
+      "offsets": [
+        109,
+        -38
+      ]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "gfLeft",
+      "offsets": [
+        -53,
+        -2
+      ]
+    },
+    {
+      "name": "singRIGHT-hold",
+      "prefix": "gfLeft",
+      "looped": true,
+      "offsets": [
+        -53,
+        -2
+      ]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "gfDown",
+      "offsets": [
+        2,
+        -30
+      ]
+    },
+    {
+      "name": "singDOWN-hold",
+      "prefix": "gfDown",
+      "looped": true,
+      "offsets": [
+        2,
+        -30
+      ]
+    },
+    {
+      "name": "singUP",
+      "prefix": "gfUp",
+      "offsets": [
+        0,
+        26
+      ]
+    },
+    {
+      "name": "singUP-hold",
+      "prefix": "gfUp",
+      "looped": true,
+      "offsets": [
+        0,
+        26
+      ]
+    },
+    {
+      "name": "preAttack",
+      "prefix": "gfPreAttack",
+      "offsets": [
+        32,
+        -19
+      ]
+    },
+    {
+      "name": "attack",
+      "prefix": "gfAttack",
+      "offsets": [
+        75,
+        -20
+      ]
+    },
+    {
+      "name": "hurt",
+      "prefix": "gfHurt",
+      "offsets": [
+        159,
+        -45
+      ]
+    },
+    {
+      "name": "cheer",
+      "prefix": "gfHey",
+      "offsets": [
+        31,
+        -2
+      ]
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "gfMISSRight",
+      "offsets": [
+        116,
+        -50
+      ]
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "gfMISSLeft",
+      "offsets": [
+        -60,
+        -22
+      ]
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "gfMISSDown",
+      "offsets": [
+        -2,
+        -49
+      ]
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "gfMISSUp",
+      "offsets": [
+        0,
+        14
+      ]
+    }
+  ]
+}

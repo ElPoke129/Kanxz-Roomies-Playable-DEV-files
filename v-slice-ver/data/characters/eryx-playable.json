@@ -1,0 +1,152 @@
+{
+	"danceEvery": 1,
+	"offsets": [
+		50,
+		70
+	],
+	"renderType": "sparrow",
+	"version": "1.0.1",
+	"scale": 1,
+	"flipX": true,
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"name": "Eryx playable",
+	"flipY": false,
+	"singTime": 4,
+	"isPixel": false,
+	"startingAnimation": "idle",
+	"assetPath": "characters/eryx playable assets",
+	"healthIcon": {
+		"id": "eryx-playable"
+	},
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [],
+			"prefix": "eryx idle dance",
+			"flipX": false,
+			"looped": false,
+			"name": "idle",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				62,
+				-3
+			],
+			"frameIndices": [],
+			"prefix": "eryx left0",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				63,
+				7
+			],
+			"frameIndices": [],
+			"prefix": "eryx left miss",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFTmiss",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				14,
+				-91
+			],
+			"frameIndices": [],
+			"prefix": "eryx down0",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				14,
+				-47
+			],
+			"frameIndices": [],
+			"prefix": "eryx down miss",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWNmiss",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-40,
+				46
+			],
+			"frameIndices": [],
+			"prefix": "eryx up0",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-30,
+				46
+			],
+			"frameIndices": [],
+			"prefix": "eryx up miss",
+			"flipX": false,
+			"looped": false,
+			"name": "singUPmiss",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-20,
+				-17
+			],
+			"frameIndices": [],
+			"prefix": "eryx right0",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-20,
+				5
+			],
+			"frameIndices": [],
+			"prefix": "eryx right miss",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHTmiss",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		}
+	]
+}

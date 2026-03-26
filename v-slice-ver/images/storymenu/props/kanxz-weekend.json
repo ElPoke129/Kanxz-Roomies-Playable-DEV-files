@@ -1,0 +1,9 @@
+{
+	"idle_anim": "kanxz idle dance0",
+	"image": "kanxz-menu-weekend",
+	"position": [191, 270],
+	"flipX": false,
+	"antialiasing": true,
+	"scale": 0.6,
+	"confirm_anim": "kanxz silly0"
+}

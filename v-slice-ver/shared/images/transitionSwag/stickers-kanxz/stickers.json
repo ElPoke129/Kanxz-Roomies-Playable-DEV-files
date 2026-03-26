@@ -1,0 +1,19 @@
+{
+    "stickers": {
+        "kanxz": ["kanxzSticker1", "kanxzSticker2", "kanxzSticker3"],
+        "eryx": ["eryxSticker1", "eryxSticker2", "eryxSticker3"],
+        "gambo": ["gamboSticker1", "gamboSticker2", "gamboSticker3"],
+        "mily": ["milySticker1", "milySticker2", "milySticker3"],
+        "poke": ["pokeSticker1", "pokeSticker2", "pokeSticker3"],
+        "gf": ["gfSticker1", "gfSticker2", "gfSticker3"]
+    },
+    "stickerPacks": {
+        "tutorial": ["kanxz", "gf"],
+        "gambanxz": ["gambo", "kanxz"],
+        "gambo1": ["gambo"],
+        "gambo2": ["gambo", "gf"],
+        "eryx": ["eryx", "eryx"],
+        "roomies": ["kanxz", "eryx", "eryx", "gambo", "mily"],
+        "all": ["kanxz", "eryx", "gambo", "mily", "poke"]
+    }
+}

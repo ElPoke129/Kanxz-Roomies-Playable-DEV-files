@@ -1,0 +1,64 @@
+import funkin.play.cutscene.dialogue.Conversation;
+import funkin.audio.FunkinSound;
+import funkin.Paths;
+
+class SatinPantiesConversation extends Conversation {
+
+  var vozMom:FunkinSound;
+  var vozKanxz:FunkinSound;
+  var vozGambo:FunkinSound;
+
+  function new() {
+    super('satin-panties-kanxz');
+  }
+
+  override function onCreate(event) {
+    super.onCreate(event);
+    
+    // Cargar sonidos
+    // Asegúrate de que estos archivos existan en assets/sounds/dialogue/
+    vozMom = FunkinSound.load(Paths.sound('dialogue/mom_voice'), 0.6);
+    vozKanxz = FunkinSound.load(Paths.sound('dialogue/kanxz_voice'), 0.6);
+    vozGambo = FunkinSound.load(Paths.sound('dialogue/gambo_voice'), 0.6);
+  }
+
+  override function onDialogueLine(event) {
+    super.onDialogueLine(event);
+    FunkinSound.playOnce(Paths.sound("clickText"), 0.6);
+  }
+
+  override function onUpdate(event) {
+    super.onUpdate(event);
+    
+    // Verificaciones de seguridad
+    if (currentDialogueBox == null || currentDialogueBox.textDisplay == null) return;
+    if (currentSpeaker == null) return;
+
+    var nombreAnimacion:String = "";
+    if (currentSpeaker.animation.curAnim != null) {
+        nombreAnimacion = currentSpeaker.animation.curAnim.name;
+    }
+    var speakerId:String = currentSpeaker.id;
+
+    // --- LÓGICA DE DETECCIÓN POR SUFIJOS ---
+    
+    // 1. MOM (Busca "-mom" en animación o "mom" en ID)
+    if (speakerId.indexOf("mom") != -1 || nombreAnimacion.indexOf("-mom") != -1) {
+         if (!currentDialogueBox.textDisplay.sounds.contains(vozMom)) {
+             currentDialogueBox.textDisplay.sounds = [vozMom];
+         }
+    }
+    // 2. GAMBO (Busca "-gambo" en animación o "gambo" en ID)
+    else if (speakerId.indexOf("gambo") != -1 || nombreAnimacion.indexOf("-gambo") != -1) {
+         if (!currentDialogueBox.textDisplay.sounds.contains(vozGambo)) {
+             currentDialogueBox.textDisplay.sounds = [vozGambo];
+         }
+    }
+    // 3. KANXZ (Busca "-kanxz" en animación o "kanxz" en ID)
+    else if (speakerId.indexOf("kanxz") != -1 || nombreAnimacion.indexOf("-kanxz") != -1) {
+         if (!currentDialogueBox.textDisplay.sounds.contains(vozKanxz)) {
+             currentDialogueBox.textDisplay.sounds = [vozKanxz];
+         }
+    }
+  }
+}

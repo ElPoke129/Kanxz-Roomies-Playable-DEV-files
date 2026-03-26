@@ -1,0 +1,48 @@
+import funkin.play.song.Song;
+import funkin.play.PlayState;
+import funkin.modding.events.CountdownScriptEvent;
+import funkin.modding.events.ScriptEvent;
+import flixel.FlxG;
+
+class HighKanxzSong extends Song {
+  var hasPlayedCutscene:Bool = false;
+
+  public function new() {
+    super('high-kanxz');
+  }
+
+  public override function onCountdownStart(event:CountdownScriptEvent):Void {
+    super.onCountdownStart(event);
+
+    // Si estamos en modo charting, marcamos la cutscene como vista y salimos.
+    if (PlayState.instance.isChartingMode) {
+        hasPlayedCutscene = true;
+        return;
+    }
+
+    // Lógica del Lua original: Forzar posición de cámara al inicio
+    // (500, 470) para enfocar donde sucede la acción
+    if (!hasPlayedCutscene) {
+       PlayState.instance.cameraFollowPoint.setPosition(500, 470);
+       PlayState.instance.camGame.focusOn(PlayState.instance.cameraFollowPoint.getPosition());
+    }
+
+    if (!hasPlayedCutscene) {
+      hasPlayedCutscene = true;
+      event.cancel(); 
+
+      // Iniciar la conversación
+      PlayState.instance.startConversation('high-kanxz');
+    }
+  }
+
+  public override function onSongStart(event:ScriptEvent):Void {
+      super.onSongStart(event);
+      // Al iniciar la canción, la cámara volverá a seguir a los personajes automáticamente
+  }
+
+  public override function onSongRetry(event:ScriptEvent):Void {
+      super.onSongRetry(event);
+      hasPlayedCutscene = true;
+  }
+}

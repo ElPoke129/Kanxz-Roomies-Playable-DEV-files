@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="kanxzalbum1-expansion-text.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idle0000" x="10" y="232" width="284" height="212"/>
+	<SubTexture name="idle0001" x="10" y="232" width="284" height="212"/>
+	<SubTexture name="idle0002" x="10" y="232" width="284" height="212"/>
+	<SubTexture name="idle0003" x="10" y="232" width="284" height="212"/>
+	<SubTexture name="idle0004" x="10" y="232" width="284" height="212"/>
+	<SubTexture name="idle0005" x="10" y="232" width="284" height="212"/>
+	<SubTexture name="idle0006" x="10" y="232" width="284" height="212"/>
+	<SubTexture name="idle0007" x="10" y="232" width="284" height="212"/>
+	<SubTexture name="switch0000" x="10" y="10" width="284" height="212"/>
+	<SubTexture name="switch0001" x="10" y="10" width="284" height="212"/>
+	<SubTexture name="switch0002" x="10" y="232" width="284" height="212"/>
+	<SubTexture name="switch0003" x="10" y="232" width="284" height="212"/>
+</TextureAtlas>

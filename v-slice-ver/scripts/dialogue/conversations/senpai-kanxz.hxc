@@ -1,0 +1,60 @@
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
+import Std;
+import funkin.play.cutscene.dialogue.Conversation;
+
+class SenpaiKanxzConversation extends Conversation
+{
+  function new()
+  {
+    super('senpai-kanxz');
+  }
+
+  override function showCurrentSpeaker():Void
+  {
+    super.showCurrentSpeaker();
+
+    // Funny moment; stop the music for dramatic effect.
+    switch (currentSpeaker.id)
+    {
+      case 'senpai-bwuh':
+        if (this.music != null)
+        {
+          this.music.destroy();
+          this.music = null;
+        }
+      case 'senpai':
+        if (this.music == null)
+        {
+          this.setupMusic();
+        }
+    }
+  }
+
+  override function onUpdate(event:Dynamic) {
+    super.onUpdate(event);
+    
+    if (currentSpeaker == null) return;
+
+    var nombreAnimacion:String = "";
+    if (currentSpeaker.animation.curAnim != null) {
+        nombreAnimacion = currentSpeaker.animation.curAnim.name;
+    }
+
+    // --- LÓGICA DE ANIMACIÓN AL HABLAR ---
+    var currentState = "Idle";
+    try { currentState = Std.string(Reflect.getProperty(this, "state")); } catch(e:Dynamic) {}
+
+    if (currentSpeaker.animation.curAnim != null) {
+        if (nombreAnimacion.indexOf("talk") != -1) {
+            currentSpeaker.animation.curAnim.looped = true;
+        }
+        if (currentState != "Speaking") {
+            currentSpeaker.animation.pause();
+            currentSpeaker.animation.curAnim.curFrame = 0;
+        } else {
+            currentSpeaker.animation.resume();
+        }
+    }
+  }
+}

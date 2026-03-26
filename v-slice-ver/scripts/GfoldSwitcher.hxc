@@ -1,0 +1,51 @@
+import funkin.modding.module.Module;
+import funkin.ui.options.OptionsState;
+import funkin.save.Save;
+import Std;
+
+// EN: Switch to toggle between song versions
+// ES: Switch para alternar entre versiones de una cancion
+
+// EN: You are free to copy this script and use it in your own mod
+// ES: Eres libre de copiar este script y usarlo en tu propio mod
+
+class GfSwitchSongOptions extends Module
+{
+    public var isOldVersion:Bool = false;
+
+    public function new() {
+        super("GfSwitchSongOptions", 1);
+
+        if (Save.instance.modOptions["switchGfSong"] == null) {
+            Save.instance.modOptions["switchGfSong"] = false;
+        }
+
+        isOldVersion = Save.instance.modOptions["switchGfSong"];
+    }
+
+    override function onStateChangeEnd(event) {
+        super.onStateChangeEnd(event);
+
+        if (Std.isOfType(event.targetState, OptionsState)) {
+            
+            var prefs = event.targetState.optionsCodex.pages.get("preferences");
+
+            if (prefs != null) {
+                
+                prefs.createPrefItemCheckbox(
+                    "Kanxz OLD Gf Song",
+                    "Alterna a la versión anterior de 'Girlfriend Song (Kanxz’s Mix)' restaurando los sprites y las cromáticas anteriores.",
+                    function(value:Bool) {
+                        Save.instance.modOptions["switchGfSong"] = value;
+                        isOldVersion = value;
+                        
+                        Save.instance.flush();
+                        
+                        trace("Switch GF Song cambiado a: " + (value ? "OLD" : "ORIGINAL"));
+                    },
+                    Save.instance.modOptions["switchGfSong"]
+                );
+            }
+        }
+    }
+}

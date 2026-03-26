@@ -1,0 +1,35 @@
+import funkin.play.song.Song;
+import funkin.play.PlayState;
+import funkin.modding.events.ScriptEvent;
+import funkin.modding.events.CountdownScriptEvent;
+
+class SatinPantiesSong extends Song {
+  var hasPlayedCutscene:Bool = false;
+
+  public function new() {
+    super('satin-panties-kanxz');
+  }
+
+  public override function onCountdownStart(event:CountdownScriptEvent):Void {
+    super.onCountdownStart(event);
+
+    // Si estamos en modo charting, marcamos la cutscene como vista y salimos.
+    if (PlayState.instance.isChartingMode) {
+        hasPlayedCutscene = true;
+        return;
+    }
+
+    if (!hasPlayedCutscene) {
+      hasPlayedCutscene = true;
+      event.cancel(); 
+
+      // Iniciar la conversación 'satin-panties-kanxz'
+      PlayState.instance.startConversation('satin-panties-kanxz');
+    }
+  }
+
+  public override function onSongRetry(event:ScriptEvent):Void {
+      super.onSongRetry(event);
+      hasPlayedCutscene = true;
+  }
+}

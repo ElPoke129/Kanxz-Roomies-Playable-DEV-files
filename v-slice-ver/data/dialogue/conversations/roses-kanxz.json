@@ -1,0 +1,172 @@
+{
+  "version": "1.0.0",
+
+  "backdrop": {
+    "type": "solid",
+    "fadeTime": 0.5,
+    "color": "#BFB3DFD8"
+  },
+
+  "outro": {
+    "type": "fade",
+    "fadeTime": 1.0
+  },
+
+  "dialogue": [
+    {
+      "speaker": "senpai-angry",
+      "speakerAnimation": "talk",
+      "box": "senpai-kanxz",
+      "boxAnimation": "enter",
+      "speed": 0.05,
+      "text": [
+        "¡¡¡AAAAH!!!"
+      ]
+    },
+    {
+      "speaker": "gambo-pixel",
+      "speakerAnimation": "talk-gambo",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "¿Y ahora qué traes, hijo de la chingada?"
+      ]
+    },
+    {
+      "speaker": "senpai-angry",
+      "speakerAnimation": "talk",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "Como ",
+        "es posible que alguien que canta ASÍ de bien... ",
+        "esté saliendo... ",
+        "¡¿con esta chica marrón barata?!"
+      ]
+    },
+    {
+      "speaker": "kanxz-pixel",
+      "speakerAnimation": "pissed-kanxz",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "¡Oe oe oe! ",
+        "¡Yo decido con quién salgo causa!"
+      ]
+    },
+    {
+      "speaker": "gambo-pixel",
+      "speakerAnimation": "talk-kanxz-gambo",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "Kanxz... ",
+        "Kanxz... ",
+        "Mejor cállate, mano."
+      ]
+    },
+    {
+      "speaker": "gambo-pixel",
+      "speakerAnimation": "talk-gambo",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "Déjame a este wey. ",
+        "Ya me lo quería chingar desde la primera rola."
+      ]
+    },
+    {
+      "speaker": "senpai-gasp",
+      "speakerAnimation": "gasp-senpai",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "¡Gasp!"
+      ]
+    },
+    {
+      "speaker": "senpai-angry",
+      "speakerAnimation": "talk",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "No ",
+        "me ",
+        "hables con ese tono... ",
+        "¡¡DE PIEL, MONO DE MIERDA!!"
+      ]
+    },
+    {
+      "speaker": "kanxz-pixel",
+      "speakerAnimation": "talk-nervous-kanxz",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "Ay no...",
+        "ya fue."
+      ]
+    },
+    {
+      "speaker": "gambo-pixel",
+      "speakerAnimation": "angry-gambo",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "...",
+        "AHORA SÍ... ",
+        "YA SACASTE BOLETO, CHAMACO MEADO."
+      ]
+    },
+    {
+      "speaker": "gambo-pixel",
+      "speakerAnimation": "angry-gambo",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "VOY A MATAR A ESTE RACISTA HIJO DE LA CHINGADA."
+      ]
+    },
+    {
+      "speaker": "gambo-pixel",
+      "speakerAnimation": "angry-gambo",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "KANXZ ",
+        "DÉJAME CANTAR A MI."
+      ]
+    },
+    {
+      "speaker": "kanxz-pixel",
+      "speakerAnimation": "talk-kanxz",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "No Gambo, ",
+        "Este es mi mod."
+      ]
+    },
+    {
+      "speaker": "gambo-pixel",
+      "speakerAnimation": "angry-kanxz-gambo",
+      "box": "senpai-kanxz",
+      "boxAnimation": "speaking",
+      "speed": 0.05,
+      "text": [
+        "puta madre."
+      ]
+    }
+  ]
+}

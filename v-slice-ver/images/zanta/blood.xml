@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="blood.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="blood splash0000" x="756" y="663" width="384" height="470" frameX="0" frameY="-70" frameWidth="749" frameHeight="743"/>
+	<SubTexture name="blood splash0001" x="10" y="10" width="523" height="592" frameX="-35" frameY="0" frameWidth="749" frameHeight="743"/>
+	<SubTexture name="blood splash0002" x="543" y="10" width="479" height="643" frameX="-190" frameY="-17" frameWidth="749" frameHeight="743"/>
+	<SubTexture name="blood splash0003" x="10" y="612" width="368" height="631" frameX="-361" frameY="-76" frameWidth="749" frameHeight="743"/>
+	<SubTexture name="blood splash0004" x="388" y="663" width="358" height="592" frameX="-391" frameY="-151" frameWidth="749" frameHeight="743"/>
+</TextureAtlas>

@@ -1,0 +1,60 @@
+{
+  "version": "1.0.0",
+  "name": "Kanxzy",
+  "assetPath": "characters/chibi cute kanxz assets",
+  "healthIcon": {
+    "id": "kanxz",
+    "flipX": false
+  },
+  "offsets": [0, 0],
+  "flipX": true,
+  "renderType": "sparrow",
+  "singTime": 4.0,
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "kanzy idle0",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "kanzy right0",
+      "offsets": [0, -7]
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "kanzy right miss0",
+      "offsets": [3, 29]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "kanzy left0",
+      "offsets": [0, -6]
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "kanzy left miss0",
+      "offsets": [0, 46]
+    },
+    {
+      "name": "singUP",
+      "prefix": "kanzy up0",
+      "offsets": [0, 14]
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "kanzy up miss0",
+      "offsets": [6, 14]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "kanzy down0",
+      "offsets": [0, -16]
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "kanzy down miss0",
+      "offsets": [5, 22]
+    }
+  ]
+}

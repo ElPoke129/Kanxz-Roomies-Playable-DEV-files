@@ -1,0 +1,203 @@
+{
+  "version": "1.0.0",
+
+  "backdrop": {
+    "type": "solid",
+    "fadeTime": 0.5,
+    "color": "#BFB3DFD8"
+  },
+
+  "music": {
+    "asset": "dialogues/HighInstrumental",
+    "fadeTime": 1.0,
+    "looped": true
+  },
+
+  "outro": {
+    "type": "fade",
+    "fadeTime": 1.0
+  },
+
+  "dialogue": [
+    {
+      "speaker": "gambo-1",
+      "speakerAnimation": "talk-gambo",
+      "box": "kanxz",
+      "boxAnimation": "middle",
+      "speed": 0.05,
+      "text": [
+        "Oye, Kanxz."
+      ]
+    },
+    {
+      "speaker": "kanxz-1",
+      "speakerAnimation": "talk-un-kanxz",
+      "box": "kanxz",
+      "boxAnimation": "right",
+      "speed": 0.02,
+      "text": [
+        "..."
+      ]
+    },
+    {
+      "speaker": "gambo-1",
+      "speakerAnimation": "talk-gambo",
+      "box": "kanxz",
+      "boxAnimation": "middle",
+      "speed": 0.05,
+      "text": [
+        "Kanxz."
+      ]
+    },
+    {
+      "speaker": "kanxz-1",
+      "speakerAnimation": "si-kanxz",
+      "box": "kanxz",
+      "boxAnimation": "right",
+      "speed": 0.05,
+      "text": [
+        "...."
+      ]
+    },
+    {
+      "speaker": "gambo-1",
+      "speakerAnimation": "screaming-right-gambo",
+      "box": "kanxz",
+      "boxAnimation": "middle",
+      "speed": 0.05,
+      "text": [
+        "¡KANXZ!"
+      ]
+    },
+    {
+      "speaker": "kanxz-1",
+      "speakerAnimation": "screaming-kanxz",
+      "box": "kanxz",
+      "boxAnimation": "right",
+      "speed": 0.05,
+      "text": [
+        "¡¿QUÉ QUIERES, CARAJO?!"
+      ]
+    },
+    {
+      "speaker": "gambo-1",
+      "speakerAnimation": "screaming-right-gambo",
+      "box": "kanxz",
+      "boxAnimation": "middle",
+      "speed": 0.05,
+      "text": [
+        "¡Te estoy hablando, wey!"
+      ]
+    },
+    {
+      "speaker": "gambo-1",
+      "speakerAnimation": "sad-right-gambo",
+      "box": "kanxz",
+      "boxAnimation": "middle",
+      "speed": 0.05,
+      "text": [
+        "Y ni me pelas... :c"
+      ]
+    },
+    {
+      "speaker": "mom-1",
+      "speakerAnimation": "talk-mom",
+      "box": "kanxz",
+      "boxAnimation": "left",
+      "speed": 0.065,
+      "text": [
+        "A la~"
+      ]
+    },
+    {
+      "speaker": "mom-1",
+      "speakerAnimation": "talk-mom",
+      "box": "kanxz",
+      "boxAnimation": "left",
+      "speed": 0.05,
+      "text": [
+        "Incluso discuten como pareja casada.   Qué tierno."
+      ]
+    },
+    {
+      "speaker": "mom-1",
+      "speakerAnimation": "talk-mom",
+      "box": "kanxz",
+      "boxAnimation": "left",
+      "speed": 0.05,
+      "text": [
+        "Yo simplemente no entiendo cómo lo elegiste a él en lugar de mi hija."
+      ]
+    },
+    {
+      "speaker": "gambo-1",
+      "speakerAnimation": "pissed-left-gambo",
+      "box": "kanxz",
+      "boxAnimation": "middle",
+      "speed": 0.05,
+      "text": [
+        "Señora."
+      ]
+    },
+    {
+      "speaker": "gambo-1",
+      "speakerAnimation": "pissed-left-gambo",
+      "box": "kanxz",
+      "boxAnimation": "middle",
+      "speed": 0.05,
+      "text": [
+        "ya se lo dijimos, neta."
+      ]
+    },
+    {
+      "speaker": "gambo-1",
+      "speakerAnimation": "pissed-left-gambo",
+      "box": "kanxz",
+      "boxAnimation": "middle",
+      "speed": 0.05,
+      "text": [
+        "No somos pareja, así nos hablamos nomás."
+      ]
+    },
+    {
+      "speaker": "mom-1",
+      "speakerAnimation": "talk-mom",
+      "box": "kanxz",
+      "boxAnimation": "left",
+      "speed": 0.06,
+      "text": [
+        "Mhm."
+      ]
+    },
+    {
+      "speaker": "mom-1",
+      "speakerAnimation": "talk-mom",
+      "box": "kanxz",
+      "boxAnimation": "left",
+      "speed": 0.05,
+      "text": [
+        "Está bien..."
+      ]
+    },
+    {
+      "speaker": "mom-1",
+      "speakerAnimation": "talk-mom",
+      "box": "kanxz",
+      "boxAnimation": "left",
+      "speed": 0.05,
+      "text": [
+        "Veamos qué te hace tan especial que él decidió elegirte antes que a mi hija."
+      ]
+    },
+    {
+      "speaker": "kanxz-1",
+      "speakerAnimation": "perdon-kanxz",
+      "box": "kanxz",
+      "boxAnimation": "right",
+      "speed": 0.065,
+      "text": [
+        "Oigan… pero este es mi mod-"
+      ]
+    }
+  ]
+}

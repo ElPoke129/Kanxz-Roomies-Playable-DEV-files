@@ -1,0 +1,215 @@
+{
+	"danceEvery": 1,
+	"offsets": [
+		20,
+		60
+	],
+	"renderType": "multianimateatlas",
+	"version": "1.0.9",
+	"scale": 1,
+	"flipX": true,
+	"cameraOffsets": [
+		-18,
+		100
+	],
+	"name": "Kanxz",
+	"flipY": false,
+	"singTime": 8,
+	"isPixel": false,
+	"startingAnimation": "idle",
+	"assetPath": "shared:characters/kanxz-a",
+	"healthIcon": {
+		"isPixel": false,
+		"offsets": [
+			0,
+			0
+		],
+		"scale": 1,
+		"id": "kanxz",
+		"flipX": false
+	},
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [],
+			"prefix": "idle",
+			"flipX": false,
+			"looped": false,
+			"name": "idle",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [],
+			"prefix": "singRIGHT",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [],
+			"prefix": "singDOWN",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [],
+			"prefix": "singUP",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [],
+			"prefix": "singLEFT",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [],
+			"prefix": "singLEFTmiss",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFTmiss",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [],
+			"prefix": "singDOWNmiss",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWNmiss",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [],
+			"prefix": "singUPmiss",
+			"flipX": false,
+			"looped": false,
+			"name": "singUPmiss",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [],
+			"prefix": "singRIGHTmiss",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHTmiss",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [],
+			"prefix": "silly",
+			"flipX": false,
+			"looped": false,
+			"name": "hey",
+			"flipY": false,
+			"assetPath": null,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				697,
+				775
+			],
+			"frameIndices": [],
+			"prefix": "firstDeath",
+			"flipX": false,
+			"looped": false,
+			"name": "firstDeath",
+			"flipY": false,
+			"assetPath": "shared:characters/kanxz-DEATH",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				697,
+				775
+			],
+			"frameIndices": [],
+			"prefix": "deathLoop",
+			"flipX": false,
+			"looped": true,
+			"name": "deathLoop",
+			"flipY": false,
+			"assetPath": "shared:characters/kanxz-DEATH",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				697,
+				775
+			],
+			"frameIndices": [],
+			"prefix": "deathConfirm",
+			"flipX": false,
+			"looped": false,
+			"name": "deathConfirm",
+			"flipY": false,
+			"assetPath": "shared:characters/kanxz-DEATH",
+			"frameRate": 24
+		}
+	]
+}

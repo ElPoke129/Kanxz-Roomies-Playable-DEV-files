@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="zanta kanxz mix assets.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="zanta change hat0000" x="912" y="10" width="892" height="960"/>
+	<SubTexture name="zanta change hat0001" x="912" y="10" width="892" height="960"/>
+	<SubTexture name="zanta change hat0002" x="1814" y="10" width="892" height="960"/>
+	<SubTexture name="zanta change hat0003" x="1814" y="10" width="892" height="960"/>
+	<SubTexture name="zanta change hat0004" x="2716" y="10" width="892" height="960"/>
+	<SubTexture name="zanta change hat0005" x="2716" y="10" width="892" height="960"/>
+	<SubTexture name="zanta change hat0006" x="912" y="980" width="892" height="960"/>
+	<SubTexture name="zanta change hat0007" x="912" y="980" width="892" height="960"/>
+	<SubTexture name="zanta change hat0008" x="1814" y="980" width="892" height="960"/>
+	<SubTexture name="zanta change hat0009" x="1814" y="980" width="892" height="960"/>
+	<SubTexture name="zanta change hat0010" x="1814" y="980" width="892" height="960"/>
+	<SubTexture name="zanta change hat0011" x="1814" y="980" width="892" height="960"/>
+	<SubTexture name="zanta change hat0012" x="1814" y="980" width="892" height="960"/>
+	<SubTexture name="zanta change hat0013" x="1814" y="980" width="892" height="960"/>
+	<SubTexture name="zanta change hat0014" x="1814" y="980" width="892" height="960"/>
+	<SubTexture name="zanta change hat0015" x="912" y="980" width="892" height="960"/>
+	<SubTexture name="zanta change hat0016" x="912" y="980" width="892" height="960"/>
+	<SubTexture name="zanta change hat0017" x="2716" y="10" width="892" height="960"/>
+	<SubTexture name="zanta change hat0018" x="2716" y="10" width="892" height="960"/>
+	<SubTexture name="zanta change hat0019" x="1814" y="10" width="892" height="960"/>
+	<SubTexture name="zanta change hat0020" x="1814" y="10" width="892" height="960"/>
+	<SubTexture name="zanta change hat0021" x="912" y="10" width="892" height="960"/>
+	<SubTexture name="zanta change hat0022" x="912" y="10" width="892" height="960"/>
+	<SubTexture name="zanta down0000" x="2716" y="980" width="892" height="960" frameX="0" frameY="-29" frameWidth="892" frameHeight="989"/>
+	<SubTexture name="zanta down0001" x="2716" y="980" width="892" height="960" frameX="0" frameY="-29" frameWidth="892" frameHeight="989"/>
+	<SubTexture name="zanta down0002" x="2716" y="980" width="892" height="960" frameX="0" frameY="-9" frameWidth="892" frameHeight="989"/>
+	<SubTexture name="zanta down0003" x="2716" y="980" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="989"/>
+	<SubTexture name="zanta idle0000" x="10" y="981" width="892" height="960" frameX="0" frameY="-47" frameWidth="892" frameHeight="1007"/>
+	<SubTexture name="zanta idle0001" x="10" y="981" width="892" height="960" frameX="0" frameY="-47" frameWidth="892" frameHeight="1007"/>
+	<SubTexture name="zanta idle0002" x="10" y="981" width="892" height="960" frameX="0" frameY="-24" frameWidth="892" frameHeight="1007"/>
+	<SubTexture name="zanta idle0003" x="10" y="981" width="892" height="960" frameX="0" frameY="-24" frameWidth="892" frameHeight="1007"/>
+	<SubTexture name="zanta idle0004" x="10" y="981" width="892" height="960" frameX="0" frameY="-6" frameWidth="892" frameHeight="1007"/>
+	<SubTexture name="zanta idle0005" x="10" y="981" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="1007"/>
+	<SubTexture name="zanta left0000" x="10" y="10" width="892" height="961" frameX="0" frameY="-38" frameWidth="892" frameHeight="999"/>
+	<SubTexture name="zanta left0001" x="10" y="10" width="892" height="961" frameX="0" frameY="-38" frameWidth="892" frameHeight="999"/>
+	<SubTexture name="zanta left0002" x="10" y="10" width="892" height="961" frameX="0" frameY="-8" frameWidth="892" frameHeight="999"/>
+	<SubTexture name="zanta left0003" x="10" y="10" width="892" height="961" frameX="0" frameY="0" frameWidth="892" frameHeight="999"/>
+	<SubTexture name="zanta right0000" x="912" y="1950" width="892" height="960" frameX="0" frameY="-40" frameWidth="892" frameHeight="1000"/>
+	<SubTexture name="zanta right0001" x="912" y="1950" width="892" height="960" frameX="0" frameY="-40" frameWidth="892" frameHeight="1000"/>
+	<SubTexture name="zanta right0002" x="912" y="1950" width="892" height="960" frameX="0" frameY="-8" frameWidth="892" frameHeight="1000"/>
+	<SubTexture name="zanta right0003" x="912" y="1950" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="1000"/>
+	<SubTexture name="zanta swapin0000" x="10" y="981" width="892" height="960" frameX="-74" frameY="0" frameWidth="892" frameHeight="1007"/>
+	<SubTexture name="zanta swapin0001" x="10" y="981" width="892" height="960" frameX="-256" frameY="0" frameWidth="892" frameHeight="1007"/>
+	<SubTexture name="zanta swapin0002" x="10" y="981" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="1007"/>
+	<SubTexture name="zanta swapin0003" x="10" y="981" width="892" height="960" frameX="-234" frameY="0" frameWidth="892" frameHeight="1007"/>
+	<SubTexture name="zanta swapin0004" x="10" y="981" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="1007"/>
+	<SubTexture name="zanta up0000" x="1814" y="1950" width="892" height="960" frameX="0" frameY="-24" frameWidth="892" frameHeight="984"/>
+	<SubTexture name="zanta up0001" x="1814" y="1950" width="892" height="960" frameX="0" frameY="-24" frameWidth="892" frameHeight="984"/>
+	<SubTexture name="zanta up0002" x="1814" y="1950" width="892" height="960" frameX="0" frameY="-6" frameWidth="892" frameHeight="984"/>
+	<SubTexture name="zanta up0003" x="1814" y="1950" width="892" height="960" frameX="0" frameY="0" frameWidth="892" frameHeight="984"/>
+</TextureAtlas>

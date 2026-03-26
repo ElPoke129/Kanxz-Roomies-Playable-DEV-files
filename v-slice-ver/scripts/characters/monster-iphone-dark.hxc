@@ -1,0 +1,74 @@
+import flixel.FlxG;
+import funkin.play.character.SparrowCharacter;
+import funkin.play.character.BaseCharacter;
+import funkin.data.character.CharacterDataParser;
+import funkin.play.PlayState;
+
+// APRENDIZAJE: Definimos la clase extendiendo de SparrowCharacter (el estándar para sprites XML).
+// Asegúrate de que el nombre de la clase coincida con el nombre del archivo si es posible, aunque en HScript es flexible.
+class MonsterIphoneDarkCharacter extends SparrowCharacter
+{
+  function new()
+  {
+    // Aquí definimos el ID del personaje "oscuro" que está cargando este script.
+    super('monster-iphone-dark');
+  }
+
+  // Esta variable guardará la referencia a la versión "iluminada" del personaje.
+  var normalChar:BaseCharacter;
+
+  // APRENDIZAJE: Esta es la función MÁGICA.
+  // El juego base usa 'alpha' para controlar la visibilidad durante los rayos.
+  // Sobrescribimos (override) esta función para controlar qué personaje se ve.
+  override function set_alpha(val:Float):Float
+  {
+    // Primero, dejamos que el personaje oscuro cambie su alpha normalmente.
+    super.set_alpha(val);
+
+    // Si la versión normal ya se cargó...
+    if (normalChar != null)
+    {
+      // LÓGICA DE ILUMINACIÓN:
+      // Si el alpha NO es 1 (ej. es 0 porque cayó un rayo y el juego ocultó la versión dark),
+      // entonces mostramos la versión normal (alpha = 1).
+      if (val != 1) 
+        normalChar.alpha = 1;
+      else
+        // Si el alpha ES 1 (estado normal de oscuridad), ocultamos la versión normal.
+        // Usamos 0.0001 en lugar de 0 para evitar que el juego deje de renderizarlo o actualizarlo.
+        normalChar.alpha = 0.0001;
+    }
+
+    return val;
+  }
+
+  // APRENDIZAJE: Sincronización de Animaciones.
+  // Cada vez que el personaje oscuro hace una animación, obligamos al personaje normal a hacer la misma.
+  // Así, cuando ocurra el cambio de luz, el otro personaje estará en la pose correcta.
+  override function playAnimation(name:String, restart:Bool, ignoreOther:Bool)
+  {
+    super.playAnimation(name, restart, ignoreOther);
+    
+    if (normalChar != null)
+    {
+      normalChar.playAnimation(name, restart, ignoreOther);
+      // Mantenemos la posición sincronizada por si el personaje se mueve (ej. tiembla).
+      normalChar.setPosition(this.x, this.y);
+    }
+  }
+
+  function onCreate(event:ScriptEvent)
+  {
+    super.onCreate(event);
+    
+    if (!this.debug)
+    {
+      normalChar = CharacterDataParser.fetchCharacter('monster-iphone');
+      normalChar.zIndex = 199;
+      normalChar.alpha = 0.0001;
+      normalChar.flipX = false;
+      PlayState.instance.currentStage.add(normalChar);
+      PlayState.instance.currentStage.refresh();
+    }
+  }
+}

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gambo diaogues assets.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gambo dialogue explaining0000" x="304" y="2507" width="267" height="497" frameX="-13" frameY="0" frameWidth="280" frameHeight="497"/>
+	<SubTexture name="gambo dialogue explaining0001" x="304" y="2507" width="267" height="497" frameX="-13" frameY="0" frameWidth="280" frameHeight="497"/>
+	<SubTexture name="gambo dialogue explaining0002" x="866" y="3003" width="265" height="487" frameX="-7" frameY="-7" frameWidth="280" frameHeight="497"/>
+	<SubTexture name="gambo dialogue explaining0003" x="866" y="3003" width="265" height="487" frameX="-7" frameY="-7" frameWidth="280" frameHeight="497"/>
+	<SubTexture name="gambo dialogue explaining0004" x="309" y="514" width="273" height="474" frameX="0" frameY="-17" frameWidth="280" frameHeight="497"/>
+	<SubTexture name="gambo dialogue explaining0005" x="309" y="514" width="273" height="474" frameX="0" frameY="-17" frameWidth="280" frameHeight="497"/>
+	<SubTexture name="gambo dialogue explaining end0000" x="867" y="494" width="265" height="483"/>
+	<SubTexture name="gambo dialogue explaining end0001" x="867" y="494" width="265" height="483"/>
+	<SubTexture name="gambo dialogue explaining end0002" x="867" y="494" width="265" height="483"/>
+	<SubTexture name="gambo dialogue explaining end0003" x="867" y="494" width="265" height="483"/>
+	<SubTexture name="gambo dialogue explaining end0004" x="867" y="494" width="265" height="483"/>
+	<SubTexture name="gambo dialogue explaining end0005" x="867" y="494" width="265" height="483"/>
+	<SubTexture name="gambo dialogue lol0000" x="306" y="1007" width="267" height="494" frameX="-13" frameY="0" frameWidth="280" frameHeight="494"/>
+	<SubTexture name="gambo dialogue lol0001" x="306" y="1007" width="267" height="494" frameX="-13" frameY="0" frameWidth="280" frameHeight="494"/>
+	<SubTexture name="gambo dialogue lol0002" x="583" y="998" width="265" height="485" frameX="-7" frameY="-6" frameWidth="280" frameHeight="494"/>
+	<SubTexture name="gambo dialogue lol0003" x="583" y="998" width="265" height="485" frameX="-7" frameY="-6" frameWidth="280" frameHeight="494"/>
+	<SubTexture name="gambo dialogue lol0004" x="300" y="3021" width="273" height="474" frameX="0" frameY="-14" frameWidth="280" frameHeight="494"/>
+	<SubTexture name="gambo dialogue lol0005" x="300" y="3021" width="273" height="474" frameX="0" frameY="-14" frameWidth="280" frameHeight="494"/>
+	<SubTexture name="gambo dialogue lol end0000" x="858" y="1484" width="265" height="483"/>
+	<SubTexture name="gambo dialogue lol end0001" x="858" y="1484" width="265" height="483"/>
+	<SubTexture name="gambo dialogue lol end0002" x="858" y="1484" width="265" height="483"/>
+	<SubTexture name="gambo dialogue lol end0003" x="858" y="1484" width="265" height="483"/>
+	<SubTexture name="gambo dialogue lol end0004" x="858" y="1484" width="265" height="483"/>
+	<SubTexture name="gambo dialogue lol end0005" x="858" y="1484" width="265" height="483"/>
+	<SubTexture name="gambo dialogue looking0000" x="306" y="1511" width="267" height="494" frameX="-13" frameY="0" frameWidth="280" frameHeight="494"/>
+	<SubTexture name="gambo dialogue looking0001" x="306" y="1511" width="267" height="494" frameX="-13" frameY="0" frameWidth="280" frameHeight="494"/>
+	<SubTexture name="gambo dialogue looking0002" x="592" y="494" width="265" height="485" frameX="-7" frameY="-6" frameWidth="280" frameHeight="494"/>
+	<SubTexture name="gambo dialogue looking0003" x="592" y="494" width="265" height="485" frameX="-7" frameY="-6" frameWidth="280" frameHeight="494"/>
+	<SubTexture name="gambo dialogue looking0004" x="583" y="3021" width="273" height="474" frameX="0" frameY="-14" frameWidth="280" frameHeight="494"/>
+	<SubTexture name="gambo dialogue looking0005" x="583" y="3021" width="273" height="474" frameX="0" frameY="-14" frameWidth="280" frameHeight="494"/>
+	<SubTexture name="gambo dialogue looking end0000" x="858" y="1977" width="265" height="483"/>
+	<SubTexture name="gambo dialogue looking end0001" x="858" y="1977" width="265" height="483"/>
+	<SubTexture name="gambo dialogue looking end0002" x="858" y="1977" width="265" height="483"/>
+	<SubTexture name="gambo dialogue looking end0003" x="858" y="1977" width="265" height="483"/>
+	<SubTexture name="gambo dialogue looking end0004" x="858" y="1977" width="265" height="483"/>
+	<SubTexture name="gambo dialogue looking end0005" x="858" y="1977" width="265" height="483"/>
+	<SubTexture name="gambo dialogue normal0000" x="311" y="10" width="267" height="494" frameX="-13" frameY="0" frameWidth="280" frameHeight="494"/>
+	<SubTexture name="gambo dialogue normal0001" x="311" y="10" width="267" height="494" frameX="-13" frameY="0" frameWidth="280" frameHeight="494"/>
+	<SubTexture name="gambo dialogue normal0002" x="583" y="1493" width="265" height="485" frameX="-7" frameY="-6" frameWidth="280" frameHeight="494"/>
+	<SubTexture name="gambo dialogue normal0003" x="583" y="1493" width="265" height="485" frameX="-7" frameY="-6" frameWidth="280" frameHeight="494"/>
+	<SubTexture name="gambo dialogue normal0004" x="856" y="2519" width="273" height="474" frameX="0" frameY="-14" frameWidth="280" frameHeight="494"/>
+	<SubTexture name="gambo dialogue normal0005" x="856" y="2519" width="273" height="474" frameX="0" frameY="-14" frameWidth="280" frameHeight="494"/>
+	<SubTexture name="gambo dialogue normal end0000" x="1133" y="987" width="265" height="483"/>
+	<SubTexture name="gambo dialogue normal end0001" x="1133" y="987" width="265" height="483"/>
+	<SubTexture name="gambo dialogue normal end0002" x="1133" y="987" width="265" height="483"/>
+	<SubTexture name="gambo dialogue normal end0003" x="1133" y="987" width="265" height="483"/>
+	<SubTexture name="gambo dialogue normal end0004" x="1133" y="987" width="265" height="483"/>
+	<SubTexture name="gambo dialogue normal end0005" x="1133" y="987" width="265" height="483"/>
+	<SubTexture name="gambo dialogue pissed left0000" x="581" y="2015" width="267" height="494" frameX="-13" frameY="0" frameWidth="280" frameHeight="494"/>
+	<SubTexture name="gambo dialogue pissed left0001" x="581" y="2015" width="267" height="494" frameX="-13" frameY="0" frameWidth="280" frameHeight="494"/>
+	<SubTexture name="gambo dialogue pissed left0002" x="858" y="989" width="265" height="485" frameX="-7" frameY="-6" frameWidth="280" frameHeight="494"/>
+	<SubTexture name="gambo dialogue pissed left0003" x="858" y="989" width="265" height="485" frameX="-7" frameY="-6" frameWidth="280" frameHeight="494"/>
+	<SubTexture name="gambo dialogue pissed left0004" x="591" y="3505" width="273" height="474" frameX="0" frameY="-14" frameWidth="280" frameHeight="494"/>
+	<SubTexture name="gambo dialogue pissed left0005" x="591" y="3505" width="273" height="474" frameX="0" frameY="-14" frameWidth="280" frameHeight="494"/>
+	<SubTexture name="gambo dialogue pissed left end0000" x="1133" y="1480" width="265" height="483"/>
+	<SubTexture name="gambo dialogue pissed left end0001" x="1133" y="1480" width="265" height="483"/>
+	<SubTexture name="gambo dialogue pissed left end0002" x="1133" y="1480" width="265" height="483"/>
+	<SubTexture name="gambo dialogue pissed left end0003" x="1133" y="1480" width="265" height="483"/>
+	<SubTexture name="gambo dialogue pissed left end0004" x="1133" y="1480" width="265" height="483"/>
+	<SubTexture name="gambo dialogue pissed left end0005" x="1133" y="1480" width="265" height="483"/>
+	<SubTexture name="gambo dialogue realizing0000" x="581" y="2519" width="265" height="492" frameX="-13" frameY="0" frameWidth="278" frameHeight="492"/>
+	<SubTexture name="gambo dialogue realizing0001" x="581" y="2519" width="265" height="492" frameX="-13" frameY="0" frameWidth="278" frameHeight="492"/>
+	<SubTexture name="gambo dialogue realizing0002" x="874" y="3500" width="265" height="487" frameX="-7" frameY="-2" frameWidth="278" frameHeight="492"/>
+	<SubTexture name="gambo dialogue realizing0003" x="874" y="3500" width="265" height="487" frameX="-7" frameY="-2" frameWidth="278" frameHeight="492"/>
+	<SubTexture name="gambo dialogue realizing0004" x="588" y="10" width="273" height="474" frameX="0" frameY="-12" frameWidth="278" frameHeight="492"/>
+	<SubTexture name="gambo dialogue realizing0005" x="588" y="10" width="273" height="474" frameX="0" frameY="-12" frameWidth="278" frameHeight="492"/>
+	<SubTexture name="gambo dialogue realizing end0000" x="1142" y="10" width="265" height="483"/>
+	<SubTexture name="gambo dialogue realizing end0001" x="1142" y="10" width="265" height="483"/>
+	<SubTexture name="gambo dialogue realizing end0002" x="1142" y="10" width="265" height="483"/>
+	<SubTexture name="gambo dialogue realizing end0003" x="1142" y="10" width="265" height="483"/>
+	<SubTexture name="gambo dialogue realizing end0004" x="1142" y="10" width="265" height="483"/>
+	<SubTexture name="gambo dialogue realizing end0005" x="1142" y="10" width="265" height="483"/>
+	<SubTexture name="gambo dialogue sad to kanxz0000" x="10" y="3010" width="280" height="494" frameX="-7" frameY="0" frameWidth="291" frameHeight="494"/>
+	<SubTexture name="gambo dialogue sad to kanxz0001" x="10" y="3010" width="280" height="494" frameX="-7" frameY="0" frameWidth="291" frameHeight="494"/>
+	<SubTexture name="gambo dialogue sad to kanxz0002" x="10" y="2507" width="284" height="493" frameX="-6" frameY="0" frameWidth="291" frameHeight="494"/>
+	<SubTexture name="gambo dialogue sad to kanxz0003" x="10" y="2507" width="284" height="493" frameX="-6" frameY="0" frameWidth="291" frameHeight="494"/>
+	<SubTexture name="gambo dialogue sad to kanxz0004" x="10" y="10" width="291" height="487" frameX="0" frameY="-3" frameWidth="291" frameHeight="494"/>
+	<SubTexture name="gambo dialogue sad to kanxz0005" x="10" y="10" width="291" height="487" frameX="0" frameY="-3" frameWidth="291" frameHeight="494"/>
+	<SubTexture name="gambo dialogue sad to kanxz end0000" x="10" y="1007" width="286" height="490"/>
+	<SubTexture name="gambo dialogue sad to kanxz end0001" x="10" y="1007" width="286" height="490"/>
+	<SubTexture name="gambo dialogue sad to kanxz end0002" x="10" y="1007" width="286" height="490"/>
+	<SubTexture name="gambo dialogue sad to kanxz end0003" x="10" y="1007" width="286" height="490"/>
+	<SubTexture name="gambo dialogue screaming to kanxz0000" x="10" y="3514" width="276" height="498" frameX="0" frameY="0" frameWidth="295" frameHeight="500"/>
+	<SubTexture name="gambo dialogue screaming to kanxz0001" x="10" y="3514" width="276" height="498" frameX="0" frameY="0" frameWidth="295" frameHeight="500"/>
+	<SubTexture name="gambo dialogue screaming to kanxz0002" x="10" y="507" width="289" height="490" frameX="0" frameY="-9" frameWidth="295" frameHeight="500"/>
+	<SubTexture name="gambo dialogue screaming to kanxz0003" x="10" y="507" width="289" height="490" frameX="0" frameY="-9" frameWidth="295" frameHeight="500"/>
+	<SubTexture name="gambo dialogue screaming to kanxz0004" x="296" y="3514" width="285" height="478" frameX="-10" frameY="-22" frameWidth="295" frameHeight="500"/>
+	<SubTexture name="gambo dialogue screaming to kanxz0005" x="296" y="3514" width="285" height="478" frameX="-10" frameY="-22" frameWidth="295" frameHeight="500"/>
+	<SubTexture name="gambo dialogue screaming to kanxz end0000" x="10" y="1507" width="286" height="490"/>
+	<SubTexture name="gambo dialogue screaming to kanxz end0001" x="10" y="1507" width="286" height="490"/>
+	<SubTexture name="gambo dialogue screaming to kanxz end0002" x="10" y="2007" width="286" height="490"/>
+	<SubTexture name="gambo dialogue screaming to kanxz end0003" x="10" y="2007" width="286" height="490"/>
+</TextureAtlas>

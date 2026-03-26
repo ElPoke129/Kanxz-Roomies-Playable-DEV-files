@@ -1,0 +1,52 @@
+import flixel.FlxG;
+import funkin.play.song.Song;
+import funkin.play.PlayState;
+
+class RushEKanxz extends Song
+{
+  var hasHidden:Bool = false;
+
+  public function new()
+  {
+    super('rush-e-kanxz');
+  }
+
+  override function onUpdate(event:ScriptEvent):Void
+  {
+    super.onUpdate(event);
+
+    if (!this.hasHidden)
+    {
+      this.hasHidden = true;
+      hideOpponentStrumline();
+      centerPlayerStrumline();
+    }
+  }
+
+  function hideOpponentStrumline()
+  {
+    var opponentStrumline = PlayState.instance.opponentStrumline;
+
+    if (opponentStrumline != null)
+    {
+      for (arrow in opponentStrumline.members)
+      {
+        arrow.visible = false;
+      }
+    }
+  }
+
+  function centerPlayerStrumline()
+  {
+
+  if (FlxG.onMobile) return;
+
+  
+    var playerStrumline = PlayState.instance.playerStrumline;
+
+    if (playerStrumline != null)
+    {
+      playerStrumline.x = FlxG.width / 2 - playerStrumline.width / 2;
+    }
+  }
+}

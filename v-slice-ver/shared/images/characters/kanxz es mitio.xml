@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="kanxz es mitio.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="kanxz kris down0000" x="10" y="10" width="1272" height="588" frameX="0" frameY="-24" frameWidth="1272" frameHeight="612"/>
+	<SubTexture name="kanxz kris down0001" x="10" y="10" width="1272" height="588" frameX="0" frameY="-24" frameWidth="1272" frameHeight="612"/>
+	<SubTexture name="kanxz kris down0002" x="1292" y="10" width="1272" height="607" frameX="0" frameY="-5" frameWidth="1272" frameHeight="612"/>
+	<SubTexture name="kanxz kris down0003" x="2574" y="10" width="1272" height="612"/>
+	<SubTexture name="kanxz kris down0004" x="2574" y="10" width="1272" height="612"/>
+	<SubTexture name="kanxz kris down0005" x="2574" y="10" width="1272" height="612"/>
+	<SubTexture name="kanxz kris down0006" x="2574" y="10" width="1272" height="612"/>
+	<SubTexture name="kanxz kris down0007" x="2574" y="10" width="1272" height="612"/>
+	<SubTexture name="kanxz kris down0008" x="2574" y="10" width="1272" height="612"/>
+	<SubTexture name="kanxz kris down0009" x="2574" y="10" width="1272" height="612"/>
+	<SubTexture name="kanxz kris down0010" x="2574" y="10" width="1272" height="612"/>
+	<SubTexture name="kanxz kris down0011" x="2574" y="10" width="1272" height="612"/>
+	<SubTexture name="kanxz kris down0012" x="2574" y="10" width="1272" height="612"/>
+	<SubTexture name="kanxz kris down0013" x="2574" y="10" width="1272" height="612"/>
+	<SubTexture name="kanxz kris down0014" x="2574" y="10" width="1272" height="612"/>
+	<SubTexture name="kanxz kris down happy0000" x="3856" y="10" width="1272" height="588" frameX="0" frameY="-24" frameWidth="1272" frameHeight="612"/>
+	<SubTexture name="kanxz kris down happy0001" x="3856" y="10" width="1272" height="588" frameX="0" frameY="-24" frameWidth="1272" frameHeight="612"/>
+	<SubTexture name="kanxz kris down happy0002" x="5138" y="10" width="1272" height="607" frameX="0" frameY="-5" frameWidth="1272" frameHeight="612"/>
+	<SubTexture name="kanxz kris down happy0003" x="6420" y="10" width="1272" height="612"/>
+	<SubTexture name="kanxz kris down happy0004" x="6420" y="10" width="1272" height="612"/>
+	<SubTexture name="kanxz kris down happy0005" x="6420" y="10" width="1272" height="612"/>
+	<SubTexture name="kanxz kris down happy0006" x="6420" y="10" width="1272" height="612"/>
+	<SubTexture name="kanxz kris down happy0007" x="6420" y="10" width="1272" height="612"/>
+	<SubTexture name="kanxz kris down happy0008" x="6420" y="10" width="1272" height="612"/>
+	<SubTexture name="kanxz kris down happy0009" x="6420" y="10" width="1272" height="612"/>
+	<SubTexture name="kanxz kris down happy0010" x="6420" y="10" width="1272" height="612"/>
+	<SubTexture name="kanxz kris down happy0011" x="6420" y="10" width="1272" height="612"/>
+	<SubTexture name="kanxz kris down happy0012" x="6420" y="10" width="1272" height="612"/>
+	<SubTexture name="kanxz kris down happy0013" x="6420" y="10" width="1272" height="612"/>
+	<SubTexture name="kanxz kris down happy0014" x="6420" y="10" width="1272" height="612"/>
+	<SubTexture name="kanxz kris down miss0000" x="10" y="10" width="1272" height="588" frameX="0" frameY="-69" frameWidth="1272" frameHeight="612"/>
+	<SubTexture name="kanxz kris down miss0001" x="10" y="632" width="1272" height="660"/>
+	<SubTexture name="kanxz kris down miss0002" x="10" y="632" width="1272" height="660"/>
+	<SubTexture name="kanxz kris down miss0003" x="1292" y="632" width="1272" height="656" frameX="0" frameY="-1" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0004" x="1292" y="632" width="1272" height="656" frameX="0" frameY="-1" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0005" x="2574" y="632" width="1272" height="657" frameX="0" frameY="0" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0006" x="2574" y="632" width="1272" height="657" frameX="0" frameY="0" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0007" x="1292" y="632" width="1272" height="656" frameX="0" frameY="-1" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0008" x="1292" y="632" width="1272" height="656" frameX="0" frameY="-1" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0009" x="2574" y="632" width="1272" height="657" frameX="0" frameY="0" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0010" x="2574" y="632" width="1272" height="657" frameX="0" frameY="0" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0011" x="1292" y="632" width="1272" height="656" frameX="0" frameY="-1" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0012" x="1292" y="632" width="1272" height="656" frameX="0" frameY="-1" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0013" x="2574" y="632" width="1272" height="657" frameX="0" frameY="0" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0014" x="2574" y="632" width="1272" height="657" frameX="0" frameY="0" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0015" x="1292" y="632" width="1272" height="656" frameX="0" frameY="-1" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0016" x="1292" y="632" width="1272" height="656" frameX="0" frameY="-1" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0017" x="2574" y="632" width="1272" height="657" frameX="0" frameY="0" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0018" x="2574" y="632" width="1272" height="657" frameX="0" frameY="0" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0019" x="1292" y="632" width="1272" height="656" frameX="0" frameY="-1" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0020" x="1292" y="632" width="1272" height="656" frameX="0" frameY="-1" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0021" x="2574" y="632" width="1272" height="657" frameX="0" frameY="0" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0022" x="2574" y="632" width="1272" height="657" frameX="0" frameY="0" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0023" x="1292" y="632" width="1272" height="656" frameX="0" frameY="-1" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0024" x="1292" y="632" width="1272" height="656" frameX="0" frameY="-1" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0025" x="2574" y="632" width="1272" height="657" frameX="0" frameY="0" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0026" x="2574" y="632" width="1272" height="657" frameX="0" frameY="0" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0027" x="1292" y="632" width="1272" height="656" frameX="0" frameY="-1" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0028" x="1292" y="632" width="1272" height="656" frameX="0" frameY="-1" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0029" x="2574" y="632" width="1272" height="657" frameX="0" frameY="0" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0030" x="2574" y="632" width="1272" height="657" frameX="0" frameY="0" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0031" x="1292" y="632" width="1272" height="656" frameX="0" frameY="-1" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0032" x="1292" y="632" width="1272" height="656" frameX="0" frameY="-1" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0033" x="2574" y="632" width="1272" height="657" frameX="0" frameY="0" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0034" x="2574" y="632" width="1272" height="657" frameX="0" frameY="0" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0035" x="1292" y="632" width="1272" height="656" frameX="0" frameY="-1" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0036" x="1292" y="632" width="1272" height="656" frameX="0" frameY="-1" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0037" x="2574" y="632" width="1272" height="657" frameX="0" frameY="0" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0038" x="2574" y="632" width="1272" height="657" frameX="0" frameY="0" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris down miss0039" x="1292" y="632" width="1272" height="656" frameX="0" frameY="-1" frameWidth="1272" frameHeight="660"/>
+	<SubTexture name="kanxz kris idle0000" x="3856" y="632" width="1272" height="653" frameX="0" frameY="-10" frameWidth="1272" frameHeight="663"/>
+	<SubTexture name="kanxz kris idle0001" x="3856" y="632" width="1272" height="653" frameX="0" frameY="-10" frameWidth="1272" frameHeight="663"/>
+	<SubTexture name="kanxz kris idle0002" x="5138" y="632" width="1272" height="657" frameX="0" frameY="-6" frameWidth="1272" frameHeight="663"/>
+	<SubTexture name="kanxz kris idle0003" x="5138" y="632" width="1272" height="657" frameX="0" frameY="-6" frameWidth="1272" frameHeight="663"/>
+	<SubTexture name="kanxz kris idle0004" x="6420" y="632" width="1272" height="661" frameX="0" frameY="-2" frameWidth="1272" frameHeight="663"/>
+	<SubTexture name="kanxz kris idle0005" x="10" y="1303" width="1272" height="663"/>
+	<SubTexture name="kanxz kris idle0006" x="10" y="1303" width="1272" height="663"/>
+	<SubTexture name="kanxz kris idle0007" x="10" y="1303" width="1272" height="663"/>
+	<SubTexture name="kanxz kris idle0008" x="10" y="1303" width="1272" height="663"/>
+	<SubTexture name="kanxz kris idle0009" x="10" y="1303" width="1272" height="663"/>
+	<SubTexture name="kanxz kris idle0010" x="10" y="1303" width="1272" height="663"/>
+	<SubTexture name="kanxz kris idle0011" x="10" y="1303" width="1272" height="663"/>
+	<SubTexture name="kanxz kris idle0012" x="10" y="1303" width="1272" height="663"/>
+	<SubTexture name="kanxz kris idle0013" x="10" y="1303" width="1272" height="663"/>
+	<SubTexture name="kanxz kris idle0014" x="10" y="1303" width="1272" height="663"/>
+	<SubTexture name="kanxz kris left0000" x="1292" y="1303" width="1272" height="671"/>
+	<SubTexture name="kanxz kris left0001" x="1292" y="1303" width="1272" height="671"/>
+	<SubTexture name="kanxz kris left0002" x="2574" y="1303" width="1272" height="661" frameX="0" frameY="-10" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left0003" x="3856" y="1303" width="1272" height="656" frameX="0" frameY="-15" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left0004" x="3856" y="1303" width="1272" height="656" frameX="0" frameY="-15" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left0005" x="3856" y="1303" width="1272" height="656" frameX="0" frameY="-15" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left0006" x="3856" y="1303" width="1272" height="656" frameX="0" frameY="-15" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left0007" x="3856" y="1303" width="1272" height="656" frameX="0" frameY="-15" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left0008" x="3856" y="1303" width="1272" height="656" frameX="0" frameY="-15" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left0009" x="3856" y="1303" width="1272" height="656" frameX="0" frameY="-15" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left0010" x="3856" y="1303" width="1272" height="656" frameX="0" frameY="-15" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left0011" x="3856" y="1303" width="1272" height="656" frameX="0" frameY="-15" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left0012" x="3856" y="1303" width="1272" height="656" frameX="0" frameY="-15" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left0013" x="3856" y="1303" width="1272" height="656" frameX="0" frameY="-15" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left0014" x="3856" y="1303" width="1272" height="656" frameX="0" frameY="-15" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left happy0000" x="5138" y="1303" width="1272" height="671"/>
+	<SubTexture name="kanxz kris left happy0001" x="5138" y="1303" width="1272" height="671"/>
+	<SubTexture name="kanxz kris left happy0002" x="6420" y="1303" width="1272" height="661" frameX="0" frameY="-10" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left happy0003" x="10" y="1984" width="1272" height="656" frameX="0" frameY="-15" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left happy0004" x="10" y="1984" width="1272" height="656" frameX="0" frameY="-15" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left happy0005" x="10" y="1984" width="1272" height="656" frameX="0" frameY="-15" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left happy0006" x="10" y="1984" width="1272" height="656" frameX="0" frameY="-15" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left happy0007" x="10" y="1984" width="1272" height="656" frameX="0" frameY="-15" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left happy0008" x="10" y="1984" width="1272" height="656" frameX="0" frameY="-15" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left happy0009" x="10" y="1984" width="1272" height="656" frameX="0" frameY="-15" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left happy0010" x="10" y="1984" width="1272" height="656" frameX="0" frameY="-15" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left happy0011" x="10" y="1984" width="1272" height="656" frameX="0" frameY="-15" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left happy0012" x="10" y="1984" width="1272" height="656" frameX="0" frameY="-15" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left happy0013" x="10" y="1984" width="1272" height="656" frameX="0" frameY="-15" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left happy0014" x="10" y="1984" width="1272" height="656" frameX="0" frameY="-15" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left miss0000" x="1292" y="1303" width="1272" height="671" frameX="-4" frameY="-9" frameWidth="1272" frameHeight="671"/>
+	<SubTexture name="kanxz kris left miss0001" x="1292" y="1984" width="1270" height="681" frameX="0" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0002" x="1292" y="1984" width="1270" height="681" frameX="0" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0003" x="2572" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0004" x="2572" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0005" x="3854" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0006" x="3854" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0007" x="2572" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0008" x="2572" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0009" x="3854" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0010" x="3854" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0011" x="2572" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0012" x="2572" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0013" x="3854" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0014" x="3854" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0015" x="2572" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0016" x="2572" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0017" x="3854" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0018" x="3854" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0019" x="2572" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0020" x="2572" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0021" x="3854" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0022" x="3854" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0023" x="2572" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0024" x="2572" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0025" x="3854" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0026" x="3854" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0027" x="2572" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0028" x="2572" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0029" x="3854" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0030" x="3854" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0031" x="2572" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0032" x="2572" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0033" x="3854" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0034" x="3854" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0035" x="2572" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0036" x="2572" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0037" x="3854" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0038" x="3854" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris left miss0039" x="2572" y="1984" width="1272" height="681" frameX="-4" frameY="0" frameWidth="1276" frameHeight="681"/>
+	<SubTexture name="kanxz kris right0000" x="5136" y="1984" width="1272" height="650"/>
+	<SubTexture name="kanxz kris right0001" x="5136" y="1984" width="1272" height="650"/>
+	<SubTexture name="kanxz kris right0002" x="6418" y="1984" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right0003" x="10" y="2675" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right0004" x="10" y="2675" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right0005" x="10" y="2675" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right0006" x="10" y="2675" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right0007" x="10" y="2675" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right0008" x="10" y="2675" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right0009" x="10" y="2675" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right0010" x="10" y="2675" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right0011" x="10" y="2675" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right0012" x="10" y="2675" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right0013" x="10" y="2675" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right0014" x="10" y="2675" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right happy0000" x="1292" y="2675" width="1272" height="650"/>
+	<SubTexture name="kanxz kris right happy0001" x="1292" y="2675" width="1272" height="650"/>
+	<SubTexture name="kanxz kris right happy0002" x="2574" y="2675" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right happy0003" x="3856" y="2675" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right happy0004" x="3856" y="2675" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right happy0005" x="3856" y="2675" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right happy0006" x="3856" y="2675" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right happy0007" x="3856" y="2675" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right happy0008" x="3856" y="2675" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right happy0009" x="3856" y="2675" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right happy0010" x="3856" y="2675" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right happy0011" x="3856" y="2675" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right happy0012" x="3856" y="2675" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right happy0013" x="3856" y="2675" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right happy0014" x="3856" y="2675" width="1272" height="646" frameX="0" frameY="-4" frameWidth="1272" frameHeight="650"/>
+	<SubTexture name="kanxz kris right miss0000" x="5138" y="2675" width="1272" height="651" frameX="0" frameY="-33" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0001" x="6420" y="2675" width="1272" height="684" frameX="-3" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0002" x="6420" y="2675" width="1272" height="684" frameX="-3" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0003" x="10" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0004" x="10" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0005" x="1292" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0006" x="1292" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0007" x="10" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0008" x="10" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0009" x="1292" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0010" x="1292" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0011" x="10" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0012" x="10" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0013" x="1292" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0014" x="1292" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0015" x="10" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0016" x="10" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0017" x="1292" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0018" x="1292" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0019" x="10" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0020" x="10" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0021" x="1292" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0022" x="1292" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0023" x="10" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0024" x="10" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0025" x="1292" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0026" x="1292" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0027" x="10" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0028" x="10" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0029" x="1292" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0030" x="1292" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0031" x="10" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0032" x="10" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0033" x="1292" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0034" x="1292" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0035" x="10" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0036" x="10" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0037" x="1292" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0038" x="1292" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris right miss0039" x="10" y="3369" width="1272" height="684" frameX="0" frameY="0" frameWidth="1275" frameHeight="684"/>
+	<SubTexture name="kanxz kris up0000" x="2574" y="3369" width="1272" height="686"/>
+	<SubTexture name="kanxz kris up0001" x="2574" y="3369" width="1272" height="686"/>
+	<SubTexture name="kanxz kris up0002" x="3856" y="3369" width="1272" height="678" frameX="0" frameY="-8" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up0003" x="5138" y="3369" width="1272" height="676" frameX="0" frameY="-10" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up0004" x="5138" y="3369" width="1272" height="676" frameX="0" frameY="-10" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up0005" x="5138" y="3369" width="1272" height="676" frameX="0" frameY="-10" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up0006" x="5138" y="3369" width="1272" height="676" frameX="0" frameY="-10" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up0007" x="5138" y="3369" width="1272" height="676" frameX="0" frameY="-10" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up0008" x="5138" y="3369" width="1272" height="676" frameX="0" frameY="-10" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up0009" x="5138" y="3369" width="1272" height="676" frameX="0" frameY="-10" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up0010" x="5138" y="3369" width="1272" height="676" frameX="0" frameY="-10" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up0011" x="5138" y="3369" width="1272" height="676" frameX="0" frameY="-10" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up0012" x="5138" y="3369" width="1272" height="676" frameX="0" frameY="-10" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up0013" x="5138" y="3369" width="1272" height="676" frameX="0" frameY="-10" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up0014" x="5138" y="3369" width="1272" height="676" frameX="0" frameY="-10" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up happy0000" x="6420" y="3369" width="1272" height="686"/>
+	<SubTexture name="kanxz kris up happy0001" x="6420" y="3369" width="1272" height="686"/>
+	<SubTexture name="kanxz kris up happy0002" x="10" y="4065" width="1272" height="678" frameX="0" frameY="-8" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up happy0003" x="1292" y="4065" width="1272" height="676" frameX="0" frameY="-10" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up happy0004" x="1292" y="4065" width="1272" height="676" frameX="0" frameY="-10" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up happy0005" x="1292" y="4065" width="1272" height="676" frameX="0" frameY="-10" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up happy0006" x="1292" y="4065" width="1272" height="676" frameX="0" frameY="-10" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up happy0007" x="1292" y="4065" width="1272" height="676" frameX="0" frameY="-10" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up happy0008" x="1292" y="4065" width="1272" height="676" frameX="0" frameY="-10" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up happy0009" x="1292" y="4065" width="1272" height="676" frameX="0" frameY="-10" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up happy0010" x="1292" y="4065" width="1272" height="676" frameX="0" frameY="-10" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up happy0011" x="1292" y="4065" width="1272" height="676" frameX="0" frameY="-10" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up happy0012" x="1292" y="4065" width="1272" height="676" frameX="0" frameY="-10" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up happy0013" x="1292" y="4065" width="1272" height="676" frameX="0" frameY="-10" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up happy0014" x="1292" y="4065" width="1272" height="676" frameX="0" frameY="-10" frameWidth="1272" frameHeight="686"/>
+	<SubTexture name="kanxz kris up miss0000" x="2574" y="4065" width="1272" height="688"/>
+	<SubTexture name="kanxz kris up miss0001" x="3856" y="4065" width="1272" height="685" frameX="0" frameY="0" frameWidth="1272" frameHeight="688"/>
+	<SubTexture name="kanxz kris up miss0002" x="3856" y="4065" width="1272" height="685" frameX="0" frameY="0" frameWidth="1272" frameHeight="688"/>
+	<SubTexture name="kanxz kris up miss0003" x="5138" y="4065" width="1272" height="687" frameX="0" frameY="-1" frameWidth="1272" frameHeight="688"/>
+	<SubTexture name="kanxz kris up miss0004" x="5138" y="4065" width="1272" height="687" frameX="0" frameY="-1" frameWidth="1272" frameHeight="688"/>
+	<SubTexture name="kanxz kris up miss0005" x="6420" y="4065" width="1272" height="688"/>
+	<SubTexture name="kanxz kris up miss0006" x="6420" y="4065" width="1272" height="688"/>
+	<SubTexture name="kanxz kris up miss0007" x="5138" y="4065" width="1272" height="687" frameX="0" frameY="-1" frameWidth="1272" frameHeight="688"/>
+	<SubTexture name="kanxz kris up miss0008" x="5138" y="4065" width="1272" height="687" frameX="0" frameY="-1" frameWidth="1272" frameHeight="688"/>
+	<SubTexture name="kanxz kris up miss0009" x="6420" y="4065" width="1272" height="688"/>
+	<SubTexture name="kanxz kris up miss0010" x="6420" y="4065" width="1272" height="688"/>
+	<SubTexture name="kanxz kris up miss0011" x="5138" y="4065" width="1272" height="687" frameX="0" frameY="-1" frameWidth="1272" frameHeight="688"/>
+	<SubTexture name="kanxz kris up miss0012" x="5138" y="4065" width="1272" height="687" frameX="0" frameY="-1" frameWidth="1272" frameHeight="688"/>
+	<SubTexture name="kanxz kris up miss0013" x="6420" y="4065" width="1272" height="688"/>
+	<SubTexture name="kanxz kris up miss0014" x="6420" y="4065" width="1272" height="688"/>
+	<SubTexture name="kanxz kris up miss0015" x="5138" y="4065" width="1272" height="687" frameX="0" frameY="-1" frameWidth="1272" frameHeight="688"/>
+	<SubTexture name="kanxz kris up miss0016" x="5138" y="4065" width="1272" height="687" frameX="0" frameY="-1" frameWidth="1272" frameHeight="688"/>
+	<SubTexture name="kanxz kris up miss0017" x="6420" y="4065" width="1272" height="688"/>
+	<SubTexture name="kanxz kris up miss0018" x="6420" y="4065" width="1272" height="688"/>
+	<SubTexture name="kanxz kris up miss0019" x="5138" y="4065" width="1272" height="687" frameX="0" frameY="-1" frameWidth="1272" frameHeight="688"/>
+	<SubTexture name="kanxz kris up miss0020" x="5138" y="4065" width="1272" height="687" frameX="0" frameY="-1" frameWidth="1272" frameHeight="688"/>
+	<SubTexture name="kanxz kris up miss0021" x="6420" y="4065" width="1272" height="688"/>
+	<SubTexture name="kanxz kris up miss0022" x="6420" y="4065" width="1272" height="688"/>
+	<SubTexture name="kanxz kris up miss0023" x="5138" y="4065" width="1272" height="687" frameX="0" frameY="-1" frameWidth="1272" frameHeight="688"/>
+	<SubTexture name="kanxz kris up miss0024" x="5138" y="4065" width="1272" height="687" frameX="0" frameY="-1" frameWidth="1272" frameHeight="688"/>
+	<SubTexture name="kanxz kris up miss0025" x="6420" y="4065" width="1272" height="688"/>
+	<SubTexture name="kanxz kris up miss0026" x="6420" y="4065" width="1272" height="688"/>
+	<SubTexture name="kanxz kris up miss0027" x="5138" y="4065" width="1272" height="687" frameX="0" frameY="-1" frameWidth="1272" frameHeight="688"/>
+	<SubTexture name="kanxz kris up miss0028" x="5138" y="4065" width="1272" height="687" frameX="0" frameY="-1" frameWidth="1272" frameHeight="688"/>
+	<SubTexture name="kanxz kris up miss0029" x="6420" y="4065" width="1272" height="688"/>
+	<SubTexture name="kanxz kris up miss0030" x="6420" y="4065" width="1272" height="688"/>
+	<SubTexture name="kanxz kris up miss0031" x="5138" y="4065" width="1272" height="687" frameX="0" frameY="-1" frameWidth="1272" frameHeight="688"/>
+	<SubTexture name="kanxz kris up miss0032" x="5138" y="4065" width="1272" height="687" frameX="0" frameY="-1" frameWidth="1272" frameHeight="688"/>
+	<SubTexture name="kanxz kris up miss0033" x="6420" y="4065" width="1272" height="688"/>
+	<SubTexture name="kanxz kris up miss0034" x="6420" y="4065" width="1272" height="688"/>
+	<SubTexture name="kanxz kris up miss0035" x="5138" y="4065" width="1272" height="687" frameX="0" frameY="-1" frameWidth="1272" frameHeight="688"/>
+	<SubTexture name="kanxz kris up miss0036" x="5138" y="4065" width="1272" height="687" frameX="0" frameY="-1" frameWidth="1272" frameHeight="688"/>
+	<SubTexture name="kanxz kris up miss0037" x="6420" y="4065" width="1272" height="688"/>
+	<SubTexture name="kanxz kris up miss0038" x="6420" y="4065" width="1272" height="688"/>
+	<SubTexture name="kanxz kris up miss0039" x="5138" y="4065" width="1272" height="687" frameX="0" frameY="-1" frameWidth="1272" frameHeight="688"/>
+</TextureAtlas>

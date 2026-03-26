@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="EO.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="EO0000" x="10" y="10" width="494" height="504"/>
+	<SubTexture name="EO0001" x="514" y="10" width="494" height="504"/>
+	<SubTexture name="EO0002" x="1018" y="10" width="494" height="504"/>
+	<SubTexture name="EO0003" x="1522" y="10" width="494" height="504"/>
+	<SubTexture name="EO0004" x="2026" y="10" width="494" height="504"/>
+	<SubTexture name="EO0005" x="2530" y="10" width="494" height="504"/>
+	<SubTexture name="EO0006" x="3034" y="10" width="494" height="504"/>
+	<SubTexture name="EO0007" x="3538" y="10" width="494" height="504"/>
+	<SubTexture name="EO0008" x="10" y="524" width="494" height="504"/>
+	<SubTexture name="EO0009" x="514" y="524" width="494" height="504"/>
+	<SubTexture name="EO0010" x="1018" y="524" width="494" height="504"/>
+	<SubTexture name="EO0011" x="1522" y="524" width="494" height="504"/>
+	<SubTexture name="EO0012" x="2026" y="524" width="494" height="504"/>
+	<SubTexture name="EO0013" x="2530" y="524" width="494" height="504"/>
+	<SubTexture name="EO0014" x="3034" y="524" width="494" height="504"/>
+	<SubTexture name="EO0015" x="3538" y="524" width="494" height="504"/>
+	<SubTexture name="EO0016" x="10" y="1038" width="494" height="504"/>
+	<SubTexture name="EO0017" x="514" y="1038" width="494" height="504"/>
+	<SubTexture name="EO0018" x="1018" y="1038" width="494" height="504"/>
+	<SubTexture name="EO0019" x="1522" y="1038" width="494" height="504"/>
+	<SubTexture name="EO0020" x="2026" y="1038" width="494" height="504"/>
+	<SubTexture name="EO0021" x="2530" y="1038" width="494" height="504"/>
+	<SubTexture name="EO0022" x="3034" y="1038" width="494" height="504"/>
+	<SubTexture name="EO0023" x="3538" y="1038" width="494" height="504"/>
+	<SubTexture name="EO0024" x="10" y="1552" width="494" height="504"/>
+	<SubTexture name="EO0025" x="514" y="1552" width="494" height="504"/>
+	<SubTexture name="EO0026" x="1018" y="1552" width="494" height="504"/>
+	<SubTexture name="EO0027" x="1522" y="1552" width="494" height="504"/>
+	<SubTexture name="EO0028" x="2026" y="1552" width="494" height="504"/>
+	<SubTexture name="EO0029" x="2530" y="1552" width="494" height="504"/>
+	<SubTexture name="EO0030" x="3034" y="1552" width="494" height="504"/>
+	<SubTexture name="EO0031" x="3538" y="1552" width="494" height="504"/>
+	<SubTexture name="EO0032" x="10" y="2066" width="494" height="504"/>
+	<SubTexture name="EO0033" x="514" y="2066" width="494" height="504"/>
+	<SubTexture name="EO0034" x="1018" y="2066" width="494" height="504"/>
+	<SubTexture name="EO0035" x="1522" y="2066" width="494" height="504"/>
+	<SubTexture name="EO0036" x="2026" y="2066" width="494" height="504"/>
+	<SubTexture name="EO0037" x="2530" y="2066" width="494" height="504"/>
+	<SubTexture name="EO0038" x="3034" y="2066" width="494" height="504"/>
+	<SubTexture name="EO0039" x="3538" y="2066" width="494" height="504"/>
+	<SubTexture name="EO0040" x="10" y="2580" width="494" height="504"/>
+	<SubTexture name="EO0041" x="514" y="2580" width="494" height="504"/>
+</TextureAtlas>

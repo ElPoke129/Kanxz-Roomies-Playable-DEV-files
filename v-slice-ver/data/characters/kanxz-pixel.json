@@ -1,0 +1,95 @@
+{
+  "version": "1.0.0",
+  "name": "Kanxz Pixel",
+  "renderType": "sparrow",
+  "assetPath": "characters/pixel-variation/KANXZ-PIXEL-TRATAMENT",
+  "scale": 0.9,
+  "isPixel": true,
+  "singTime": 4.0,
+  "healthIcon": {
+    "flipX": false
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "kanxz idle dance0",
+      "offsets": [-5, 0],
+      "looped": false,
+      "flipX": true,
+      "flipY": false,
+      "frameRate": 24
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "kanxz Left0",
+      "offsets": [62, -12],
+      "looped": false,
+      "flipX": true,
+      "flipY": false,
+      "frameRate": 24
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "kanxz Down0",
+      "offsets": [-15, -85],
+      "looped": false,
+      "flipX": true,
+      "flipY": false,
+      "frameRate": 24
+    },
+    {
+      "name": "singUP",
+      "prefix": "kanxz Up0",
+      "offsets": [-36, 29],
+      "looped": false,
+      "flipX": true,
+      "flipY": false,
+      "frameRate": 24
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "kanxz Right0",
+      "offsets": [-28, -17],
+      "looped": false,
+      "flipX": true,
+      "flipY": false,
+      "frameRate": 24
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "kanxz RightFail",
+      "offsets": [-27, 10],
+      "looped": false,
+      "flipX": true,
+      "flipY": false,
+      "frameRate": 24
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "kanxz LeftFail",
+      "offsets": [68, 14],
+      "looped": false,
+      "flipX": true,
+      "flipY": false,
+      "frameRate": 24
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "kanxz DownFail",
+      "offsets": [-15, -60],
+      "looped": false,
+      "flipX": true,
+      "flipY": false,
+      "frameRate": 24
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "kanxz UpFail",
+      "offsets": [-36, 27],
+      "looped": false,
+      "flipX": true,
+      "flipY": false,
+      "frameRate": 24
+    }
+  ]
+}

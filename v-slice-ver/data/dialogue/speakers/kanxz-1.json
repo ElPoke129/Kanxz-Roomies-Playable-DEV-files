@@ -1,0 +1,81 @@
+{
+  "version": "1.0.0",
+  "name": "Kanxz",
+  "assetPath": "dialogue/KANXZ DIALOGUES ASSETS",
+  "flipX": false,
+  "isPixel": false,
+  "scale": 1,
+  "offsets": [380, -10],
+  "animations": [
+    {
+      "name": "talkEnter-kanxz",
+      "prefix": "kanxz-dialogue-normal END",
+      "offsets": [0, 0],
+      "frameRate": 24,
+      "looped": true
+    },
+    {
+      "name": "talk-kanxz",
+      "prefix": "kanxz-dialogue-normal0",
+      "offsets": [0, 7],
+      "frameRate": 24,
+      "looped": true
+    },
+    {
+      "name": "goofy-kanxz",
+      "prefix": "kanxz-dialogue-goofy0",
+      "offsets": [0, 0],
+      "frameRate": 24,
+      "looped": true
+    },
+    {
+      "name": "si-kanxz",
+      "prefix": "kanxz-dialogue-si0",
+      "offsets": [0, 0],
+      "frameRate": 24,
+      "looped": true
+    },
+    {
+      "name": "perdon-kanxz",
+      "prefix": "kanxz-dialogue-perdon0",
+      "offsets": [0, 7],
+      "frameRate": 24,
+      "looped": true
+    },
+    {
+      "name": "talk-un-kanxz",
+      "prefix": "kanxz-dialogue-un0",
+      "offsets": [0, 0],
+      "frameRate": 24,
+      "looped": true
+    },
+    {
+      "name": "talk-pokerface-kanxz",
+      "prefix": "kanxz-dialogue-pokerface talkin0",
+      "offsets": [-7, 5],
+      "frameRate": 24,
+      "looped": true
+    },
+    {
+      "name": "poker-face-kanxz",
+      "prefix": "kanxz-dialogue-pokerface0",
+      "offsets": [-8, 0],
+      "frameRate": 24,
+      "looped": true
+    },
+    {
+      "name": "irritated-kanxz",
+      "prefix": "kanxz-dialogue-irritated0",
+      "offsets": [0, 0],
+      "frameRate": 24,
+      "looped": true
+    },
+    {
+      "name": "screaming-kanxz",
+      "prefix": "kanxz-dialogue-scream0",
+      "offsets": [0, 7],
+      "frameRate": 24,
+      "looped": true
+    }
+  ]
+}

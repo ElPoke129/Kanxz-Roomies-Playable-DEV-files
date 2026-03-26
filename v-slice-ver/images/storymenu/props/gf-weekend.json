@@ -1,0 +1,9 @@
+{
+	"idle_anim": "GF Dancing Beat",
+	"image": "gf-weekendPNG",
+	"position": [180, 142],
+	"flipX": false,
+	"antialiasing": true,
+	"scale": 0.48,
+	"confirm_anim": "GF Dancing Beat"
+}

@@ -1,0 +1,39 @@
+import funkin.play.song.Song;
+import funkin.play.PlayState;
+import funkin.modding.events.ScriptEvent;
+import funkin.modding.events.CountdownScriptEvent;
+import funkin.util.HapticUtil;
+import funkin.audio.FunkinSound;
+
+class RosesKanxzSong extends Song {
+  var hasPlayedCutscene:Bool = false;
+
+  public function new() {
+    super('roses-kanxz');
+  }
+
+  public override function onCountdownStart(event:CountdownScriptEvent):Void {
+    super.onCountdownStart(event);
+
+    // Si estamos en modo charting, marcamos la cutscene como vista y salimos.
+    if (PlayState.instance.isChartingMode) {
+        hasPlayedCutscene = true;
+        return;
+    }
+
+    if (!hasPlayedCutscene) {
+      hasPlayedCutscene = true;
+      event.cancel(); 
+    FunkinSound.playOnce(Paths.sound('ANGRY_TEXT_BOX'), 1.0);
+    HapticUtil.vibrate(0.1, 0.5, 1, 1);
+
+      // Iniciar la conversación
+      PlayState.instance.startConversation('roses-kanxz');
+    }
+  }
+
+  public override function onSongRetry(event:ScriptEvent):Void {
+      super.onSongRetry(event);
+      hasPlayedCutscene = true;
+  }
+}

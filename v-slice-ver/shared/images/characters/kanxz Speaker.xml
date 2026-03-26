@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="kanxz Speaker.png">
+	<!-- Created with Adobe Animate version 24.0.7.61 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Kanxz dancing0000" x="10" y="10" width="699" height="623" frameX="-2" frameY="-18" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0001" x="719" y="10" width="703" height="613" frameX="0" frameY="-28" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0002" x="719" y="10" width="703" height="613" frameX="0" frameY="-28" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0003" x="1432" y="10" width="699" height="614" frameX="-2" frameY="-27" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0004" x="2141" y="10" width="699" height="614" frameX="-2" frameY="-27" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0005" x="2850" y="10" width="699" height="618" frameX="-2" frameY="-23" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0006" x="2850" y="10" width="699" height="618" frameX="-2" frameY="-23" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0007" x="10" y="643" width="699" height="626" frameX="-2" frameY="-15" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0008" x="719" y="643" width="699" height="636" frameX="-2" frameY="-5" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0009" x="719" y="643" width="699" height="636" frameX="-2" frameY="-5" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0010" x="1428" y="643" width="699" height="637" frameX="-2" frameY="-4" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0011" x="1428" y="643" width="699" height="637" frameX="-2" frameY="-4" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0012" x="2137" y="643" width="699" height="638" frameX="-2" frameY="-3" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0013" x="2137" y="643" width="699" height="638" frameX="-2" frameY="-3" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0014" x="2846" y="643" width="699" height="621" frameX="-2" frameY="-20" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0015" x="10" y="1291" width="699" height="619" frameX="-2" frameY="-22" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0016" x="719" y="1291" width="703" height="619" frameX="0" frameY="-22" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0017" x="1432" y="1291" width="703" height="616" frameX="0" frameY="-25" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0018" x="2145" y="1291" width="699" height="616" frameX="-2" frameY="-25" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0019" x="2854" y="1291" width="699" height="617" frameX="-2" frameY="-24" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0020" x="2854" y="1291" width="699" height="617" frameX="-2" frameY="-24" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0021" x="10" y="1920" width="699" height="624" frameX="-2" frameY="-17" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0022" x="719" y="1920" width="699" height="635" frameX="-2" frameY="-6" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0023" x="719" y="1920" width="699" height="635" frameX="-2" frameY="-6" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0024" x="1428" y="1920" width="699" height="637" frameX="-2" frameY="-4" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0025" x="1428" y="1920" width="699" height="637" frameX="-2" frameY="-4" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0026" x="2137" y="1920" width="699" height="639" frameX="-2" frameY="-2" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0027" x="2137" y="1920" width="699" height="639" frameX="-2" frameY="-2" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0028" x="2846" y="1920" width="699" height="641" frameX="-2" frameY="0" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz dancing0029" x="2846" y="1920" width="699" height="641" frameX="-2" frameY="0" frameWidth="703" frameHeight="641"/>
+	<SubTexture name="Kanxz sad0000" x="10" y="2571" width="703" height="635" frameX="0" frameY="-16" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0001" x="10" y="2571" width="703" height="635" frameX="0" frameY="-16" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0002" x="723" y="2571" width="699" height="651" frameX="-2" frameY="0" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0003" x="1432" y="2571" width="699" height="641" frameX="-2" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0004" x="1432" y="2571" width="699" height="641" frameX="-2" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0005" x="2141" y="2571" width="699" height="641" frameX="-2" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0006" x="2141" y="2571" width="699" height="641" frameX="-2" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0007" x="1432" y="2571" width="699" height="641" frameX="-2" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0008" x="1432" y="2571" width="699" height="641" frameX="-2" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0009" x="2141" y="2571" width="699" height="641" frameX="-2" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0010" x="2141" y="2571" width="699" height="641" frameX="-2" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0011" x="1432" y="2571" width="699" height="641" frameX="-2" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0012" x="1432" y="2571" width="699" height="641" frameX="-2" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0013" x="2141" y="2571" width="699" height="641" frameX="-2" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0014" x="2141" y="2571" width="699" height="641" frameX="-2" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0015" x="1432" y="2571" width="699" height="641" frameX="-2" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0016" x="1432" y="2571" width="699" height="641" frameX="-2" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0017" x="2141" y="2571" width="699" height="641" frameX="-2" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0018" x="2141" y="2571" width="699" height="641" frameX="-2" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0019" x="1432" y="2571" width="699" height="641" frameX="-2" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0020" x="1432" y="2571" width="699" height="641" frameX="-2" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0021" x="2141" y="2571" width="699" height="641" frameX="-2" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0022" x="2141" y="2571" width="699" height="641" frameX="-2" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0023" x="1432" y="2571" width="699" height="641" frameX="-2" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0024" x="1432" y="2571" width="699" height="641" frameX="-2" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0025" x="2850" y="2571" width="703" height="641" frameX="0" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0026" x="2850" y="2571" width="703" height="641" frameX="0" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0027" x="10" y="3232" width="699" height="641" frameX="-2" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0028" x="1432" y="2571" width="699" height="641" frameX="-2" frameY="-10" frameWidth="703" frameHeight="651"/>
+	<SubTexture name="Kanxz sad0029" x="2141" y="2571" width="699" height="641" frameX="-2" frameY="-10" frameWidth="703" frameHeight="651"/>
+</TextureAtlas>

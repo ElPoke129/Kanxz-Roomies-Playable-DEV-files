@@ -1,0 +1,642 @@
+{
+	"cameraZoom": 0.77,
+	"props": [
+		{
+			"blend": "",
+			"color": "#FFFFFF",
+			"angle": 0,
+			"startingAnimation": null,
+			"assetPath": "phillyStreets/erect/phillySkyline",
+			"zIndex": 20,
+			"danceEvery": 0,
+			"position": [
+				-545,
+				-273
+			],
+			"scale": [
+				1,
+				1
+			],
+			"animType": "sparrow",
+			"flipX": false,
+			"name": "phillySkyline",
+			"flipY": false,
+			"isPixel": false,
+			"scroll": [
+				0.2,
+				0.2
+			],
+			"alpha": 1,
+			"animations": []
+		},
+		{
+			"blend": "",
+			"color": "#FFFFFF",
+			"angle": 0,
+			"startingAnimation": null,
+			"assetPath": "phillyStreets/erect/phillyForegroundCity",
+			"zIndex": 30,
+			"danceEvery": 0,
+			"position": [
+				600,
+				69
+			],
+			"scale": [
+				1,
+				1
+			],
+			"animType": "sparrow",
+			"flipX": false,
+			"name": "phillyForegroundCity",
+			"flipY": false,
+			"isPixel": false,
+			"scroll": [
+				0.3,
+				0.3
+			],
+			"alpha": 1,
+			"animations": []
+		},
+		{
+			"blend": "",
+			"color": "#FFFFFF",
+			"angle": 5,
+			"startingAnimation": null,
+			"assetPath": "phillyStreets/erect/phillyForegroundCity",
+			"zIndex": 30,
+			"danceEvery": 0,
+			"position": [
+				1860,
+				185
+			],
+			"scale": [
+				1,
+				1
+			],
+			"animType": "sparrow",
+			"flipX": true,
+			"name": "phillyForegroundCity2",
+			"flipY": false,
+			"isPixel": false,
+			"scroll": [
+				0.3,
+				0.3
+			],
+			"alpha": 1,
+			"animations": []
+		},
+		{
+			"blend": "",
+			"color": "#FFFFFF",
+			"angle": 0,
+			"startingAnimation": null,
+			"assetPath": "phillyStreets/erect/phillyConstruction",
+			"zIndex": 40,
+			"danceEvery": 0,
+			"position": [
+				1795,
+				360
+			],
+			"scale": [
+				1,
+				1
+			],
+			"animType": "sparrow",
+			"flipX": false,
+			"name": "phillyConstruction2",
+			"flipY": false,
+			"isPixel": false,
+			"scroll": [
+				0.7,
+				1
+			],
+			"alpha": 1,
+			"animations": []
+		},
+		{
+			"blend": "",
+			"color": "#FFFFFF",
+			"angle": 0,
+			"startingAnimation": null,
+			"assetPath": "phillyStreets/erect/phillyHighwayLights",
+			"zIndex": 50,
+			"danceEvery": 0,
+			"position": [
+				122,
+				201
+			],
+			"scale": [
+				1,
+				1
+			],
+			"animType": "sparrow",
+			"flipX": false,
+			"name": "phillyHighwayLights",
+			"flipY": false,
+			"isPixel": false,
+			"scroll": [
+				0.8,
+				0.8
+			],
+			"alpha": 1,
+			"animations": []
+		},
+		{
+			"blend": "",
+			"color": "#FFFFFF",
+			"angle": 0,
+			"startingAnimation": null,
+			"assetPath": "phillyStreets/phillyHighwayLights_lightmap",
+			"zIndex": 50,
+			"danceEvery": 0,
+			"position": [
+				122,
+				201
+			],
+			"scale": [
+				1,
+				1
+			],
+			"animType": "sparrow",
+			"flipX": false,
+			"name": "phillyHighwayLights_lightmap",
+			"flipY": false,
+			"isPixel": false,
+			"scroll": [
+				0.8,
+				0.8
+			],
+			"alpha": 1,
+			"animations": []
+		},
+		{
+			"blend": "",
+			"color": "#FFFFFF",
+			"angle": 0,
+			"startingAnimation": null,
+			"assetPath": "phillyStreets/erect/phillyHighway",
+			"zIndex": 60,
+			"danceEvery": 0,
+			"position": [
+				-23,
+				105
+			],
+			"scale": [
+				1,
+				1
+			],
+			"animType": "sparrow",
+			"flipX": false,
+			"name": "phillyHighway2",
+			"flipY": false,
+			"isPixel": false,
+			"scroll": [
+				0.8,
+				0.8
+			],
+			"alpha": 1,
+			"animations": []
+		},
+		{
+			"blend": "",
+			"color": "#FFFFFF",
+			"angle": 0,
+			"startingAnimation": null,
+			"assetPath": "phillyStreets/erect/greyGradient",
+			"zIndex": 91,
+			"danceEvery": 0,
+			"position": [
+				-388,
+				7
+			],
+			"scale": [
+				1.3,
+				1.3
+			],
+			"animType": "sparrow",
+			"flipX": false,
+			"name": "grey1",
+			"flipY": false,
+			"isPixel": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 0.3,
+			"animations": []
+		},
+		{
+			"blend": "",
+			"color": "#FFFFFF",
+			"angle": 0,
+			"startingAnimation": null,
+			"assetPath": "phillyStreets/erect/greyGradient",
+			"zIndex": 91,
+			"danceEvery": 0,
+			"position": [
+				-388,
+				7
+			],
+			"scale": [
+				1.3,
+				1.3
+			],
+			"animType": "sparrow",
+			"flipX": false,
+			"name": "grey2",
+			"flipY": false,
+			"isPixel": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 0.8,
+			"animations": []
+		},
+		{
+			"blend": "",
+			"color": "#FFFFFF",
+			"angle": 0,
+			"startingAnimation": null,
+			"assetPath": "phillyStreets/erect/phillyCars",
+			"zIndex": 80,
+			"danceEvery": 0,
+			"position": [
+				1200,
+				818
+			],
+			"scale": [
+				1,
+				1
+			],
+			"animType": "sparrow",
+			"flipX": false,
+			"name": "phillyCars",
+			"flipY": false,
+			"isPixel": false,
+			"scroll": [
+				0.9,
+				1
+			],
+			"alpha": 1,
+			"animations": [
+				{
+					"offsets": [
+						0,
+						0
+					],
+					"prefix": "car1",
+					"frameIndices": [],
+					"name": "car1",
+					"looped": false,
+					"flipX": false,
+					"flipY": false,
+					"assetPath": null,
+					"frameRate": 24
+				},
+				{
+					"offsets": [
+						0,
+						0
+					],
+					"prefix": "car2",
+					"frameIndices": [],
+					"name": "car2",
+					"looped": false,
+					"flipX": false,
+					"flipY": false,
+					"assetPath": null,
+					"frameRate": 24
+				},
+				{
+					"offsets": [
+						0,
+						0
+					],
+					"prefix": "car3",
+					"frameIndices": [],
+					"name": "car3",
+					"looped": false,
+					"flipX": false,
+					"flipY": false,
+					"assetPath": null,
+					"frameRate": 24
+				},
+				{
+					"offsets": [
+						0,
+						0
+					],
+					"prefix": "car4",
+					"frameIndices": [],
+					"name": "car4",
+					"looped": false,
+					"flipX": false,
+					"flipY": false,
+					"assetPath": null,
+					"frameRate": 24
+				}
+			]
+		},
+		{
+			"blend": "",
+			"color": "#FFFFFF",
+			"angle": 0,
+			"startingAnimation": null,
+			"assetPath": "phillyStreets/erect/phillyCars",
+			"zIndex": 78,
+			"danceEvery": 0,
+			"position": [
+				1200,
+				818
+			],
+			"scale": [
+				1,
+				1
+			],
+			"animType": "sparrow",
+			"flipX": false,
+			"name": "phillyCars2",
+			"flipY": false,
+			"isPixel": false,
+			"scroll": [
+				0.9,
+				1
+			],
+			"alpha": 1,
+			"animations": [
+				{
+					"offsets": [
+						0,
+						0
+					],
+					"prefix": "car1",
+					"frameIndices": [],
+					"name": "car1",
+					"looped": false,
+					"flipX": true,
+					"flipY": false,
+					"assetPath": null,
+					"frameRate": 24
+				},
+				{
+					"offsets": [
+						0,
+						0
+					],
+					"prefix": "car2",
+					"frameIndices": [],
+					"name": "car2",
+					"looped": false,
+					"flipX": true,
+					"flipY": false,
+					"assetPath": null,
+					"frameRate": 24
+				},
+				{
+					"offsets": [
+						0,
+						0
+					],
+					"prefix": "car3",
+					"frameIndices": [],
+					"name": "car3",
+					"looped": false,
+					"flipX": true,
+					"flipY": false,
+					"assetPath": null,
+					"frameRate": 24
+				},
+				{
+					"offsets": [
+						0,
+						0
+					],
+					"prefix": "car4",
+					"frameIndices": [],
+					"name": "car4",
+					"looped": false,
+					"flipX": true,
+					"flipY": false,
+					"assetPath": null,
+					"frameRate": 24
+				}
+			]
+		},
+		{
+			"blend": "",
+			"color": "#FFFFFF",
+			"angle": 0,
+			"startingAnimation": null,
+			"assetPath": "phillyStreets/erect/phillyTraffic",
+			"zIndex": 90,
+			"danceEvery": 0,
+			"position": [
+				1840,
+				608
+			],
+			"scale": [
+				1,
+				1
+			],
+			"animType": "sparrow",
+			"flipX": false,
+			"name": "phillyTraffic",
+			"flipY": false,
+			"isPixel": false,
+			"scroll": [
+				0.9,
+				1
+			],
+			"alpha": 1,
+			"animations": [
+				{
+					"offsets": [
+						0,
+						0
+					],
+					"prefix": "redtogreen",
+					"frameIndices": [],
+					"name": "togreen",
+					"looped": false,
+					"flipX": false,
+					"flipY": false,
+					"assetPath": null,
+					"frameRate": 24
+				},
+				{
+					"offsets": [
+						0,
+						0
+					],
+					"prefix": "greentored",
+					"frameIndices": [],
+					"name": "tored",
+					"looped": false,
+					"flipX": false,
+					"flipY": false,
+					"assetPath": null,
+					"frameRate": 24
+				}
+			]
+		},
+		{
+			"blend": "",
+			"color": "#FFFFFF",
+			"angle": 0,
+			"startingAnimation": null,
+			"assetPath": "phillyStreets/erect/phillyTraffic_lightmap",
+			"zIndex": 90,
+			"danceEvery": 0,
+			"position": [
+				1840,
+				608
+			],
+			"scale": [
+				1,
+				1
+			],
+			"animType": "sparrow",
+			"flipX": false,
+			"name": "phillyTraffic_lightmap",
+			"flipY": false,
+			"isPixel": false,
+			"scroll": [
+				0.9,
+				1
+			],
+			"alpha": 1,
+			"animations": []
+		},
+		{
+			"blend": "",
+			"color": "#FFFFFF",
+			"angle": 0,
+			"startingAnimation": null,
+			"assetPath": "phillyStreets/erect/phillyForeground",
+			"zIndex": 100,
+			"danceEvery": 0,
+			"position": [
+				88,
+				317
+			],
+			"scale": [
+				1,
+				1
+			],
+			"animType": "sparrow",
+			"flipX": false,
+			"name": "phillyForeground",
+			"flipY": false,
+			"isPixel": false,
+			"scroll": [
+				1,
+				1
+			],
+			"alpha": 1,
+			"animations": []
+		},
+		{
+			"blend": "",
+			"color": "#FFFFFF",
+			"angle": 0,
+			"startingAnimation": "paperBlow",
+			"assetPath": "phillyStreets/erect/paper",
+			"zIndex": 800,
+			"danceEvery": 0,
+			"position": [
+				350,
+				608
+			],
+			"scale": [
+				1,
+				1
+			],
+			"animType": "sparrow",
+			"flipX": false,
+			"name": "paper",
+			"flipY": false,
+			"isPixel": false,
+			"scroll": [
+				1.1,
+				1.1
+			],
+			"alpha": 0,
+			"animations": [
+				{
+					"offsets": [
+						0,
+						0
+					],
+					"prefix": "Paper Blowing instance 1",
+					"frameIndices": [],
+					"name": "paperBlow",
+					"looped": false,
+					"flipX": false,
+					"flipY": false,
+					"assetPath": null,
+					"frameRate": 24
+				}
+			]
+		}
+	],
+	"version": "1.0.0",
+	"directory": "Generated By: Nova Stage Editor v2.0.5",
+	"characters": {
+		"bf": {
+			"zIndex": 400,
+			"scroll": [
+				1,
+				1
+			],
+			"position": [
+				2151,
+				1228
+			],
+			"scale": 1,
+			"alpha": 1,
+			"angle": 0,
+			"cameraOffsets": [
+				-350,
+				-100
+			]
+		},
+		"gf": {
+			"zIndex": 300,
+			"scroll": [
+				1,
+				1
+			],
+			"position": [
+				1520.5,
+				1080
+			],
+			"scale": 1,
+			"alpha": 1,
+			"angle": 0,
+			"cameraOffsets": [
+				0,
+				0
+			]
+		},
+		"dad": {
+			"zIndex": 350,
+			"scroll": [
+				1,
+				1
+			],
+			"position": [
+				926,
+				1214
+			],
+			"scale": 1,
+			"alpha": 1,
+			"angle": 0,
+			"cameraOffsets": [
+				500,
+				-100
+			]
+		}
+	},
+	"name": "Philly (Streets) [forMily]"
+}

@@ -1,0 +1,100 @@
+import funkin.play.event.ScriptedSongEvent;
+import funkin.play.PlayState;
+import funkin.util.Constants;
+import flixel.FlxG;
+import flixel.tweens.FlxTween;
+import flixel.tweens.FlxEase;
+
+class KssttLInstantCameraBopEvent extends ScriptedSongEvent {
+    var tweenGame:FlxTween;
+    var tweenHUD:FlxTween;
+
+    var currentDummyGame:Float = 0;
+    var currentDummyHUD:Float = 0;
+    var lastDummyGame:Float = 0;
+    var lastDummyHUD:Float = 0;
+
+    public function new() {
+        super('KssttLInstantCameraBop');
+    }
+
+    public override function handleEvent(data) {
+        if (PlayState.instance == null) return;
+
+        var intensity = data.getFloat('intensity');
+        if (intensity == null) intensity = 1.0;
+
+        var dataRate = data.getFloat('rate');
+        if (dataRate == null) dataRate = 4.0;
+
+        var baseBumpGame = (Constants.DEFAULT_BOP_INTENSITY - 1.0) * (dataRate / 4.0);
+        var baseBumpHUD = ((Constants.DEFAULT_BOP_INTENSITY - 1.0) * 2.0) * (dataRate / 4.0);
+
+        var bumpGame = baseBumpGame * intensity;
+        var bumpHUD = baseBumpHUD * intensity;
+
+        if (PlayState.instance.cameraZoomRate <= 0) {
+            var currentGameRemaining = (tweenGame != null && tweenGame.active) ? currentDummyGame : 0;
+            var currentHUDRemaining = (tweenHUD != null && tweenHUD.active) ? currentDummyHUD : 0;
+
+            if (tweenGame != null) tweenGame.cancel();
+            if (tweenHUD != null) tweenHUD.cancel();
+
+            PlayState.instance.camGame.zoom += bumpGame;
+            PlayState.instance.camHUD.zoom += bumpHUD;
+
+            var startGame = bumpGame + currentGameRemaining;
+            lastDummyGame = startGame;
+            
+            tweenGame = FlxTween.num(startGame, 0, 0.5, {
+                ease: FlxEase.sineOut, 
+                onComplete: function(t) { tweenGame = null; }
+            }, function(val) {
+                currentDummyGame = val;
+                PlayState.instance.camGame.zoom += (val - lastDummyGame);
+                lastDummyGame = val;
+            });
+
+            var startHUD = bumpHUD + currentHUDRemaining;
+            lastDummyHUD = startHUD;
+            
+            tweenHUD = FlxTween.num(startHUD, 0, 0.5, {
+                ease: FlxEase.sineOut, 
+                onComplete: function(t) { tweenHUD = null; }
+            }, function(val) {
+                currentDummyHUD = val;
+                PlayState.instance.camHUD.zoom += (val - lastDummyHUD);
+                lastDummyHUD = val;
+            });
+        } else {
+            PlayState.instance.camGame.zoom += bumpGame;
+            PlayState.instance.camHUD.zoom += bumpHUD;
+        }
+    }
+    
+    public function getTitle() {
+        return "[Kassette] Instant Camera Bop";
+    }
+
+    public function getEventSchema() {
+        return [
+            {
+                name: "intensity",
+                title: "Intensity",
+                defaultValue: 1.0,
+                min: 0.0,
+                step: 0.1,
+                type: "float",
+                units: 'x'
+            },
+            {
+                name: "rate",
+                title: "Rate",
+                defaultValue: 4.0,
+                min: 0.0,
+                step: 0.1,
+                type: "float"
+            }
+        ];
+    }
+}

@@ -1,0 +1,72 @@
+{
+  "version": "1.0.0",
+  "name": "GF Enemy Old",
+  "assetPath": "characters/GF enemy",
+  "singTime": 4.0,
+    "healthIcon": {
+    "id": "gf"
+  },
+  "animations": [
+    {
+      "name": "cheer",
+      "prefix": "gf kiss0",
+      "offsets": [-18, 1]
+    },
+    {
+      "name": "scared",
+      "prefix": "gf scared0",
+      "looped": true,
+      "offsets": [-21, -2]
+    },
+    {
+      "name": "idle",
+      "prefix": "gf idle0",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "dodge",
+      "prefix": "gf dodge0",
+      "offsets": [180, -20]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "gf left0",
+      "offsets": [20, -19]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "gf down0",
+      "offsets": [-21, -80]
+    },
+    {
+      "name": "singUP",
+      "prefix": "gf up0",
+      "offsets": [10, 14]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "gf right0",
+      "offsets": [-50, -40]
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "gf left fail0",
+      "offsets": [20, -19]
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "gf down fail0",
+      "offsets": [-21, -80]
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "gf up fail0",
+      "offsets": [10, 14]
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "gf right fail0",
+      "offsets": [-50, -40]
+    }
+  ]
+}
